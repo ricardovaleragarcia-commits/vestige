@@ -122,11 +122,23 @@ export default function Collection({
       const nodes = new Map<string, PieceNode>();
       const blocks = new Map<string, BlockView>();
 
+      let savedView: { x: number; y: number; s: number } | null = null;
+
       function setFocus(piece: Piece | null) {
         focusedId = piece ? piece.id : null;
+        if (piece && !savedView) {
+          savedView = { x: targetX, y: targetY, s: targetScale };
+        }
         if (!piece) {
-          targetX = world.x;
-          targetY = world.y;
+          if (savedView) {
+            targetX = savedView.x;
+            targetY = savedView.y;
+            targetScale = savedView.s;
+            savedView = null;
+          } else {
+            targetX = world.x;
+            targetY = world.y;
+          }
         }
         for (const entry of nodes.values()) {
           entry.body.eventMode = focusedId ? "none" : "static";
@@ -172,8 +184,8 @@ export default function Collection({
             text: piece.text,
             style: {
               fontFamily: "Libre Baskerville",
-              fontSize: 14,
-              lineHeight: 22,
+              fontSize: 11.2,
+              lineHeight: 17,
               fill: 0x1c1b19,
               wordWrap: true,
               wordWrapWidth: piece.w - 40,
@@ -204,7 +216,7 @@ export default function Collection({
           text: `[${piece.code}]`,
           style: {
             fontFamily: "Libre Baskerville",
-            fontSize: 12,
+            fontSize: 11.2,
             fontWeight: "400",
             fill: "#000000",
           },
@@ -340,7 +352,8 @@ export default function Collection({
           const s = entry.node.scale.x;
           const cx = entry.piece.x + entry.piece.w / 2;
           const cy = entry.piece.y + entry.piece.h / 2;
-          entry.label.position.set(cx, cy + (entry.piece.h * s) / 2 + 10);
+          entry.label.scale.set(1 / scale);
+          entry.label.position.set(cx, cy + (entry.piece.h * s) / 2 + 10 / scale);
           entry.label.alpha = entry.node.alpha;
         }
 
