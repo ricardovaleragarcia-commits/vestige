@@ -268,7 +268,7 @@ button:disabled {
 
 .dialog__inner {
   width: 100%;
-  max-width: 60rem;
+  max-width: 40rem;
   margin: auto;
 }
 
@@ -281,7 +281,7 @@ button:disabled {
 }
 
 .manifesto__text {
-  max-width: 60rem;
+  max-width: 40rem;
   margin: 0 auto 1.1rem;
   font-size: 0.75rem;
   line-height: 1.7;
