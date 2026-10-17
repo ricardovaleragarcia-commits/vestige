@@ -27,7 +27,7 @@ export function focusScale(h: number): number {
 type PieceNode = {
   node: Container; // position, scale and fade
   body: Container; // the piece itself; its blur is trimmed to its frame
-  label: Text; // the code, placed under the piece and never blurred
+  label: HTMLDivElement; // the code, under the piece, as normal HTML text
   blur: BlurFilter;
   piece: Piece;
 };
@@ -63,6 +63,11 @@ export default function Collection({
     let destroyed = false;
     let app: Application | null = null;
     let removeListeners: (() => void) | null = null;
+
+    // A text layer above the canvas, for the codes under each piece.
+    const labelLayer = document.createElement("div");
+    labelLayer.className = "piece-labels";
+    host.appendChild(labelLayer);
 
     (async () => {
       await document.fonts.load('18px "Libre Baskerville"');
@@ -212,16 +217,10 @@ export default function Collection({
 
         root.addChild(body);
 
-        const label = new Text({
-          text: `[${piece.code}]`,
-          style: {
-            fontFamily: "Libre Baskerville",
-            fontSize: 11.2,
-            fontWeight: "400",
-            fill: "#000000",
-          },
-        });
-        label.anchor.set(0.5, 0);
+        const label = document.createElement("div");
+        label.className = "piece-label";
+        label.textContent = `[${piece.code}]`;
+        labelLayer.appendChild(label);
 
         return { node: root, body, label, blur, piece };
       }
@@ -233,7 +232,6 @@ export default function Collection({
           const entry = createNode(piece);
           nodes.set(piece.id, entry);
           container.addChild(entry.node);
-          container.addChild(entry.label);
           ids.push(piece.id);
         }
         world.addChild(container);
@@ -243,7 +241,10 @@ export default function Collection({
       function removeBlock(key: string) {
         const block = blocks.get(key);
         if (!block) return;
-        for (const id of block.ids) nodes.delete(id);
+        for (const id of block.ids) {
+          nodes.get(id)?.label.remove();
+          nodes.delete(id);
+        }
         world.removeChild(block.container);
         block.container.destroy({ children: true });
         blocks.delete(key);
@@ -352,9 +353,11 @@ export default function Collection({
           const s = entry.node.scale.x;
           const cx = entry.piece.x + entry.piece.w / 2;
           const cy = entry.piece.y + entry.piece.h / 2;
-          entry.label.scale.set(1 / scale);
-          entry.label.position.set(cx, cy + (entry.piece.h * s) / 2 + 10 / scale);
-          entry.label.alpha = entry.node.alpha;
+          // Positioned on screen, directly below the visible edge of the piece.
+          const screenX = world.x + cx * scale;
+          const screenY = world.y + (cy + (entry.piece.h * s) / 2) * scale + 10;
+          entry.label.style.transform = `translate(${screenX}px, ${screenY}px) translateX(-50%)`;
+          entry.label.style.opacity = String(entry.node.alpha);
         }
 
         // Stream only the columns and blocks that are on screen, at the current zoom.
@@ -386,6 +389,7 @@ export default function Collection({
     return () => {
       destroyed = true;
       removeListeners?.();
+      labelLayer.remove();
       zoomRef.current = null;
       app?.destroy(true, { children: true });
     };
