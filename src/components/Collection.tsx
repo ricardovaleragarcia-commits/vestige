@@ -200,7 +200,7 @@ export default function Collection({
         root.addChild(body);
 
         const label = new Text({
-          text: `[${piece.code.replace("-", "–")}]`,
+          text: `[${piece.code}]`,
           style: {
             fontFamily: "Libre Baskerville",
             fontSize: 12,

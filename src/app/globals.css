@@ -62,7 +62,7 @@ button:disabled {
   z-index: 3;
   pointer-events: none;
   transform: translate(-50%, calc(50vh - 50%));
-  transition: transform 3.2s var(--ease-out), opacity 0.6s ease;
+  transition: transform 2.4s var(--ease-out), opacity 0.6s ease;
 }
 
 .masthead.is-top {
@@ -86,8 +86,20 @@ button:disabled {
 }
 
 .masthead__tagline {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.6rem;
   font-size: 0.7rem;
-  margin: 1rem 0 0;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.masthead.is-top .masthead__tagline {
+  opacity: 1;
+  transition: opacity 0.9s ease 1.2s;
 }
 
 .masthead.is-top .topbar__email {
@@ -160,8 +172,16 @@ button:disabled {
   text-decoration: underline;
 }
 
-/* Manifesto link: fixed at the bottom centre of the screen. */
+/* Manifesto link: fixed at the bottom centre; it appears after the logo has risen. */
+.manifesto-link.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .manifesto-link {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.9s ease 1.2s;
   position: fixed;
   bottom: 1rem;
   left: 50%;

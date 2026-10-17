@@ -3,7 +3,8 @@
 // Each image is /public/vestigios/<code>.png. Replace the file with the same name to update it.
 
 export type Vestige = {
-  code: string; // vstg-0001 (shown as [vstg–0001])
+  code: string; // internal position, used for file names: vstg-0001
+  year: number | null; // year the future failed. Shown as [VSTG.YYYY], or [VSTG.NA] when not confirmed
   name: string;
   image: string; // path under /public/vestigios/
   description: string; // [desc.]
@@ -17,6 +18,8 @@ export type Vestige = {
 export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0001",
+
+    "year": 1963,
     "name": "Project Orion, 1958–1965",
     "description": "Study drawings of a spacecraft propelled by small nuclear explosions, developed by General Atomics.",
     "failedFuture": "A future in which people crossed the solar system on nuclear pulses. The 1963 Partial Test Ban Treaty ended the project. What remains are drawings, a test model, and a book that asks what we chose to leave behind.",
@@ -28,6 +31,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0002",
+
+    "year": null,
     "name": "Monumento a la Tercera Internacional, 1919–1920",
     "description": "Model of a leaning spiral of iron and glass designed by Vladimir Tatlin for Petrograd.",
     "failedFuture": "A tower meant to house the new institutions of the revolution. It was never built. Its spiral still appears as a symbol of an arrival that did not come.",
@@ -39,6 +44,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0003",
+
+    "year": null,
     "name": "Plan Voisin de Paris, 1925",
     "description": "Le Corbusier's proposal for central Paris: old streets replaced by cruciform glass towers set in parkland.",
     "failedFuture": "A city that would have traded its streets for towers and gardens. It was never built, yet it still shapes the debate about how cities should be renewed.",
@@ -50,6 +57,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0004",
+
+    "year": null,
     "name": "Solicitudes a la Academia de Bellas Artes de Viena, 1907–1908",
     "description": "Adolf Hitler applied twice to the Academy of Fine Arts Vienna. Both applications were rejected.",
     "failedFuture": "A path as a painter that closed in 1907 and again in 1908. What followed did not depend on that rejection alone. Historians debate how much weight a single turning point carries, and warn against reading history as a chain of single causes. The archive keeps the rejection as one thread among many.",
@@ -61,6 +70,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0005",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -72,6 +83,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0006",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -83,6 +96,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0007",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -94,6 +109,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0008",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -105,6 +122,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0009",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -116,6 +135,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0010",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -127,6 +148,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0011",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -138,6 +161,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0012",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -149,6 +174,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0013",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -160,6 +187,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0014",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -171,6 +200,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0015",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -182,6 +213,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0016",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -193,6 +226,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0017",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -204,6 +239,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0018",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -215,6 +252,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0019",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -226,6 +265,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0020",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -237,6 +278,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0021",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -248,6 +291,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0022",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -259,6 +304,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0023",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -270,6 +317,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0024",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -281,6 +330,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0025",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -292,6 +343,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0026",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -303,6 +356,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0027",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -314,6 +369,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0028",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -325,6 +382,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0029",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -336,6 +395,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0030",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -347,6 +408,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0031",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -358,6 +421,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0032",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -369,6 +434,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0033",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -380,6 +447,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0034",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -391,6 +460,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0035",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -402,6 +473,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0036",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -413,6 +486,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0037",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -424,6 +499,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0038",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -435,6 +512,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0039",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -446,6 +525,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0040",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -457,6 +538,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0041",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -468,6 +551,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0042",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -479,6 +564,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0043",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -490,6 +577,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0044",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -501,6 +590,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0045",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -512,6 +603,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0046",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -523,6 +616,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0047",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -534,6 +629,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0048",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -545,6 +642,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0049",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -556,6 +655,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0050",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -567,6 +668,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0051",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -578,6 +681,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0052",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -589,6 +694,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0053",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -600,6 +707,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0054",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -611,6 +720,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0055",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -622,6 +733,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0056",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -633,6 +746,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0057",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -644,6 +759,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0058",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -655,6 +772,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0059",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -666,6 +785,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0060",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -677,6 +798,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0061",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -688,6 +811,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0062",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -699,6 +824,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0063",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -710,6 +837,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0064",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -721,6 +850,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0065",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -732,6 +863,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0066",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -743,6 +876,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0067",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -754,6 +889,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0068",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -765,6 +902,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0069",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -776,6 +915,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0070",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -787,6 +928,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0071",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -798,6 +941,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0072",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -809,6 +954,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0073",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -820,6 +967,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0074",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -831,6 +980,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0075",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -842,6 +993,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0076",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -853,6 +1006,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0077",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -864,6 +1019,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0078",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -875,6 +1032,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0079",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",
@@ -886,6 +1045,8 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0080",
+
+    "year": null,
     "name": "Pendiente",
     "description": "Pendiente de investigación.",
     "failedFuture": "Pendiente de investigación.",

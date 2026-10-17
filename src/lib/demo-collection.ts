@@ -16,7 +16,7 @@ const GAP_RANGE = 40;
 
 export type Piece = {
   id: string;
-  code: string; // vstg-0482 (shown as [vstg–0482])
+  code: string; // shown as [VSTG.YYYY], or [VSTG.NA] when the year is not confirmed
   kind: "image" | "text";
   visibility: "public" | "private";
   x: number; // world position, top-left corner
@@ -131,8 +131,13 @@ export const BLOCK_HEIGHT = TILE.height;
 
 // ---- The content: the archive, reused by every repetition ----
 
+// [VSTG.YYYY] when the year is known; [VSTG.NA] when it is not.
+function displayCode(v: { year: number | null }): string {
+  return v.year ? `VSTG.${v.year}` : "VSTG.NA";
+}
+
 const CONTENT = VESTIGES.map((v, k) => ({
-  code: v.code,
+  code: displayCode(v),
   color: PALETTE[k % PALETTE.length],
   name: v.name,
   description: v.description,

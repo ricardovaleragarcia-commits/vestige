@@ -30,7 +30,11 @@ export default function HomePage() {
       <div className="edge-top" aria-hidden="true" />
 
       {!overlayOpen && (
-        <button type="button" className="manifesto-link" onClick={() => setShowManifesto(true)}>
+        <button
+          type="button"
+          className={`manifesto-link${revealed ? " is-visible" : ""}`}
+          onClick={() => setShowManifesto(true)}
+        >
           Manifesto
         </button>
       )}

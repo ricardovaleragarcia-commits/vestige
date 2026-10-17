@@ -1,12 +1,11 @@
 "use client";
 
-// Text from the Figma board "[manif.]".
 const PARAGRAPHS = [
-  "I. A trace is merely a mark of presence. A vestige is proof of what has permanently disappeared.",
-  "II. We do not archive paused plans or delayed expectations. A postponed future is merely a wait; a vestige is born at the exact moment a future becomes irrevocably impossible. The passage of time does not resolve an interrupted trajectory; any alternative that follows is a different timeline entirely.",
-  "III. Everyday objects, an unsent letter, an unvalidated ticket, a solitary photograph, an unread draft, are not mere nostalgia. They are physical and textual evidence. They are the surviving anchors of realities that were stripped of their right to exist.",
-  "IV. Unlived futures possess weight. They shape present behavior, silence, and memory. By applying formal, institutional dignity to individual grief, this archive removes the emotional fragment from isolation and elevates it to a collective record.",
-  "V. We gather these remnants not to rewrite history, but to document its casualties. Every trace holds a future that never was, and never will be.",
+  "Vestige is a digital archive of the traces left by futures that never happened.",
+  "A future becomes a failed future when it was possible, expected, or planned, and then stopped being possible. Some were abandoned. Some were postponed until they expired. Some were closed by a decision that removed the path entirely. None of them was completed, and yet each one leaves something behind: a document, an object, a drawing, a habit, a place that was never built.",
+  "A vestige is that remainder. Each piece in the archive is a physical or documentary trace that still exists in the present, and whose meaning points to a future that did not take place. The image shows the trace. The description says what it is and where it comes from. The failed future says what it was meant to become, and how that unrealised path still reaches the present.",
+  "The archive does not rewrite history, and it does not claim that a single event caused what followed. It presents traces and their sources, and leaves the connections open for the reader. Every piece is selected by hand, and every entry is meant to be checked against its source. Nothing here is testimony, and nothing is invented to fill a gap.",
+  "Explore freely. Each piece is blurred until you look at it.",
 ];
 
 export default function Manifesto({ onClose }: { onClose: () => void }) {
