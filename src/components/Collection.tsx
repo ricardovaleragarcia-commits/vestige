@@ -17,6 +17,7 @@ const CODE_GAP = 44; // space between the image and its code when a piece is ope
 const FOCUS_HEIGHT_RATIO = 0.5; // an open piece fills up to half the screen height
 const MIN_ZOOM = 0.5;
 const MAX_ZOOM = 1.25;
+const INITIAL_ZOOM = 0.72; // the page opens zoomed out, so more pieces are visible at once
 
 // Used by both the canvas and the text panel, so they always agree.
 export function focusScale(h: number): number {
@@ -105,7 +106,7 @@ export default function Collection({
       // Start with column 0 centred horizontally.
       const world = new Container();
       stage.addChild(world);
-      world.position.set(instance.screen.width / 2 - COLUMN_WIDTH / 2, TOP_SPACE);
+      world.position.set(instance.screen.width / 2 - (COLUMN_WIDTH / 2) * INITIAL_ZOOM, TOP_SPACE);
 
       let focusedId: string | null = null;
       let hoveredId: string | null = null;
@@ -115,8 +116,8 @@ export default function Collection({
       // Where the plane should rest. Wheel, trackpad and drag move these; the plane eases to them.
       let targetX = world.x;
       let targetY = world.y;
-      let scale = 1;
-      let targetScale = 1;
+      let scale = INITIAL_ZOOM;
+      let targetScale = INITIAL_ZOOM;
       let lastRangeKey = "";
       const nodes = new Map<string, PieceNode>();
       const blocks = new Map<string, BlockView>();

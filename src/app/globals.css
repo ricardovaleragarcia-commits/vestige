@@ -229,13 +229,15 @@ button:disabled {
 .detail__label {
   color: var(--tag);
   margin: 1rem 0 0.2rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  font-weight: 400;
 }
 
 .detail__text {
   margin: 0;
   line-height: 1.55;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  font-weight: 400;
 }
 
 /* White edge: the borders of the screen fade out, so the plane feels like it continues in
@@ -266,7 +268,7 @@ button:disabled {
 
 .dialog__inner {
   width: 100%;
-  max-width: 34rem;
+  max-width: 60rem;
   margin: auto;
 }
 
@@ -279,7 +281,7 @@ button:disabled {
 }
 
 .manifesto__text {
-  max-width: 34rem;
+  max-width: 60rem;
   margin: 0 auto 1.1rem;
   font-size: 0.75rem;
   line-height: 1.7;
