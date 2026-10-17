@@ -358,6 +358,15 @@ export default function Collection({
           const screenY = world.y + (cy + (entry.piece.h * s) / 2) * scale + 10;
           entry.label.style.transform = `translate(${screenX}px, ${screenY}px) translateX(-50%)`;
           entry.label.style.opacity = String(entry.node.alpha);
+
+          // Only what is on screen is drawn, so the total number of pieces does not slow the plane.
+          const pl = world.x + (cx - (entry.piece.w * s) / 2) * scale;
+          const pt = world.y + (cy - (entry.piece.h * s) / 2) * scale;
+          const pr = pl + entry.piece.w * s * scale;
+          const pb = pt + entry.piece.h * s * scale + 60;
+          const onScreen = pr > -120 && pl < sw + 120 && pb > -120 && pt < sh + 120;
+          entry.node.visible = onScreen;
+          entry.label.style.display = onScreen ? "" : "none";
         }
 
         // Stream only the columns and blocks that are on screen, at the current zoom.
