@@ -1,0 +1,32 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
+type IntroProps = {
+  onReveal: () => void;
+  hidden: boolean;
+};
+
+// The masthead starts in the middle of the screen and rises to the top in one smooth motion.
+export default function Intro({ onReveal, hidden }: IntroProps) {
+  const [lifted, setLifted] = useState(false);
+
+  useEffect(() => {
+    const lift = setTimeout(() => {
+      setLifted(true);
+      onReveal();
+    }, 1400);
+    return () => clearTimeout(lift);
+  }, [onReveal]);
+
+  const mastheadClass = ["masthead", lifted && "is-top", hidden && "is-hidden"].filter(Boolean).join(" ");
+
+  return (
+    <header className={mastheadClass}>
+      <h1 className="masthead__title">
+        <img className="masthead__logo" src="/logo.svg" alt="Vestige" />
+      </h1>
+      <p className="masthead__tagline">Digital Archive of Traces from Failed Futures</p>
+    </header>
+  );
+}

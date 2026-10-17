@@ -1,0 +1,898 @@
+// The archive. Every entry is a historical trace of a future that did not happen.
+// Positions vstg-0001 to vstg-0080. Pending entries are placeholders until they are researched.
+// Each image is /public/vestigios/<code>.png. Replace the file with the same name to update it.
+
+export type Vestige = {
+  code: string; // vstg-0001 (shown as [vstg–0001])
+  name: string;
+  image: string; // path under /public/vestigios/
+  description: string; // [desc.]
+  failedFuture: string; // [f.f. expl.]
+  source: string; // citation: author, title, publisher, year
+  link: string; // where to read more
+  license: string; // reuse conditions for the image
+  status: string; // working state, not shown on the site
+};
+
+export const VESTIGES: Vestige[] = [
+  {
+    "code": "vstg-0001",
+    "name": "Project Orion, 1958–1965",
+    "description": "Study drawings of a spacecraft propelled by small nuclear explosions, developed by General Atomics.",
+    "failedFuture": "A future in which people crossed the solar system on nuclear pulses. The 1963 Partial Test Ban Treaty ended the project. What remains are drawings, a test model, and a book that asks what we chose to leave behind.",
+    "source": "Dyson, G. (2002). Project Orion: The True Story of the Atomic Spaceship. Henry Holt and Company. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "image": "/vestigios/vstg-0001.png"
+  },
+  {
+    "code": "vstg-0002",
+    "name": "Monumento a la Tercera Internacional, 1919–1920",
+    "description": "Model of a leaning spiral of iron and glass designed by Vladimir Tatlin for Petrograd.",
+    "failedFuture": "A tower meant to house the new institutions of the revolution. It was never built. Its spiral still appears as a symbol of an arrival that did not come.",
+    "source": "Lodder, C. (1983). Russian Constructivism. Yale University Press. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Monument_to_the_Third_International",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "image": "/vestigios/vstg-0002.png"
+  },
+  {
+    "code": "vstg-0003",
+    "name": "Plan Voisin de Paris, 1925",
+    "description": "Le Corbusier's proposal for central Paris: old streets replaced by cruciform glass towers set in parkland.",
+    "failedFuture": "A city that would have traded its streets for towers and gardens. It was never built, yet it still shapes the debate about how cities should be renewed.",
+    "source": "Le Corbusier (1925). Urbanisme. Paris: Éditions Crès. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Plan_Voisin",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "image": "/vestigios/vstg-0003.png"
+  },
+  {
+    "code": "vstg-0004",
+    "name": "Solicitudes a la Academia de Bellas Artes de Viena, 1907–1908",
+    "description": "Adolf Hitler applied twice to the Academy of Fine Arts Vienna. Both applications were rejected.",
+    "failedFuture": "A path as a painter that closed in 1907 and again in 1908. What followed did not depend on that rejection alone. Historians debate how much weight a single turning point carries, and warn against reading history as a chain of single causes. The archive keeps the rejection as one thread among many.",
+    "source": "Kershaw, I. (1998). Hitler: 1889–1936: Hubris. W. W. Norton & Company. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente, imagen y encuadre",
+    "image": "/vestigios/vstg-0004.png"
+  },
+  {
+    "code": "vstg-0005",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0005.png"
+  },
+  {
+    "code": "vstg-0006",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0006.png"
+  },
+  {
+    "code": "vstg-0007",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0007.png"
+  },
+  {
+    "code": "vstg-0008",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0008.png"
+  },
+  {
+    "code": "vstg-0009",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0009.png"
+  },
+  {
+    "code": "vstg-0010",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0010.png"
+  },
+  {
+    "code": "vstg-0011",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0011.png"
+  },
+  {
+    "code": "vstg-0012",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0012.png"
+  },
+  {
+    "code": "vstg-0013",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0013.png"
+  },
+  {
+    "code": "vstg-0014",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0014.png"
+  },
+  {
+    "code": "vstg-0015",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0015.png"
+  },
+  {
+    "code": "vstg-0016",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0016.png"
+  },
+  {
+    "code": "vstg-0017",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0017.png"
+  },
+  {
+    "code": "vstg-0018",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0018.png"
+  },
+  {
+    "code": "vstg-0019",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0019.png"
+  },
+  {
+    "code": "vstg-0020",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0020.png"
+  },
+  {
+    "code": "vstg-0021",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0021.png"
+  },
+  {
+    "code": "vstg-0022",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0022.png"
+  },
+  {
+    "code": "vstg-0023",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0023.png"
+  },
+  {
+    "code": "vstg-0024",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0024.png"
+  },
+  {
+    "code": "vstg-0025",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0025.png"
+  },
+  {
+    "code": "vstg-0026",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0026.png"
+  },
+  {
+    "code": "vstg-0027",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0027.png"
+  },
+  {
+    "code": "vstg-0028",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0028.png"
+  },
+  {
+    "code": "vstg-0029",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0029.png"
+  },
+  {
+    "code": "vstg-0030",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0030.png"
+  },
+  {
+    "code": "vstg-0031",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0031.png"
+  },
+  {
+    "code": "vstg-0032",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0032.png"
+  },
+  {
+    "code": "vstg-0033",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0033.png"
+  },
+  {
+    "code": "vstg-0034",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0034.png"
+  },
+  {
+    "code": "vstg-0035",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0035.png"
+  },
+  {
+    "code": "vstg-0036",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0036.png"
+  },
+  {
+    "code": "vstg-0037",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0037.png"
+  },
+  {
+    "code": "vstg-0038",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0038.png"
+  },
+  {
+    "code": "vstg-0039",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0039.png"
+  },
+  {
+    "code": "vstg-0040",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0040.png"
+  },
+  {
+    "code": "vstg-0041",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0041.png"
+  },
+  {
+    "code": "vstg-0042",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0042.png"
+  },
+  {
+    "code": "vstg-0043",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0043.png"
+  },
+  {
+    "code": "vstg-0044",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0044.png"
+  },
+  {
+    "code": "vstg-0045",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0045.png"
+  },
+  {
+    "code": "vstg-0046",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0046.png"
+  },
+  {
+    "code": "vstg-0047",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0047.png"
+  },
+  {
+    "code": "vstg-0048",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0048.png"
+  },
+  {
+    "code": "vstg-0049",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0049.png"
+  },
+  {
+    "code": "vstg-0050",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0050.png"
+  },
+  {
+    "code": "vstg-0051",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0051.png"
+  },
+  {
+    "code": "vstg-0052",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0052.png"
+  },
+  {
+    "code": "vstg-0053",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0053.png"
+  },
+  {
+    "code": "vstg-0054",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0054.png"
+  },
+  {
+    "code": "vstg-0055",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0055.png"
+  },
+  {
+    "code": "vstg-0056",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0056.png"
+  },
+  {
+    "code": "vstg-0057",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0057.png"
+  },
+  {
+    "code": "vstg-0058",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0058.png"
+  },
+  {
+    "code": "vstg-0059",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0059.png"
+  },
+  {
+    "code": "vstg-0060",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0060.png"
+  },
+  {
+    "code": "vstg-0061",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0061.png"
+  },
+  {
+    "code": "vstg-0062",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0062.png"
+  },
+  {
+    "code": "vstg-0063",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0063.png"
+  },
+  {
+    "code": "vstg-0064",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0064.png"
+  },
+  {
+    "code": "vstg-0065",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0065.png"
+  },
+  {
+    "code": "vstg-0066",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0066.png"
+  },
+  {
+    "code": "vstg-0067",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0067.png"
+  },
+  {
+    "code": "vstg-0068",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0068.png"
+  },
+  {
+    "code": "vstg-0069",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0069.png"
+  },
+  {
+    "code": "vstg-0070",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0070.png"
+  },
+  {
+    "code": "vstg-0071",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0071.png"
+  },
+  {
+    "code": "vstg-0072",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0072.png"
+  },
+  {
+    "code": "vstg-0073",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0073.png"
+  },
+  {
+    "code": "vstg-0074",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0074.png"
+  },
+  {
+    "code": "vstg-0075",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0075.png"
+  },
+  {
+    "code": "vstg-0076",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0076.png"
+  },
+  {
+    "code": "vstg-0077",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0077.png"
+  },
+  {
+    "code": "vstg-0078",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0078.png"
+  },
+  {
+    "code": "vstg-0079",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0079.png"
+  },
+  {
+    "code": "vstg-0080",
+    "name": "Pendiente",
+    "description": "Pendiente de investigación.",
+    "failedFuture": "Pendiente de investigación.",
+    "source": "Pendiente.",
+    "link": "",
+    "license": "Pendiente.",
+    "status": "Pendiente",
+    "image": "/vestigios/vstg-0080.png"
+  },
+];

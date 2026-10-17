@@ -1,0 +1,386 @@
+/* Type: Libre Baskerville everywhere. Sizes are kept small so menus and buttons stay quiet. */
+:root {
+  --paper: #ffffff;
+  --ink: #000000;
+  --muted: #000000;
+  --tag: #000000;
+  --font-serif: "Libre Baskerville", Baskerville, Georgia, serif;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+strong,
+b {
+  font-weight: 400;
+}
+
+button {
+  font: inherit;
+  font-size: 0.7rem;
+  color: inherit;
+  background: none;
+  border: 1px solid var(--ink);
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* Masthead: a single transform, so the rise is one smooth motion from the middle to the top. */
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: min(34rem, 92vw);
+  text-align: center;
+  z-index: 3;
+  pointer-events: none;
+  transform: translate(-50%, calc(50vh - 50%));
+  transition: transform 3.2s var(--ease-out), opacity 0.6s ease;
+}
+
+.masthead.is-top {
+  transform: translate(-50%, 1rem);
+}
+
+.masthead.is-hidden {
+  opacity: 0;
+}
+
+.masthead__title {
+  margin: 0;
+  font-weight: 400;
+}
+
+.masthead__logo {
+  display: block;
+  margin: 0 auto;
+  width: clamp(70px, 8vw, 113px);
+  height: auto;
+}
+
+.masthead__tagline {
+  font-size: 0.7rem;
+  margin: 1rem 0 0;
+}
+
+.masthead.is-top .topbar__email {
+  font-size: 0.7rem;
+  align-self: center;
+  margin-right: 0.4rem;
+}
+
+/* The description sits under the button and fades out as the masthead rises. */
+.masthead__about {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(30rem, 88vw);
+  margin: 1.75rem 0 0;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: var(--muted);
+  transition: opacity 1.2s ease;
+}
+
+.masthead.is-top .masthead__about {
+  opacity: 0;
+}
+
+/* Top right: account actions, shown once the masthead has settled. */
+.topbar {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  display: flex;
+  gap: 0.4rem;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 1.4s ease 1.6s;
+}
+
+.topbar.is-visible {
+  opacity: 1;
+}
+
+.topbar.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+
+.topbar button:last-child {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Close: plain text at the top centre. */
+.close-button {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  border: none;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  padding: 0.1rem 0.35rem;
+}
+
+.close-button:hover {
+  background: none;
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+/* Manifesto link: fixed at the bottom centre of the screen. */
+.manifesto-link {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  border: none;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  padding: 0.1rem 0.35rem;
+}
+
+.manifesto-link:hover {
+  background: none;
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.collection {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.6s ease 0.6s;
+}
+
+.collection.is-visible {
+  opacity: 1;
+}
+
+.collection-host {
+  position: absolute;
+  inset: 0;
+}
+
+/* Text of the open piece, placed under its code. */
+.detail {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(34rem, 90vw);
+  text-align: center;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.detail__label {
+  color: var(--tag);
+  margin: 1rem 0 0.2rem;
+  font-size: 0.7rem;
+}
+
+.detail__text {
+  margin: 0;
+  line-height: 1.55;
+  font-size: 0.7rem;
+}
+
+/* White edge: the borders of the screen fade out, so the plane feels like it continues in
+   every direction. Always above the collection, below the masthead and the text. */
+.edge {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0.95) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  mask-image: radial-gradient(ellipse at center, transparent 55%, #000 100%);
+  -webkit-mask-image: radial-gradient(ellipse at center, transparent 55%, #000 100%);
+}
+
+/* Full-screen white panels: the add form and the manifesto. */
+.dialog {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  background: var(--paper);
+  z-index: 5;
+  overflow-y: auto;
+  padding: 5.5rem 1.5rem 3rem;
+  text-align: center;
+}
+
+.dialog__inner {
+  width: 100%;
+  max-width: 34rem;
+  margin: auto;
+}
+
+.dialog__title {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: normal;
+  text-align: center;
+  margin: 0 0 1.5rem;
+}
+
+.manifesto__text {
+  max-width: 34rem;
+  margin: 0 auto 1.1rem;
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.field {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  text-align: center;
+  width: 100%;
+}
+
+.field--choice {
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.field--choice label {
+  font-size: 0.7rem;
+}
+
+.field__label {
+  font-size: 0.7rem;
+}
+
+.field__guide {
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.field input[type="file"],
+.field textarea {
+  font: inherit;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  width: 100%;
+}
+
+.message {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.message--ok {
+  color: var(--ink);
+}
+
+.submit {
+  align-self: center;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.field input[type="file"]::file-selector-button {
+  font: inherit;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  margin-right: 0.6rem;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+
+/* Zoom buttons, bottom right, shown while no piece is open. */
+.zoom {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  gap: 0.4rem;
+  z-index: 3;
+}
+
+.zoom button {
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+/* White band at the top: keeps the logo, tagline and buttons readable over the pieces. */
+.edge-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 180px;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 45%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 40%, transparent 100%);
+}
+
+/* Source line under an open piece: a small catalogue note. */
+.detail__source {
+  font-size: 0.7rem;
+  color: var(--tag);
+  margin: 0.6rem 0 0;
+  line-height: 1.5;
+}
