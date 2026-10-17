@@ -12,7 +12,8 @@ Each piece has:
 ## Stack
 - Next.js + TypeScript
 - PixiJS (the free-moving plane)
-- EB Garamond / Libre Baskerville (type)
+- Libre Baskerville (type)
+- GitHub Pages (static hosting)
 
 No database and no accounts. All content lives in `src/data/vestiges.ts` and `public/vestigios/`.
 
@@ -20,6 +21,13 @@ No database and no accounts. All content lives in `src/data/vestiges.ts` and `pu
 1. Download the image with a licence that allows reuse, and save it in `public/vestigios/`.
 2. Add an entry to `src/data/vestiges.ts`, with its source and licence.
 3. Commit and push. Vercel publishes the change.
+
+## Publishing
+The site is published with GitHub Pages at https://ricardovaleragarcia-commits.github.io/vestige/
+
+Every push to `main` builds the site and publishes it, through `.github/workflows/pages.yml`.
+
+One-time setup: in the repository, go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
 
 ## Running locally
 ```bash
