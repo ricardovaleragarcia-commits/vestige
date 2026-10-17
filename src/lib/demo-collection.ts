@@ -2,17 +2,17 @@ import { VESTIGES } from "@/data/vestiges";
 
 // The plane is a tile of pieces, packed once with no holes. The tile repeats in every direction.
 // Each repetition rotates its columns and shifts which archive entry sits where.
-export const COLUMN_WIDTH = 420;
-export const COLUMN_STEP = 440; // distance between column starts (20 px clear beside a 420 px column)
+export const COLUMN_WIDTH = 340;
+export const COLUMN_STEP = 420; // distance between column starts (20 px clear beside a 420 px column)
 export const COLUMNS_PER_TILE = 7;
 export const TILE_COUNT = 80;
 export const BLOCK_WIDTH = COLUMNS_PER_TILE * COLUMN_STEP;
-export const LONGEST_SIDES = [260, 320, 380, 420];
-const FILL_SIDES = [160, 200, 240, 280];
+export const LONGEST_SIDES = [200, 250, 300, 340];
+const FILL_SIDES = [130, 160, 190, 220];
 
 const LABEL_SPACE = 40; // room for the [vstg–####] code under each piece
-const GAP_MIN = 40;
-const GAP_RANGE = 40;
+const GAP_MIN = 60;
+const GAP_RANGE = 50;
 
 export type Piece = {
   id: string;

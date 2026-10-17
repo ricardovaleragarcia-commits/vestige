@@ -16,7 +16,7 @@ const TOP_SPACE = 200; // keeps the first pieces below the masthead
 const CODE_GAP = 44; // space between the image and its code when a piece is open
 const FOCUS_HEIGHT_RATIO = 0.5; // an open piece fills up to half the screen height
 const MIN_ZOOM = 0.5;
-const MAX_ZOOM = 2;
+const MAX_ZOOM = 1.25;
 
 // Used by both the canvas and the text panel, so they always agree.
 export function focusScale(h: number): number {

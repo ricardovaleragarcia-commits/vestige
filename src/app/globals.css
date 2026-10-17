@@ -62,7 +62,7 @@ button:disabled {
   z-index: 3;
   pointer-events: none;
   transform: translate(-50%, calc(50vh - 50%));
-  transition: transform 2.4s var(--ease-out), opacity 0.6s ease;
+  transition: transform 2.0s var(--ease-out), opacity 0.6s ease;
 }
 
 .masthead.is-top {
@@ -99,7 +99,7 @@ button:disabled {
 
 .masthead.is-top .masthead__tagline {
   opacity: 1;
-  transition: opacity 0.9s ease 1.2s;
+  transition: opacity 0.8s ease 2s;
 }
 
 .masthead.is-top .topbar__email {
@@ -181,7 +181,7 @@ button:disabled {
 .manifesto-link {
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.9s ease 1.2s;
+  transition: opacity 0.8s ease 2s;
   position: fixed;
   bottom: 1rem;
   left: 50%;
