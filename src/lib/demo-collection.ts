@@ -61,8 +61,8 @@ export function sizeFromLongest(ratio: number, longest: number) {
 
 type Slot = { col: number; x: number; y: number; w: number; h: number; ratio: number };
 
-function buildTile(): { slots: Slot[]; height: number } {
-  const random = rng(0x5eed);
+function buildTile(seed: number): { slots: Slot[]; height: number } {
+  const random = rng(seed);
 
   const cols = Array.from({ length: COLUMNS_PER_TILE }, (_, i) => ({
     index: i,
@@ -126,8 +126,9 @@ function buildTile(): { slots: Slot[]; height: number } {
   return { slots: cols.flatMap((c) => c.items), height };
 }
 
-const TILE = buildTile();
-export const BLOCK_HEIGHT = TILE.height;
+let TILE: { slots: Slot[]; height: number };
+export let BLOCK_HEIGHT = 0;
+let SEED = 0x5eed;
 
 // ---- The content: the archive, reused by every repetition ----
 
@@ -136,27 +137,30 @@ function displayCode(v: { year: number | null }): string {
   return v.year ? `VSTG.${v.year}` : "VSTG.NA";
 }
 
-const CONTENT = VESTIGES.map((v, k) => ({
-  code: displayCode(v),
-  color: PALETTE[k % PALETTE.length],
-  name: v.name,
-  description: v.description,
-  failedFuture: v.failedFuture,
-  source: v.source,
-  link: v.link,
-  image: v.image,
-}));
+type Content = {
+  code: string;
+  color: number;
+  name: string;
+  description: string;
+  failedFuture: string;
+  source: string;
+  link: string;
+  image: string | null;
+};
+
+let CONTENT: Content[] = [];
 
 // Which entry each repetition starts with. Different repetitions start at different places.
 function offsetFor(cx: number, cy: number): number {
-  const h = Math.imul(cx, 73856093) ^ Math.imul(cy, 19349663);
+  const h = Math.imul(cx, 73856093) ^ Math.imul(cy, 19349663) ^ SEED;
   return (h >>> 0) % Math.max(CONTENT.length, 1);
 }
 
 // Each repetition rotates its columns by a shift. The shift grows by 2 with every repetition,
 // so the last column of one repetition never sits next to an identical column from the next.
 function columnShift(cx: number): number {
-  return ((2 * cx) % COLUMNS_PER_TILE + COLUMNS_PER_TILE) % COLUMNS_PER_TILE;
+  const shift = 2 * cx + (SEED % COLUMNS_PER_TILE);
+  return ((shift % COLUMNS_PER_TILE) + COLUMNS_PER_TILE) % COLUMNS_PER_TILE;
 }
 
 // The pieces of one repetition. Odd rows are flipped vertically, so the layout does not look stamped.
@@ -193,3 +197,33 @@ export function piecesForBlock(cx: number, cy: number): Piece[] {
     };
   });
 }
+
+function shuffle<T>(items: T[], random: () => number): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Each visit gets its own order: the layout and the placement of the entries come from a seed.
+export function initArchive(seed: number) {
+  SEED = seed;
+  TILE = buildTile(seed);
+  BLOCK_HEIGHT = TILE.height;
+  const entries: Content[] = VESTIGES.map((v, k) => ({
+    code: displayCode(v),
+    color: PALETTE[k % PALETTE.length],
+    name: v.name,
+    description: v.description,
+    failedFuture: v.failedFuture,
+    source: v.source,
+    link: v.link,
+    image: v.image,
+  }));
+  CONTENT = shuffle(entries, rng(seed ^ 0x1234abcd));
+}
+
+// Default order, used when the page is pre-rendered. The browser replaces it on every visit.
+initArchive(0x5eed);

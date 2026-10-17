@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Application, BlurFilter, Container, Graphics, Text } from "pixi.js";
 import {
+  initArchive,
   BLOCK_HEIGHT,
   BLOCK_WIDTH,
   COLUMN_WIDTH,
@@ -70,6 +71,8 @@ export default function Collection({
     host.appendChild(labelLayer);
 
     (async () => {
+      // A new order for every visit.
+      initArchive(Math.floor(Math.random() * 0xffffffff));
       await document.fonts.load('18px "Libre Baskerville"');
 
       const instance = new Application();
