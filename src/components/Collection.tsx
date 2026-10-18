@@ -25,6 +25,22 @@ export function focusScale(h: number): number {
   return Math.min(1.5, (window.innerHeight * FOCUS_HEIGHT_RATIO) / h);
 }
 
+// Splits a code so that its digits can be set smaller, to match small capitals.
+function codeParts(text: string): Node[] {
+  return text
+    .split(/(\d+)/)
+    .filter((part) => part !== "")
+    .map((part) => {
+      if (/^\d+$/.test(part)) {
+        const span = document.createElement("span");
+        span.className = "piece-label__digits";
+        span.textContent = part;
+        return span;
+      }
+      return document.createTextNode(part);
+    });
+}
+
 type PieceNode = {
   node: Container; // position, scale and fade
   body: Container; // the piece itself; its blur is trimmed to its frame
@@ -224,7 +240,7 @@ export default function Collection({
 
         const label = document.createElement("div");
         label.className = "piece-label";
-        label.textContent = `[${piece.code}]`;
+        label.replaceChildren(...codeParts(`[${piece.code}]`));
         labelLayer.appendChild(label);
 
         return { node: root, body, label, blur, piece };

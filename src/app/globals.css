@@ -434,7 +434,8 @@ button:disabled {
   left: 0;
   top: 0;
   font-size: 0.65rem;
-  font-variant: small-caps;
+  font-variant-caps: all-small-caps;
+  font-variant-numeric: oldstyle-nums;
   font-weight: 400;
   white-space: nowrap;
   color: var(--ink);
@@ -710,4 +711,9 @@ button:disabled {
 @keyframes paper-out {
   from { opacity: 1; transform: translateY(0); }
   to { opacity: 0; transform: translateY(14px); }
+}
+
+/* Digits do not have small capitals, so they are set slightly smaller to match them. */
+.piece-label__digits {
+  font-size: 0.72em;
 }
