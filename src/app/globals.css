@@ -433,7 +433,8 @@ button:disabled {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 0.65rem;
+  /* Small caps are shorter than capitals, so this is set larger to match the text around it. */
+  font-size: 0.8rem;
   font-variant-caps: all-small-caps;
   font-variant-numeric: oldstyle-nums;
   font-weight: 400;
@@ -685,7 +686,7 @@ button:disabled {
 .manifesto-paper__brandmark {
   display: block;
   margin: 0 auto;
-  width: 5rem;
+  width: 7rem;
   height: auto;
 }
 
