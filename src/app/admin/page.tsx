@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState, type FormEvent } from "react";
-import { fileToJpegBase64, loadEntries, saveEntry, type Entry } from "@/lib/github";
+import { fileToJpegBase64, importEntries, loadEntries, saveEntry, type Entry } from "@/lib/github";
 
 const TOKEN_KEY = "vestige-admin-token";
 
@@ -91,6 +91,23 @@ export default function AdminPage() {
     );
   }
 
+  async function importFile(file: File | undefined) {
+    if (!file) return;
+    setBusy(true);
+    setStatus(null);
+    try {
+      const data = JSON.parse(await file.text());
+      if (!Array.isArray(data)) throw new Error("The file must contain a JSON array of entries.");
+      const changed = await importEntries(token, data);
+      setEntries(await loadEntries(token));
+      setStatus({ ok: true, text: `Imported ${changed} entries. The site updates in a minute or two.` });
+    } catch (err) {
+      setStatus({ ok: false, text: err instanceof Error ? err.message : "The file could not be imported." });
+    } finally {
+      setBusy(false);
+    }
+  }
+
   return (
     <main className="admin">
       <h1 className="admin__title">Archive admin</h1>
@@ -106,6 +123,19 @@ export default function AdminPage() {
         <button type="button" onClick={load} disabled={busy || !token}>
           Load archive
         </button>
+      </section>
+
+      <section className="admin__block">
+        <span className="field__label">Import a research file (JSON)</span>
+        <input
+          type="file"
+          accept="application/json,.json"
+          disabled={busy || !token}
+          onChange={(e) => importFile(e.target.files?.[0])}
+        />
+        <span className="field__guide">
+          Each item needs its code, for example vstg-0002. Only the fields present in the file are changed.
+        </span>
       </section>
 
       {entries && (

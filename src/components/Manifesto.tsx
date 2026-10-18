@@ -24,18 +24,16 @@ const PARAGRAPHS = [
 
 export default function Manifesto({ onClose }: { onClose: () => void }) {
   return (
-    <section className="dialog" role="dialog" aria-modal="true" aria-label="Manifesto">
-      <button type="button" className="close-button" onClick={onClose}>
+    <section className="manifesto-screen" role="dialog" aria-modal="true" aria-label="Manifesto">
+      <button type="button" className="manifesto-screen__close" onClick={onClose}>
         Close
       </button>
-      <div className="dialog__inner">
-        <h2 className="dialog__title">Manifesto</h2>
+      <article className="manifesto-paper">
+        <p className="manifesto-paper__tag">[manif.]</p>
         {PARAGRAPHS.map((paragraph, i) => (
-          <p key={i} className="manifesto__text">
-            {paragraph}
-          </p>
+          <p key={i}>{paragraph}</p>
         ))}
-      </div>
+      </article>
     </section>
   );
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "code": "vstg-0001",
+    "year": 1963,
+    "name": "Project Orion, 1958–1965",
+    "description": "Study drawings and test models of a spacecraft driven by nuclear explosions, developed at General Atomics between 1958 and 1965.",
+    "failedFuture": "A future in which crews crossed the solar system on nuclear pulses. In 1963 a treaty banned nuclear explosions in the atmosphere and in space, and the project lost its political ground. The drawings remain, along with the question of which space age was decided in a negotiating room rather than in a laboratory.",
+    "source": "Dyson, G. (2002). Project Orion: The True Story of the Atomic Spaceship. Henry Holt and Company. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Investigada: falta verificar la fecha de cancelación (1964 o 1965) y la imagen",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0007",
+    "year": 1970,
+    "name": "Apollo 18, 19 and 20, cancelled",
+    "description": "Flight plans, landing-site studies and unfinished hardware of the lunar missions that followed Apollo 17, cancelled in 1970.",
+    "failedFuture": "More lunar landings were planned and then cancelled as budgets shrank. Their rockets were reassigned: the last Saturn V launched the Skylab station. A lunar module built for a later mission was never completed. The cancelled landings remain as a list of places no one visited.",
+    "source": "NASA NSSDC, \"Apollo 18 through 20 – The Cancelled Missions\". Benson, C. y Faherty, W., Moonport (NASA SP-4204).",
+    "link": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_18_20.html",
+    "license": "Material de la NASA: verificar cada imagen",
+    "status": "Investigada: aclarar la numeración (original o renumerada) y la ubicación del módulo lunar de la Apollo 19",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0008",
+    "year": 1976,
+    "name": "N1 rocket, Soviet lunar programme",
+    "description": "The N1, the Soviet super-heavy rocket designed to take cosmonauts to the Moon. All four launch attempts, between 1969 and 1972, failed.",
+    "failedFuture": "A lunar landing that was prepared and never achieved. The programme was suspended in 1974 and cancelled in 1976. Its engines outlived it: the NK-33, built for an improved version of the N1, was adapted from 2013 for rockets that fly today.",
+    "source": "Wikipedia, \"N1 (rocket)\", con datos de historias de la carrera espacial. Referencia primaria por confirmar.",
+    "link": "https://en.wikipedia.org/wiki/N1_(rocket)",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Investigada: fuente primaria por añadir y año de su hacerse pública por confirmar",
+    "level": "documented"
+  }
+]

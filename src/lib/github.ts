@@ -107,6 +107,32 @@ export async function saveEntry(token: string, updated: Entry, imageBase64: stri
   await putFile(token, DATA_PATH, utf8ToBase64(serializeEntries(text, next)), `Update ${updated.code}`, current.sha);
 }
 
+// Imports several entries in one commit. Only the fields present in each item are changed.
+export async function importEntries(
+  token: string,
+  updates: (Partial<Entry> & { code: string })[]
+): Promise<number> {
+  const current = await getFile(token, DATA_PATH);
+  if (!current) throw new Error("Could not find src/data/vestiges.ts in the repository.");
+
+  const text = base64ToUtf8(current.content);
+  const list = parseEntries(text);
+
+  const missing = updates.filter((u) => !list.some((e) => e.code === u.code)).map((u) => u.code);
+  if (missing.length > 0) throw new Error(`These codes are not in the archive: ${missing.join(", ")}`);
+
+  let changed = 0;
+  const next = list.map((e) => {
+    const u = updates.find((x) => x.code === e.code);
+    if (!u) return e;
+    changed++;
+    return { ...e, ...u };
+  });
+
+  await putFile(token, DATA_PATH, utf8ToBase64(serializeEntries(text, next)), `Import ${changed} entries`, current.sha);
+  return changed;
+}
+
 // Resizes an image in the browser and returns it as JPEG, without its metadata.
 export async function fileToJpegBase64(file: File, maxSide = 1600): Promise<string> {
   const url = URL.createObjectURL(file);

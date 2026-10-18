@@ -1,0 +1,26 @@
+[
+  {
+    "code": "vstg-0004",
+    "year": 1908,
+    "name": "Applications to the Academy of Fine Arts Vienna, 1907–1908",
+    "description": "Two applications to the Academy of Fine Arts Vienna, in 1907 and 1908, both rejected.",
+    "failedFuture": "A path as a painter that closed twice. The jury judged his figure drawing weak, and the architecture route was blocked too, because he had not finished secondary school. Later, the story of the frustrated artist became part of the myth that he and his followers built around him. A hypothesis, not a documented fact: a career as a painter might have kept him out of politics. The archive keeps the closed door, not a cause.",
+    "source": "Pruitt, S., History.com, basado en Ullrich, V. (2016). Hitler: Ascent, 1889–1939.",
+    "link": "https://www.history.com/articles/adolf-hitler-artist-paintings-vienna",
+    "license": "Dibujos de Hitler: no usar sin verificar licencia. Sugerido: fachada de la Academia u otro documento de época.",
+    "status": "Investigada: qué se le dijo en 1908 (rechazo sin examen o nuevo examen) por verificar",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0009",
+    "year": 1986,
+    "name": "Len Bias, unused jersey no. 30",
+    "description": "The number 30 Boston Celtics jersey that Len Bias never wore. He was chosen second overall in the 1986 NBA draft and died two days later, at 22.",
+    "failedFuture": "A career the press already compared to Michael Jordan's. His death in June 1986 became the face of a national alarm about cocaine. Within months Congress passed the Anti-Drug Abuse Act, known as the Len Bias law, which set mandatory minimum sentences that stayed in force for decades. The future that failed was a player's; the one that followed belonged to people who never knew him.",
+    "source": "Lassen, F. (2015). \"A Cracked Remedy: The Anti-Drug Abuse Act\". Temple Law Review 87: 645.",
+    "link": "https://www.templelawreview.org/lawreview/assets/uploads/2015/06/Fabens-Lassen-87-Temp.-L.-Rev.-645.pdf",
+    "license": "Evitar fotografías de la persona. Opción: el jersey, con licencia verificada.",
+    "status": "Investigada: duración de las condenas y su reforma por verificar",
+    "level": "documented"
+  }
+]

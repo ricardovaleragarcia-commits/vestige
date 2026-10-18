@@ -268,7 +268,7 @@ button:disabled {
 
 .dialog__inner {
   width: 100%;
-  max-width: 40rem;
+  max-width: 60rem;
   margin: auto;
 }
 
@@ -281,7 +281,7 @@ button:disabled {
 }
 
 .manifesto__text {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: 0 auto 1.1rem;
   font-size: 0.75rem;
   line-height: 1.7;
@@ -501,4 +501,79 @@ button:disabled {
 
 .admin__form .submit {
   align-self: flex-start;
+}
+
+/* Collection fades out when the manifesto opens */
+.collection.is-hidden {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+/* Manifesto: the screen dissolves from white to black, and a sheet of paper appears on it. */
+.manifesto-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 1rem 3rem;
+  background: #000;
+  animation: dissolve-to-black 0.9s ease both;
+}
+
+@keyframes dissolve-to-black {
+  from { background: #fff; }
+  to { background: #000; }
+}
+
+.manifesto-screen__close {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  border: none;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.35rem;
+  background: none;
+}
+
+.manifesto-screen__close:hover {
+  background: none;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.manifesto-paper {
+  width: min(44rem, 92vw);
+  background: #fff;
+  color: #000;
+  padding: 3.5rem 3.5rem 4rem;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  text-align: justify;
+  hyphens: auto;
+  animation: paper-in 0.9s ease 0.5s both;
+}
+
+@keyframes paper-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.manifesto-paper__tag {
+  text-align: center;
+  margin: 0 0 2.5rem;
+}
+
+.manifesto-paper p {
+  margin: 0 0 1rem;
+  text-indent: 2.5em;
+}
+
+.manifesto-paper p:first-of-type {
+  text-indent: 0;
 }

@@ -1,0 +1,50 @@
+[
+  {
+    "code": "vstg-0002",
+    "year": null,
+    "name": "Monument to the Third International, 1919–1920",
+    "description": "Model of a 400-metre double helix of iron and glass designed by Vladimir Tatlin in 1919–1920 as the headquarters of the Communist International in Petrograd. Only models were built.",
+    "failedFuture": "A tower meant to be both headquarters and monument of a new international order. It was never built. The model survives, and so do reconstructions made decades later: a future that exists today only as a replica of its own promise.",
+    "source": "Leleu, N. (2007). The Model of Vladimir Tatlin's Monument to the Third International. Tate Papers.",
+    "link": "https://www.tate.org.uk/documents/400/tate_papers_8_nathalie_leleu_the_model_of_vladimir_tatlins_monument_to_the_thi_96awbvl.pdf",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Investigada: falta fecha de cancelación formal (se deja NA) y la imagen",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0003",
+    "year": 1925,
+    "name": "Plan Voisin de Paris, 1925",
+    "description": "Le Corbusier's 1925 proposal to replace part of central Paris, including the Marais, with glass towers set in parkland. Shown as a diorama at the Esprit Nouveau pavilion.",
+    "failedFuture": "A Paris cleared and rebuilt as a machine for modern life. It was never carried out, and the pavilion that displayed it was demolished in 1926. A replica of that pavilion stands in Bologna, and the argument about whether cities should be renewed or kept goes on.",
+    "source": "Le Corbusier, Oeuvre complète, vol. 1 (extracto publicado por Archiweb sobre el Pavillon de l'Esprit Nouveau).",
+    "link": "https://www.archiweb.cz/en/b/pavilon-l-esprit-nouveau",
+    "license": "Derechos reservados (ADAGP/FLC): pedir autorización o buscar otra imagen",
+    "status": "Investigada: cifras de torres (18 o 20) y altura por contrastar",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0005",
+    "year": null,
+    "name": "Palace of the Soviets, Moscow, 1931",
+    "description": "Plans for the Palace of the Soviets, a congress hall and administrative centre planned on the site of the Cathedral of Christ the Saviour, near the Kremlin.",
+    "failedFuture": "To build the palace, the cathedral was dynamited in 1931. The palace was never finished: its steel frame was dismantled during the Second World War, and the foundations became one of the largest open-air swimming pools in the world. In the 1990s the pool was removed and the cathedral rebuilt on the same ground. A failed future left a hole, and the past was reconstructed inside it.",
+    "source": "Architectuul, \"Palace of the Soviets\". Y Tsereteli reconstruction: Harvard, Russia's Postcommunist Past, History and Memory 21.1 (2009).",
+    "link": "https://architectuul.com/architecture/palace-of-the-soviets",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Investigada: altura (416 o 420 m), año del desmontaje y año de inicio de la reconstrucción (1994 o 1995) por contrastar",
+    "level": "documented"
+  },
+  {
+    "code": "vstg-0006",
+    "year": 1958,
+    "name": "Plan for Greater Baghdad, 1957–1958",
+    "description": "Drawings of Frank Lloyd Wright's Plan for Greater Baghdad: a cultural centre, opera house and university planned for an island in the Tigris.",
+    "failedFuture": "A modern capital imagined for a monarchy overthrown in 1958, before anything was built. The new government judged the plan too grand and too tied to the old regime. Part of the design lives on elsewhere: an opera house drawn for Baghdad was reused for a university auditorium in Arizona. The island later became a holiday resort for Saddam Hussein's security forces.",
+    "source": "WNYC / NYC Municipal Archives, \"Frank Lloyd Wright's Plan for Iraq\" (2010). Allison, J. (2008), \"Arabian Opera Nights\", Opera 59/1.",
+    "link": "https://wnyc.org/story/44467-frank-lloyd-wrights-plan-for-iraq/",
+    "license": "Derechos reservados (Frank Lloyd Wright Foundation Archives): pedir autorización",
+    "status": "Investigada: reutilización en Arizona por verificar con la universidad",
+    "level": "documented"
+  }
+]

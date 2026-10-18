@@ -22,7 +22,7 @@ export default function HomePage() {
     <main>
       <Intro onReveal={reveal} hidden={overlayOpen} />
 
-      <div className={`collection${revealed ? " is-visible" : ""}`}>
+      <div className={`collection${revealed ? " is-visible" : ""}${showManifesto ? " is-hidden" : ""}`}>
         {revealed && <Collection onFocusChange={setFocused} />}
       </div>
 

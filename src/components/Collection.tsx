@@ -418,16 +418,6 @@ export default function Collection({
     <>
       <div ref={hostRef} className="collection-host" />
 
-      {!focused && (
-        <div className="zoom" aria-label="Zoom">
-          <button type="button" onClick={() => zoomRef.current?.(1.2)} aria-label="Zoom in">
-            +
-          </button>
-          <button type="button" onClick={() => zoomRef.current?.(1 / 1.2)} aria-label="Zoom out">
-            −
-          </button>
-        </div>
-      )}
 
       {focused && (
         <aside ref={detailRef} className="detail" aria-live="polite" style={{ top: detailTop }}>
