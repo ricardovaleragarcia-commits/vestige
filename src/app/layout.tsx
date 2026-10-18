@@ -1,4 +1,4 @@
-import "@fontsource/libre-baskerville/400.css";
+import "@fontsource/stix-two-text/400.css";
 import "./globals.css";
 
 export const metadata = {

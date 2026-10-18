@@ -26,8 +26,8 @@ export default function HomePage() {
         {revealed && <Collection onFocusChange={setFocused} />}
       </div>
 
-      <div className="edge" aria-hidden="true" />
-      <div className="edge-top" aria-hidden="true" />
+      <div className={`edge${overlayOpen ? " is-hidden" : ""}`} aria-hidden="true" />
+      <div className={`edge-top${overlayOpen ? " is-hidden" : ""}`} aria-hidden="true" />
 
       {!overlayOpen && (
         <div className={`foot${revealed ? " is-visible" : ""}`}>

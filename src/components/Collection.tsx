@@ -16,7 +16,7 @@ const DRAG_TOLERANCE = 6; // pixels moved before a press counts as dragging, not
 const TOP_SPACE = 200; // keeps the first pieces below the masthead
 const CODE_GAP = 44; // space between the image and its code when a piece is open
 const FOCUS_HEIGHT_RATIO = 0.5; // an open piece fills up to half the screen height
-const MIN_ZOOM = 0.5;
+const MIN_ZOOM = 0.3;
 const MAX_ZOOM = 1.25;
 const INITIAL_ZOOM = 0.72; // the page opens zoomed out, so more pieces are visible at once
 
@@ -73,7 +73,9 @@ export default function Collection({
     (async () => {
       // A new order for every visit.
       initArchive(Math.floor(Math.random() * 0xffffffff));
-      await document.fonts.load('18px "Libre Baskerville"');
+      // Phones start further out, so the neighbouring pieces are visible.
+      const startZoom = window.innerWidth < 768 ? 0.4 : INITIAL_ZOOM;
+      await document.fonts.load('18px "STIX Two Text"');
 
       const instance = new Application();
       await instance.init({
@@ -114,7 +116,7 @@ export default function Collection({
       // Start with column 0 centred horizontally.
       const world = new Container();
       stage.addChild(world);
-      world.position.set(instance.screen.width / 2 - (COLUMN_WIDTH / 2) * INITIAL_ZOOM, TOP_SPACE);
+      world.position.set(instance.screen.width / 2 - (COLUMN_WIDTH / 2) * startZoom, TOP_SPACE);
 
       let focusedId: string | null = null;
       let hoveredId: string | null = null;
@@ -124,8 +126,8 @@ export default function Collection({
       // Where the plane should rest. Wheel, trackpad and drag move these; the plane eases to them.
       let targetX = world.x;
       let targetY = world.y;
-      let scale = INITIAL_ZOOM;
-      let targetScale = INITIAL_ZOOM;
+      let scale = startZoom;
+      let targetScale = startZoom;
       let lastRangeKey = "";
       const nodes = new Map<string, PieceNode>();
       const blocks = new Map<string, BlockView>();
@@ -191,7 +193,7 @@ export default function Collection({
           const copy = new Text({
             text: piece.text,
             style: {
-              fontFamily: "Libre Baskerville",
+              fontFamily: "STIX Two Text",
               fontSize: 11.2,
               lineHeight: 17,
               fill: 0x1c1b19,

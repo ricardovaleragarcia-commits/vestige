@@ -12,7 +12,7 @@ Each piece has:
 ## Stack
 - Next.js + TypeScript
 - PixiJS (the free-moving plane)
-- Libre Baskerville (type)
+- STIX Two Text (type)
 - GitHub Pages (static hosting)
 
 No database and no accounts. All content lives in `src/data/vestiges.ts` and `public/vestigios/`.

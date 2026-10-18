@@ -1,10 +1,10 @@
-/* Type: Libre Baskerville everywhere. Sizes are kept small so menus and buttons stay quiet. */
+/* Type: STIX Two Text everywhere. Sizes are kept small so menus and buttons stay quiet. */
 :root {
   --paper: #ffffff;
   --ink: #000000;
   --muted: #000000;
   --tag: #000000;
-  --font-serif: "Libre Baskerville", Baskerville, Georgia, serif;
+  --font-serif: "STIX Two Text", Baskerville, Georgia, serif;
   --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
 }
 
@@ -434,6 +434,7 @@ button:disabled {
   left: 0;
   top: 0;
   font-size: 0.65rem;
+  font-variant: small-caps;
   font-weight: 400;
   white-space: nowrap;
   color: var(--ink);
@@ -642,4 +643,29 @@ button:disabled {
 .foot.is-visible {
   opacity: 1;
   pointer-events: auto;
+}
+
+/* Text buttons: grey on hover, without underline. */
+.close-button:hover,
+.manifesto-link:hover {
+  background: none;
+  color: #777;
+  text-decoration: none;
+}
+
+.manifesto-screen__close:hover {
+  background: none;
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* The white edge fades out while a piece or the manifesto is open. */
+.edge,
+.edge-top {
+  transition: opacity 0.6s ease;
+}
+
+.edge.is-hidden,
+.edge-top.is-hidden {
+  opacity: 0;
 }
