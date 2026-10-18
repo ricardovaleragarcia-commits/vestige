@@ -41,7 +41,7 @@ export default function Intro({ onReveal, hidden }: IntroProps) {
       <p className="masthead__tagline">Digital Archive of Traces from Failed Futures</p>
       <p className="masthead__scatter" aria-hidden="true">
         {SCATTER.map((w) => (
-          <span key={w.t} style={{ left: `${w.x}%`, top: `${w.r * 1.2}rem` }}>
+          <span key={w.t} style={{ left: `${w.x}%`, top: `${w.r * 0.85}rem` }}>
             {w.t}
           </span>
         ))}
