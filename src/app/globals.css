@@ -715,6 +715,7 @@ button:disabled {
 }
 
 /* Digits do not have small capitals, so they are set slightly smaller to match them. */
+/* Figures: oldstyle figures sit lower than small capitals, so they are set larger to match them. */
 .piece-label__digits {
-  font-size: 0.72em;
+  font-size: 1.3em;
 }
