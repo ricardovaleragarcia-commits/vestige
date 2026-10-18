@@ -29,6 +29,10 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
         Close
       </button>
       <article className="manifesto-paper">
+        <span className="manifesto-paper__hole manifesto-paper__hole--tl" aria-hidden="true" />
+        <span className="manifesto-paper__hole manifesto-paper__hole--tr" aria-hidden="true" />
+        <span className="manifesto-paper__hole manifesto-paper__hole--bl" aria-hidden="true" />
+        <span className="manifesto-paper__hole manifesto-paper__hole--br" aria-hidden="true" />
         <p className="manifesto-paper__tag">[manif.]</p>
         {PARAGRAPHS.map((paragraph, i) => (
           <p key={i}>{paragraph}</p>
