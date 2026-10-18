@@ -2,17 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-// The phrase, placed as in the reference: left position in %, and row.
-const SCATTER: { t: string; x: number; r: number }[] = [
-  { t: "Explore", x: 13.9, r: 0 },
-  { t: "and", x: 45.3, r: 0 },
-  { t: "discover", x: 71.9, r: 0 },
-  { t: "different moments", x: 20.3, r: 1 },
-  { t: "from the history of", x: 52.7, r: 1 },
-  { t: "humanity to knowledge", x: 5.1, r: 2 },
-  { t: "what could had happen", x: 61.9, r: 2 },
-  { t: "today and beyond", x: 37.1, r: 3 },
-];
+// The phrase, one line per row, spaced as written. White-space is kept so the words line up.
+const PHRASE: string[] = ["Explore                                and                                discover", "different moments              from the history of", "humanity to knowledge                                        what could had happen", "today and beyond"];
 
 type IntroProps = {
   onReveal: () => void;
@@ -39,11 +30,9 @@ export default function Intro({ onReveal, hidden }: IntroProps) {
         <img className="masthead__logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.svg`} alt="Vestige" />
       </h1>
       <p className="masthead__tagline">Digital Archive of Traces from Failed Futures</p>
-      <p className="masthead__scatter" aria-hidden="true">
-        {SCATTER.map((w) => (
-          <span key={w.t} style={{ left: `${w.x}%`, top: `${w.r * 0.85}rem` }}>
-            {w.t}
-          </span>
+      <p className="masthead__phrase" aria-hidden="true">
+        {PHRASE.map((line) => (
+          <span key={line}>{line}</span>
         ))}
       </p>
     </header>
