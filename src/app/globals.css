@@ -198,24 +198,13 @@ button:disabled {
 }
 
 /* Manifesto link: fixed at the bottom centre; it appears after the logo has risen. */
-.manifesto-link.is-visible {
-  opacity: 1;
-  pointer-events: auto;
-}
 
 .manifesto-link {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.8s ease 2s;
-  position: fixed;
-  bottom: 3.1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
   border: none;
   font-size: 0.7rem;
   letter-spacing: normal;
   padding: 0.1rem 0.35rem;
+  background: none;
 }
 
 .manifesto-link:hover {
@@ -621,21 +610,36 @@ button:disabled {
 
 /* Note at the foot of the screen: licences, sources and review. */
 .site-note {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.4;
+  pointer-events: none;
+}
+
+.site-note.is-visible {
+  opacity: 1;
+}
+
+/* Foot of the screen: the Manifesto link and the note share one block, so the gap between them is always the same. */
+.foot {
   position: fixed;
   bottom: 0.8rem;
   left: 50%;
   transform: translateX(-50%);
   width: 92vw;
-  margin: 0;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
   z-index: 3;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.8s ease 2s;
 }
 
-.site-note.is-visible {
+.foot.is-visible {
   opacity: 1;
+  pointer-events: auto;
 }
