@@ -2,23 +2,16 @@
 
 import { useEffect, useState } from "react";
 
-// The words of the phrase, placed as in the reference: left position in %, and row.
+// The phrase, placed as in the reference: left position in %, and row.
 const SCATTER: { t: string; x: number; r: number }[] = [
-  { t: "Explore", x: 5.2, r: 0 },
-  { t: "and", x: 48.1, r: 0 },
-  { t: "discover", x: 87.2, r: 0 },
-  { t: "different", x: 20.4, r: 1 },
-  { t: "moments", x: 70.9, r: 1 },
-  { t: "from the", x: 37.5, r: 2 },
-  { t: "history of", x: 53.7, r: 2 },
-  { t: "humanity", x: 22.9, r: 3 },
-  { t: "to", x: 47.9, r: 3 },
-  { t: "knowledge", x: 66.9, r: 3 },
-  { t: "what could", x: 11.1, r: 4 },
-  { t: "had happen", x: 77.9, r: 4 },
-  { t: "today", x: 35.6, r: 5 },
-  { t: "and", x: 61, r: 5 },
-  { t: "beyond", x: 46.6, r: 6 },
+  { t: "Explore", x: 13.9, r: 0 },
+  { t: "and", x: 45.3, r: 0 },
+  { t: "discover", x: 71.9, r: 0 },
+  { t: "different moments", x: 20.3, r: 1 },
+  { t: "from the history of", x: 52.7, r: 1 },
+  { t: "humanity to knowledge", x: 5.1, r: 2 },
+  { t: "what could had happen", x: 61.9, r: 2 },
+  { t: "today and beyond", x: 37.1, r: 3 },
 ];
 
 type IntroProps = {
