@@ -35,10 +35,9 @@ export default function HomePage() {
             Manifesto
           </button>
           <p className="site-note">
-            Vestige is a non-commercial archive. Every image is used under the licence stated on its entry, and every
-            piece cites its sources, which are open for review. The archive presents traces and their references for
-            reflection and research, not as proof of a single cause. For corrections or a rights request, contact the
-            archive directly.
+            VSTG is a non-commercial archive. Every image is used under the licence stated on its entry, and every
+            piece cites its sources, which are open for review. The archive presents vestiges and their references for
+            reflection and research, not as proof of a single cause.
           </p>
         </div>
       )}
