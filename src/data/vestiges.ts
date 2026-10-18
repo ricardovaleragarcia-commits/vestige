@@ -13,6 +13,7 @@ export type Vestige = {
   link: string; // where to read more
   license: string; // reuse conditions for the image
   status: string; // working state, not shown on the site
+  level: "documented" | "hypothesis" | "pending"; // documented: facts sourced. hypothesis: a labelled reading. pending: not yet researched
 };
 
 export const VESTIGES: Vestige[] = [
@@ -27,6 +28,7 @@ export const VESTIGES: Vestige[] = [
     "link": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
     "license": "pendiente: verificar licencia de la imagen",
     "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
     "image": "/vestigios/vstg-0001.png"
   },
   {
@@ -40,6 +42,7 @@ export const VESTIGES: Vestige[] = [
     "link": "https://en.wikipedia.org/wiki/Monument_to_the_Third_International",
     "license": "pendiente: verificar licencia de la imagen",
     "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
     "image": "/vestigios/vstg-0002.png"
   },
   {
@@ -53,6 +56,7 @@ export const VESTIGES: Vestige[] = [
     "link": "https://en.wikipedia.org/wiki/Plan_Voisin",
     "license": "pendiente: verificar licencia de la imagen",
     "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
     "image": "/vestigios/vstg-0003.png"
   },
   {
@@ -66,6 +70,7 @@ export const VESTIGES: Vestige[] = [
     "link": "https://en.wikipedia.org/wiki/Adolf_Hitler",
     "license": "pendiente: verificar licencia de la imagen",
     "status": "Borrador: falta verificar fuente, imagen y encuadre",
+    "level": "pending",
     "image": "/vestigios/vstg-0004.png"
   },
   {
@@ -79,6 +84,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0005.png"
   },
   {
@@ -92,6 +98,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0006.png"
   },
   {
@@ -105,6 +112,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0007.png"
   },
   {
@@ -118,6 +126,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0008.png"
   },
   {
@@ -131,6 +140,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0009.png"
   },
   {
@@ -144,6 +154,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0010.png"
   },
   {
@@ -157,6 +168,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0011.png"
   },
   {
@@ -170,6 +182,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0012.png"
   },
   {
@@ -183,6 +196,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0013.png"
   },
   {
@@ -196,6 +210,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0014.png"
   },
   {
@@ -209,6 +224,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0015.png"
   },
   {
@@ -222,6 +238,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0016.png"
   },
   {
@@ -235,6 +252,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0017.png"
   },
   {
@@ -248,6 +266,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0018.png"
   },
   {
@@ -261,6 +280,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0019.png"
   },
   {
@@ -274,6 +294,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0020.png"
   },
   {
@@ -287,6 +308,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0021.png"
   },
   {
@@ -300,6 +322,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0022.png"
   },
   {
@@ -313,6 +336,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0023.png"
   },
   {
@@ -326,6 +350,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0024.png"
   },
   {
@@ -339,6 +364,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0025.png"
   },
   {
@@ -352,6 +378,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0026.png"
   },
   {
@@ -365,6 +392,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0027.png"
   },
   {
@@ -378,6 +406,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0028.png"
   },
   {
@@ -391,6 +420,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0029.png"
   },
   {
@@ -404,6 +434,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0030.png"
   },
   {
@@ -417,6 +448,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0031.png"
   },
   {
@@ -430,6 +462,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0032.png"
   },
   {
@@ -443,6 +476,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0033.png"
   },
   {
@@ -456,6 +490,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0034.png"
   },
   {
@@ -469,6 +504,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0035.png"
   },
   {
@@ -482,6 +518,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0036.png"
   },
   {
@@ -495,6 +532,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0037.png"
   },
   {
@@ -508,6 +546,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0038.png"
   },
   {
@@ -521,6 +560,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0039.png"
   },
   {
@@ -534,6 +574,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0040.png"
   },
   {
@@ -547,6 +588,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0041.png"
   },
   {
@@ -560,6 +602,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0042.png"
   },
   {
@@ -573,6 +616,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0043.png"
   },
   {
@@ -586,6 +630,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0044.png"
   },
   {
@@ -599,6 +644,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0045.png"
   },
   {
@@ -612,6 +658,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0046.png"
   },
   {
@@ -625,6 +672,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0047.png"
   },
   {
@@ -638,6 +686,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0048.png"
   },
   {
@@ -651,6 +700,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0049.png"
   },
   {
@@ -664,6 +714,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0050.png"
   },
   {
@@ -677,6 +728,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0051.png"
   },
   {
@@ -690,6 +742,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0052.png"
   },
   {
@@ -703,6 +756,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0053.png"
   },
   {
@@ -716,6 +770,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0054.png"
   },
   {
@@ -729,6 +784,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0055.png"
   },
   {
@@ -742,6 +798,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0056.png"
   },
   {
@@ -755,6 +812,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0057.png"
   },
   {
@@ -768,6 +826,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0058.png"
   },
   {
@@ -781,6 +840,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0059.png"
   },
   {
@@ -794,6 +854,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0060.png"
   },
   {
@@ -807,6 +868,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0061.png"
   },
   {
@@ -820,6 +882,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0062.png"
   },
   {
@@ -833,6 +896,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0063.png"
   },
   {
@@ -846,6 +910,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0064.png"
   },
   {
@@ -859,6 +924,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0065.png"
   },
   {
@@ -872,6 +938,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0066.png"
   },
   {
@@ -885,6 +952,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0067.png"
   },
   {
@@ -898,6 +966,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0068.png"
   },
   {
@@ -911,6 +980,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0069.png"
   },
   {
@@ -924,6 +994,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0070.png"
   },
   {
@@ -937,6 +1008,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0071.png"
   },
   {
@@ -950,6 +1022,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0072.png"
   },
   {
@@ -963,6 +1036,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0073.png"
   },
   {
@@ -976,6 +1050,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0074.png"
   },
   {
@@ -989,6 +1064,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0075.png"
   },
   {
@@ -1002,6 +1078,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0076.png"
   },
   {
@@ -1015,6 +1092,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0077.png"
   },
   {
@@ -1028,6 +1106,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0078.png"
   },
   {
@@ -1041,6 +1120,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0079.png"
   },
   {
@@ -1054,6 +1134,7 @@ export const VESTIGES: Vestige[] = [
     "link": "",
     "license": "Pendiente.",
     "status": "Pendiente",
+    "level": "pending",
     "image": "/vestigios/vstg-0080.png"
   },
   {
@@ -1066,7 +1147,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0082",
@@ -1078,7 +1160,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0083",
@@ -1090,7 +1173,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0084",
@@ -1102,7 +1186,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0085",
@@ -1114,7 +1199,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0086",
@@ -1126,7 +1212,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0087",
@@ -1138,7 +1225,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0088",
@@ -1150,7 +1238,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0089",
@@ -1162,7 +1251,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0090",
@@ -1174,7 +1264,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0091",
@@ -1186,7 +1277,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0092",
@@ -1198,7 +1290,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0093",
@@ -1210,7 +1303,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0094",
@@ -1222,7 +1316,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0095",
@@ -1234,7 +1329,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0096",
@@ -1246,7 +1342,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0097",
@@ -1258,7 +1355,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0098",
@@ -1270,7 +1368,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0099",
@@ -1282,7 +1381,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0100",
@@ -1294,7 +1394,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0101",
@@ -1306,7 +1407,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0102",
@@ -1318,7 +1420,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0103",
@@ -1330,7 +1433,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0104",
@@ -1342,7 +1446,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0105",
@@ -1354,7 +1459,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0106",
@@ -1366,7 +1472,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0107",
@@ -1378,7 +1485,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0108",
@@ -1390,7 +1498,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0109",
@@ -1402,7 +1511,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0110",
@@ -1414,7 +1524,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0111",
@@ -1426,7 +1537,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0112",
@@ -1438,7 +1550,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0113",
@@ -1450,7 +1563,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0114",
@@ -1462,7 +1576,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0115",
@@ -1474,7 +1589,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0116",
@@ -1486,7 +1602,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0117",
@@ -1498,7 +1615,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0118",
@@ -1510,7 +1628,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0119",
@@ -1522,7 +1641,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0120",
@@ -1534,7 +1654,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0121",
@@ -1546,7 +1667,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0122",
@@ -1558,7 +1680,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0123",
@@ -1570,7 +1693,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0124",
@@ -1582,7 +1706,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0125",
@@ -1594,7 +1719,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0126",
@@ -1606,7 +1732,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0127",
@@ -1618,7 +1745,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0128",
@@ -1630,7 +1758,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0129",
@@ -1642,7 +1771,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0130",
@@ -1654,7 +1784,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0131",
@@ -1666,7 +1797,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0132",
@@ -1678,7 +1810,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0133",
@@ -1690,7 +1823,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0134",
@@ -1702,7 +1836,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0135",
@@ -1714,7 +1849,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0136",
@@ -1726,7 +1862,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0137",
@@ -1738,7 +1875,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0138",
@@ -1750,7 +1888,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0139",
@@ -1762,7 +1901,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0140",
@@ -1774,7 +1914,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0141",
@@ -1786,7 +1927,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0142",
@@ -1798,7 +1940,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0143",
@@ -1810,7 +1953,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0144",
@@ -1822,7 +1966,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0145",
@@ -1834,7 +1979,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0146",
@@ -1846,7 +1992,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0147",
@@ -1858,7 +2005,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0148",
@@ -1870,7 +2018,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0149",
@@ -1882,7 +2031,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0150",
@@ -1894,7 +2044,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0151",
@@ -1906,7 +2057,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0152",
@@ -1918,7 +2070,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0153",
@@ -1930,7 +2083,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0154",
@@ -1942,7 +2096,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0155",
@@ -1954,7 +2109,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0156",
@@ -1966,7 +2122,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0157",
@@ -1978,7 +2135,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0158",
@@ -1990,7 +2148,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0159",
@@ -2002,7 +2161,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0160",
@@ -2014,7 +2174,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0161",
@@ -2026,7 +2187,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0162",
@@ -2038,7 +2200,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0163",
@@ -2050,7 +2213,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0164",
@@ -2062,7 +2226,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0165",
@@ -2074,7 +2239,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0166",
@@ -2086,7 +2252,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0167",
@@ -2098,7 +2265,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0168",
@@ -2110,7 +2278,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0169",
@@ -2122,7 +2291,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0170",
@@ -2134,7 +2304,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0171",
@@ -2146,7 +2317,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0172",
@@ -2158,7 +2330,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0173",
@@ -2170,7 +2343,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0174",
@@ -2182,7 +2356,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0175",
@@ -2194,7 +2369,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0176",
@@ -2206,7 +2382,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0177",
@@ -2218,7 +2395,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0178",
@@ -2230,7 +2408,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0179",
@@ -2242,7 +2421,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0180",
@@ -2254,7 +2434,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0181",
@@ -2266,7 +2447,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0182",
@@ -2278,7 +2460,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0183",
@@ -2290,7 +2473,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0184",
@@ -2302,7 +2486,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0185",
@@ -2314,7 +2499,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0186",
@@ -2326,7 +2512,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0187",
@@ -2338,7 +2525,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0188",
@@ -2350,7 +2538,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0189",
@@ -2362,7 +2551,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0190",
@@ -2374,7 +2564,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0191",
@@ -2386,7 +2577,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0192",
@@ -2398,7 +2590,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0193",
@@ -2410,7 +2603,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0194",
@@ -2422,7 +2616,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0195",
@@ -2434,7 +2629,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0196",
@@ -2446,7 +2642,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0197",
@@ -2458,7 +2655,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0198",
@@ -2470,7 +2668,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0199",
@@ -2482,7 +2681,8 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
   {
     "code": "vstg-0200",
@@ -2494,6 +2694,7 @@ export const VESTIGES: Vestige[] = [
     "source": "Pendiente.",
     "link": "",
     "license": "Pendiente.",
-    "status": "Pendiente"
+    "status": "Pendiente",
+    "level": "pending"
   },
 ];

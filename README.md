@@ -29,6 +29,16 @@ Every push to `main` builds the site and publishes it, through `.github/workflow
 
 One-time setup: in the repository, go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
 
+## Admin page
+The archive can be edited from the browser at `/vestige/admin/`.
+
+1. On GitHub, go to **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+2. Under **Repository access**, choose only `vestige`.
+3. Under **Permissions**, set **Contents** to *Read and write*.
+4. Paste the token in the admin page and press **Load archive**.
+
+Each save is a commit to `main`. GitHub Pages then rebuilds the site.
+
 ## Running locally
 ```bash
 npm install
