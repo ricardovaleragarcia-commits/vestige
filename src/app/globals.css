@@ -669,3 +669,45 @@ button:disabled {
 .edge-top.is-hidden {
   opacity: 0;
 }
+
+/* Signature at the end of the manifesto: the voice, then the brandmark. */
+.manifesto-paper__sign {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.manifesto-paper__name {
+  text-indent: 0;
+  margin: 0 0 1.2rem;
+}
+
+.manifesto-paper__brandmark {
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  height: auto;
+}
+
+/* Closing the manifesto: the reverse of the opening. */
+.manifesto-screen.is-closing {
+  animation: dissolve-to-white 0.9s ease both;
+}
+
+.manifesto-screen.is-closing .manifesto-paper {
+  animation: paper-out 0.6s ease both;
+}
+
+.manifesto-screen.is-closing .manifesto-screen__close {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+@keyframes dissolve-to-white {
+  from { background: #000; }
+  to { background: #fff; }
+}
+
+@keyframes paper-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(14px); }
+}

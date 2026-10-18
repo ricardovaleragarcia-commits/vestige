@@ -29,7 +29,7 @@ export default function Intro({ onReveal, hidden }: IntroProps) {
       <h1 className="masthead__title">
         <img className="masthead__logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.svg`} alt="Vestige" />
       </h1>
-      <p className="masthead__tagline">Digital Archive of Vestiges from Failed Futures</p>
+      <p className="masthead__tagline">Digital Archive of Traces from Failed Futures</p>
       <p className="masthead__phrase" aria-hidden="true">
         {PHRASE.map((line) => (
           <span key={line}>{line}</span>

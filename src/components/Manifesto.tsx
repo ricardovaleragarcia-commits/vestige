@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 const PARAGRAPHS = [
   "Vestige is a digital archive of the traces left by futures that never happened. It is built on a simple proposition: the paths a society did not take are as much a part of its history as the ones it did, and they remain present in ways that are often overlooked.",
 
@@ -23,9 +25,18 @@ const PARAGRAPHS = [
 ];
 
 export default function Manifesto({ onClose }: { onClose: () => void }) {
+  const [closing, setClosing] = useState(false);
+
+  // The sheet fades and the screen dissolves back to white, then the manifesto is removed.
+  function close() {
+    if (closing) return;
+    setClosing(true);
+    window.setTimeout(onClose, 900);
+  }
+
   return (
-    <section className="manifesto-screen" role="dialog" aria-modal="true" aria-label="Manifesto">
-      <button type="button" className="manifesto-screen__close" onClick={onClose}>
+    <section className={`manifesto-screen${closing ? " is-closing" : ""}`} role="dialog" aria-modal="true" aria-label="Manifesto">
+      <button type="button" className="manifesto-screen__close" onClick={close}>
         Close
       </button>
       <article className="manifesto-paper">
@@ -37,6 +48,14 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
         {PARAGRAPHS.map((paragraph, i) => (
           <p key={i}>{paragraph}</p>
         ))}
+        <div className="manifesto-paper__sign">
+          <p className="manifesto-paper__name">— Ricardo</p>
+          <img
+            className="manifesto-paper__brandmark"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/brandmark.svg`}
+            alt="VSTG"
+          />
+        </div>
       </article>
     </section>
   );
