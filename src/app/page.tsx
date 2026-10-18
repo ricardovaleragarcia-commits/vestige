@@ -39,6 +39,15 @@ export default function HomePage() {
         </button>
       )}
 
+      {!overlayOpen && (
+        <p className={`site-note${revealed ? " is-visible" : ""}`}>
+          Vestige is a non-commercial archive. Every image is used under the licence stated on its entry, and every
+          piece cites its sources, which are open for review. The archive presents traces and their references for
+          reflection and research, not as proof of a single cause. For corrections or a rights request, contact the
+          archive directly.
+        </p>
+      )}
+
       {focused && (
         <button type="button" className="close-button" onClick={closeFocus}>
           Close
