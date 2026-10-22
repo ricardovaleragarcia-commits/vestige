@@ -1,0 +1,54 @@
+[
+  {
+    "code": "vstg-0001",
+    "year": 1963,
+    "name": "Project Orion, 1958–1965",
+    "description": "Study drawings of a spacecraft propelled by small nuclear explosions, developed by General Atomics.",
+    "failedFuture": "A future in which people crossed the solar system on nuclear pulses. The 1963 Partial Test Ban Treaty ended the project. What remains are drawings, a test model, and a book that asks what we chose to leave behind.",
+    "source": "Dyson, G. (2002). Project Orion: The True Story of the Atomic Spaceship. Henry Holt and Company. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
+    "image": "/vestigios/vstg-0001.png"
+  },
+  {
+    "code": "vstg-0002",
+    "year": null,
+    "name": "Monumento a la Tercera Internacional, 1919–1920",
+    "description": "Model of a leaning spiral of iron and glass designed by Vladimir Tatlin for Petrograd.",
+    "failedFuture": "A tower meant to house the new institutions of the revolution. It was never built. Its spiral still appears as a symbol of an arrival that did not come.",
+    "source": "Lodder, C. (1983). Russian Constructivism. Yale University Press. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Monument_to_the_Third_International",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
+    "image": "/vestigios/vstg-0002.png"
+  },
+  {
+    "code": "vstg-0003",
+    "year": null,
+    "name": "Plan Voisin de Paris, 1925",
+    "description": "Le Corbusier's proposal for central Paris: old streets replaced by cruciform glass towers set in parkland.",
+    "failedFuture": "A city that would have traded its streets for towers and gardens. It was never built, yet it still shapes the debate about how cities should be renewed.",
+    "source": "Le Corbusier (1925). Urbanisme. Paris: Éditions Crès. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Plan_Voisin",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente e imagen",
+    "level": "pending",
+    "image": "/vestigios/vstg-0003.png"
+  },
+  {
+    "code": "vstg-0004",
+    "year": null,
+    "name": "Solicitudes a la Academia de Bellas Artes de Viena, 1907–1908",
+    "description": "Adolf Hitler applied twice to the Academy of Fine Arts Vienna. Both applications were rejected.",
+    "failedFuture": "A path as a painter that closed in 1907 and again in 1908. What followed did not depend on that rejection alone. Historians debate how much weight a single turning point carries, and warn against reading history as a chain of single causes. The archive keeps the rejection as one thread among many.",
+    "source": "Kershaw, I. (1998). Hitler: 1889–1936: Hubris. W. W. Norton & Company. [pendiente: verificar]",
+    "link": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "license": "pendiente: verificar licencia de la imagen",
+    "status": "Borrador: falta verificar fuente, imagen y encuadre",
+    "level": "pending",
+    "image": "/vestigios/vstg-0004.png"
+  }
+]
