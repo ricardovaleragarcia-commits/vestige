@@ -133,8 +133,8 @@ let SEED = 0x5eed;
 // ---- The content: the archive, reused by every repetition ----
 
 // [VSTG.YYYY] when the year is known; [VSTG.NA] when it is not.
-function displayCode(v: { year: number | null }): string {
-  return v.year ? `vstg.${v.year}` : "vstg.NA";
+function displayCode(v: { year: number | null; suffix?: string }): string {
+  return v.year ? `vstg.${v.year}${v.suffix ?? ""}` : "vstg.NA";
 }
 
 type Content = {

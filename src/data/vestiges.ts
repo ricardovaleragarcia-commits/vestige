@@ -4,6 +4,7 @@
 
 export type Vestige = {
   code: string; // internal position, used for file names: vstg-0001
+  suffix?: string; // letter when two vestiges share a year: vstg.1922a, vstg.1922b
   year: number | null; // year the future failed. Shown as [VSTG.YYYY], or [VSTG.NA] when not confirmed
   name: string;
   image: string; // path under /public/vestigios/

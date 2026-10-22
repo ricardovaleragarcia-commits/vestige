@@ -12,6 +12,7 @@ export type Level = "documented" | "hypothesis" | "pending";
 export type Entry = {
   code: string;
   year: number | null;
+  suffix?: string; // letter when two vestiges share a year: vstg.1922a
   name: string;
   image: string;
   description: string;
