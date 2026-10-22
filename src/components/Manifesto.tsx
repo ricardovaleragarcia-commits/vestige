@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const PARAGRAPHS = [
   "Vestige is a digital archive of the traces left by futures that never happened. It is built on a simple proposition: the paths a society did not take are as much a part of its history as the ones it did, and they remain present in ways that are often overlooked.",
@@ -26,8 +26,39 @@ const PARAGRAPHS = [
 
 export default function Manifesto({ onClose }: { onClose: () => void }) {
   const [closing, setClosing] = useState(false);
+  const screenRef = useRef<HTMLElement>(null);
 
-  // The sheet fades and the screen dissolves back to white, then the manifesto is removed.
+  // Each paragraph starts almost invisible and brightens as it scrolls up into the middle of the screen.
+  useEffect(() => {
+    const screen = screenRef.current;
+    if (!screen) return;
+    const items = Array.from(screen.querySelectorAll<HTMLElement>("[data-reveal]"));
+    let frame = 0;
+
+    function update() {
+      frame = 0;
+      const vh = screen!.clientHeight;
+      for (const el of items) {
+        const top = el.getBoundingClientRect().top;
+        const progress = Math.min(1, Math.max(0, (vh * 0.85 - top) / (vh * 0.5)));
+        el.style.opacity = String(0.1 + 0.9 * progress);
+      }
+    }
+    function onScroll() {
+      if (!frame) frame = requestAnimationFrame(update);
+    }
+
+    update();
+    screen.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      screen.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  // The screen dissolves back to white, then the manifesto is removed.
   function close() {
     if (closing) return;
     setClosing(true);
@@ -35,23 +66,27 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
   }
 
   return (
-    <section className={`manifesto-screen${closing ? " is-closing" : ""}`} role="dialog" aria-modal="true" aria-label="Manifesto">
+    <section
+      ref={screenRef}
+      className={`manifesto-screen${closing ? " is-closing" : ""}`}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Manifesto"
+    >
       <button type="button" className="manifesto-screen__close" onClick={close}>
         Close
       </button>
-      <article className="manifesto-paper">
-        <span className="manifesto-paper__hole manifesto-paper__hole--tl" aria-hidden="true" />
-        <span className="manifesto-paper__hole manifesto-paper__hole--tr" aria-hidden="true" />
-        <span className="manifesto-paper__hole manifesto-paper__hole--bl" aria-hidden="true" />
-        <span className="manifesto-paper__hole manifesto-paper__hole--br" aria-hidden="true" />
-        <p className="manifesto-paper__tag">[manif.]</p>
+      <article className="manifesto-text">
+        <p className="manifesto-text__tag">[manif.]</p>
         {PARAGRAPHS.map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
+          <p key={i} data-reveal>
+            {paragraph}
+          </p>
         ))}
-        <div className="manifesto-paper__sign">
-          <p className="manifesto-paper__name">— Ricardo</p>
+        <div className="manifesto-text__sign" data-reveal>
+          <p className="manifesto-text__name">— Ricardo</p>
           <img
-            className="manifesto-paper__brandmark"
+            className="manifesto-text__brandmark"
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/brandmark.svg`}
             alt="VSTG"
           />

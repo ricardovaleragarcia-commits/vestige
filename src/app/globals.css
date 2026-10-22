@@ -540,17 +540,15 @@ button:disabled {
   transition: opacity 0.8s ease;
 }
 
-/* Manifesto: the screen dissolves from white to black, and a sheet of paper appears on it. */
+/* Manifesto: a black screen. The text appears in white as the reader scrolls down into it. */
 .manifesto-screen {
   position: fixed;
   inset: 0;
   z-index: 5;
   overflow-y: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 5rem 1rem 3rem;
+  padding: 6rem 12px 60vh;
   background: #000;
+  color: #fff;
   animation: dissolve-to-black 0.9s ease both;
 }
 
@@ -559,11 +557,12 @@ button:disabled {
   to { background: #000; }
 }
 
+/* Close sits halfway between the top of the screen and the first line of the text. */
 .manifesto-screen__close {
   position: fixed;
-  top: 1rem;
+  top: 3rem;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: 6;
   border: none;
   color: #fff;
@@ -574,56 +573,38 @@ button:disabled {
 
 .manifesto-screen__close:hover {
   background: none;
-  color: #fff;
-  text-decoration: underline;
+  color: #aaa;
+  text-decoration: none;
 }
 
-.manifesto-paper {
-  position: relative;
-  width: min(32rem, 88vw);
-  margin: 0 auto;
-  background: #fff;
-  color: #000;
-  padding: 2.5rem 2.5rem 3rem;
-  font-size: 0.7rem;
-  line-height: 1.7;
-  text-align: justify;
+.manifesto-text {
+  width: 100%;
+  margin: 0;
+}
+
+.manifesto-text__tag {
+  margin: 0 0 3rem;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  text-align: left;
+  animation: tag-in 1.2s ease 1s both;
+}
+
+@keyframes tag-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Each paragraph is large, and its opacity is set on scroll (see Manifesto.tsx). */
+.manifesto-text p {
+  margin: 0 0 2.2rem;
+  font-size: clamp(1.1rem, 2.6vw, 2.4rem);
+  line-height: 1.3;
+  text-align: left;
   hyphens: auto;
-  animation: paper-in 0.9s ease 0.5s both;
+  opacity: 0.1;
+  transition: opacity 0.2s linear;
 }
 
-@keyframes paper-in {
-  from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.manifesto-paper__tag {
-  text-align: center;
-  margin: 0 0 2.5rem;
-}
-
-.manifesto-paper p {
-  margin: 0 0 1rem;
-  text-indent: 2.5em;
-}
-
-.manifesto-paper p:first-of-type {
-  text-indent: 0;
-}
-
-/* Four punched holes in the corners of the manifesto sheet. */
-.manifesto-paper__hole {
-  position: absolute;
-  width: 1.4rem;
-  height: 1.4rem;
-  border-radius: 50%;
-  background: #000;
-}
-
-.manifesto-paper__hole--tl { top: 1.1rem; left: 1.1rem; }
-.manifesto-paper__hole--tr { top: 1.1rem; right: 1.1rem; }
-.manifesto-paper__hole--bl { bottom: 1.1rem; left: 1.1rem; }
-.manifesto-paper__hole--br { bottom: 1.1rem; right: 1.1rem; }
 
 /* Note at the foot of the screen: licences, sources and review. */
 .site-note {
@@ -687,21 +668,21 @@ button:disabled {
 }
 
 /* Signature at the end of the manifesto: the voice, then the brandmark. */
-.manifesto-paper__sign {
-  margin-top: 2.5rem;
-  text-align: center;
+.manifesto-text__sign {
+  margin-top: 4rem;
+  text-align: left;
 }
 
-.manifesto-paper__name {
-  text-indent: 0;
+.manifesto-text__name {
   margin: 0 0 1.2rem;
+  font-size: clamp(1.1rem, 2.6vw, 2.4rem);
 }
 
-.manifesto-paper__brandmark {
+.manifesto-text__brandmark {
   display: block;
-  margin: 0 auto;
   width: 4rem;
   height: auto;
+  filter: invert(1);
 }
 
 /* Closing the manifesto: the reverse of the opening. */
@@ -709,8 +690,9 @@ button:disabled {
   animation: dissolve-to-white 0.9s ease both;
 }
 
-.manifesto-screen.is-closing .manifesto-paper {
-  animation: paper-out 0.6s ease both;
+.manifesto-screen.is-closing .manifesto-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .manifesto-screen.is-closing .manifesto-screen__close {
@@ -721,11 +703,6 @@ button:disabled {
 @keyframes dissolve-to-white {
   from { background: #000; }
   to { background: #fff; }
-}
-
-@keyframes paper-out {
-  from { opacity: 1; transform: translateY(0); }
-  to { opacity: 0; transform: translateY(14px); }
 }
 
 /* Digits do not have small capitals, so they are set slightly smaller to match them. */
