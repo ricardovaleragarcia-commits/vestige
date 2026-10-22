@@ -9,7 +9,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ## Decisiones que hay que confirmar
 
-1. **Código público.** Se usa `vstg.AAAA` (año), con punto, como se propuso: por ejemplo `vstg.1920`. Cuando dos o más vestigios comparten año se añade una letra (`vstg.1922a`, `vstg.1922b`). La letra es el sufijo `suffix` del JSON. En esta categoría hay 7 años con colisión, que afectan a 17 vestigios. El código de la web (`displayCode` en `src/lib/demo-collection.ts`) ya usa `vstg.${year}`; solo hay que añadir el sufijo: `vstg.${year}${suffix}`. Esto no está hecho todavía.
+1. **Código público.** Se usa `vstg.AAAA` (año), con punto, como se propuso: por ejemplo `vstg.1920`. Cuando dos o más vestigios comparten año se añade una letra (`vstg.1922.a`, `vstg.1922.b`). La letra es el sufijo `suffix` del JSON. En esta categoría hay 7 años con colisión, que afectan a 17 vestigios. El código de la web (`displayCode` en `src/lib/demo-collection.ts`) ya usa `vstg.${year}`; solo hay que añadir el sufijo: `vstg.${year}.${suffix}`. Esto no está hecho todavía.
 2. **Año NA.** Solo el Palacio de los Soviets queda con `vstg.NA`, porque su año de fracaso no está confirmado.
 3. **Tatlin.** Cambié su año a 1920 (año del modelo) en lugar de NA. Confírmalo.
 4. **Identificador interno.** `vstg-0001` … `vstg-0040` sigue siendo el ID de inventario. No se muestra en la web.
@@ -48,7 +48,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1925a — Plan Voisin de Paris, 1925
+## vstg.1925.a — Plan Voisin de Paris, 1925
 
 **Código ID:** vstg-0002  ·  **Nivel:** documented  ·  **Estado:** Investigada. Cifras de torres (18 o 20) y altura por contrastar.
 
@@ -100,7 +100,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1958d — Plan for Greater Baghdad, 1957–1958
+## vstg.1958.d — Plan for Greater Baghdad, 1957–1958
 
 **Código ID:** vstg-0004  ·  **Nivel:** documented  ·  **Estado:** Investigada. Corregido: se quitó del texto público la afirmación sobre el uso de la isla por la seguridad de Sadam Husein (no verificada). Pendiente: reutilización de la ópera en Arizona.
 
@@ -334,7 +334,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1922a — Ville Contemporaine
+## vstg.1922.a — Ville Contemporaine
 
 **Código ID:** vstg-0013  ·  **Nivel:** documented  ·  **Estado:** Investigada. Cifra de tres millones de habitantes confirmada en Wikipedia; falta fuente primaria.
 
@@ -360,7 +360,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1922b — Chicago Tribune Tower competition entry
+## vstg.1922.b — Chicago Tribune Tower competition entry
 
 **Código ID:** vstg-0014  ·  **Nivel:** documented  ·  **Estado:** Investigada. Participación confirmada en Wikipedia. Falta el número del concurso y la fuente primaria.
 
@@ -412,7 +412,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1924a — High-Rise City (Hochhausstadt)
+## vstg.1924.a — High-Rise City (Hochhausstadt)
 
 **Código ID:** vstg-0016  ·  **Nivel:** documented  ·  **Estado:** Investigada. Obra en el Art Institute of Chicago confirmada.
 
@@ -438,7 +438,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1924b — Gordon Strong Automobile Objective
+## vstg.1924.b — Gordon Strong Automobile Objective
 
 **Código ID:** vstg-0017  ·  **Nivel:** documented  ·  **Estado:** Investigada con fuente secundaria. Año 1924 y ubicación por confirmar en la Frank Lloyd Wright Foundation.
 
@@ -464,7 +464,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1925b — Wolkenbügel (Cloud Iron)
+## vstg.1925.b — Wolkenbügel (Cloud Iron)
 
 **Código ID:** vstg-0018  ·  **Nivel:** documented  ·  **Estado:** Investigada con fuente secundaria (conferencia y libro de Anderson). Fecha 1924–1925 por confirmar.
 
@@ -672,7 +672,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1958a — Marine City
+## vstg.1958.a — Marine City
 
 **Código ID:** vstg-0026  ·  **Nivel:** documented  ·  **Estado:** Investigada con fuente secundaria. Año 1958 y características por confirmar en fuente primaria.
 
@@ -698,7 +698,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1958b — Spatial City
+## vstg.1958.b — Spatial City
 
 **Código ID:** vstg-0027  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del MoMA confirmada. Fechas 1958–1960 por confirmar en el archivo de Friedman.
 
@@ -724,7 +724,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1958c — Hauptstadt Berlin ideas competition
+## vstg.1958.c — Hauptstadt Berlin ideas competition
 
 **Código ID:** vstg-0028  ·  **Nivel:** documented  ·  **Estado:** Investigada con la colección de la Berlinische Galerie. Ganadores y autores por confirmar.
 
@@ -750,7 +750,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1959a — New Babylon
+## vstg.1959.a — New Babylon
 
 **Código ID:** vstg-0029  ·  **Nivel:** documented  ·  **Estado:** Investigada. Periodo 1959–1974 confirmado en Wikipedia. Falta la fuente del archivo Constant.
 
@@ -776,7 +776,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1959b — Endless House
+## vstg.1959.b — Endless House
 
 **Código ID:** vstg-0030  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del Whitney y del MoMA consultadas. Fechas 1947–1960 por confirmar.
 
@@ -854,7 +854,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1964a — Plug-In City
+## vstg.1964.a — Plug-In City
 
 **Código ID:** vstg-0033  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del MoMA confirmada. Año 1964 confirmado en la ficha.
 
@@ -880,7 +880,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1964b — Walking City
+## vstg.1964.b — Walking City
 
 **Código ID:** vstg-0034  ·  **Nivel:** documented  ·  **Estado:** Investigada. Fechas 1964–1966 confirmadas en Wikipedia.
 
@@ -906,7 +906,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1964c — Aircraft Carrier City in Landscape
+## vstg.1964.c — Aircraft Carrier City in Landscape
 
 **Código ID:** vstg-0035  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del MoMA confirmada.
 
@@ -958,7 +958,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1969a — No-Stop City
+## vstg.1969.a — No-Stop City
 
 **Código ID:** vstg-0037  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del MoMA confirmada. Año 1969 por confirmar (el proyecto se desarrolló entre 1968 y 1972).
 
@@ -984,7 +984,7 @@ Este documento sirve a dos publicaciones con el mismo contenido:
 
 ---
 
-## vstg.1969b — Continuous Monument
+## vstg.1969.b — Continuous Monument
 
 **Código ID:** vstg-0038  ·  **Nivel:** documented  ·  **Estado:** Investigada. Ficha del MoMA confirmada. Año 1969 aceptado como fecha de referencia.
 
