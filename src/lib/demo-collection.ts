@@ -134,7 +134,7 @@ let SEED = 0x5eed;
 
 // [VSTG.YYYY] when the year is known; [VSTG.NA] when it is not.
 function displayCode(v: { year: number | null; suffix?: string }): string {
-  return v.year ? `vstg.${v.year}${v.suffix ?? ""}` : "vstg.NA";
+  return v.year ? `vstg.${v.year}${v.suffix ? "." + v.suffix : ""}` : "vstg.NA";
 }
 
 type Content = {
