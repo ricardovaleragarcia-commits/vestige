@@ -546,7 +546,7 @@ button:disabled {
   inset: 0;
   z-index: 5;
   overflow-y: auto;
-  padding: 6rem 12px 60vh;
+  padding: 6rem 20px 60vh;
   background: #000;
   color: #fff;
   animation: dissolve-to-black 0.9s ease both;
@@ -566,7 +566,8 @@ button:disabled {
   z-index: 6;
   border: none;
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: normal;
   padding: 0.1rem 0.35rem;
   background: none;
 }
@@ -582,27 +583,28 @@ button:disabled {
   margin: 0;
 }
 
-.manifesto-text__tag {
-  margin: 0 0 3rem;
-  font-size: clamp(1rem, 2vw, 1.4rem);
-  text-align: left;
-  animation: tag-in 1.2s ease 1s both;
-}
-
-@keyframes tag-in {
-  from { opacity: 0; }
   to { opacity: 1; }
 }
 
 /* Each paragraph is large, and its opacity is set on scroll (see Manifesto.tsx). */
-.manifesto-text p {
-  margin: 0 0 2.2rem;
-  font-size: clamp(1.1rem, 2.6vw, 2.4rem);
+/* Each line is revealed on scroll (see Manifesto.tsx). Lines are justified; the last line of a paragraph is not. */
+.manifesto-line {
+  display: block;
+  font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
   line-height: 1.3;
-  text-align: left;
+  text-align: justify;
+  text-align-last: justify;
   hyphens: auto;
   opacity: 0.1;
   transition: opacity 0.2s linear;
+}
+
+.manifesto-line.is-last {
+  text-align-last: left;
+}
+
+.manifesto-paragraph {
+  margin: 0 0 2.2rem;
 }
 
 
@@ -670,16 +672,20 @@ button:disabled {
 /* Signature at the end of the manifesto: the voice, then the brandmark. */
 .manifesto-text__sign {
   margin-top: 4rem;
-  text-align: left;
+  text-align: center;
+  color: #fff;
+  opacity: 0.1;
+  transition: opacity 0.2s linear;
 }
 
 .manifesto-text__name {
   margin: 0 0 1.2rem;
-  font-size: clamp(1.1rem, 2.6vw, 2.4rem);
+  font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
 }
 
 .manifesto-text__brandmark {
   display: block;
+  margin: 0 auto;
   width: 4rem;
   height: auto;
   filter: invert(1);

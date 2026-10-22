@@ -24,36 +24,76 @@ const PARAGRAPHS = [
   "Explore freely. Each piece is blurred until you look at it, because a trace asks for attention before it gives up its meaning.",
 ];
 
+// Splits a paragraph into the lines the browser lays out, so each line can be revealed on its own.
+function buildLines(p: HTMLElement, text: string) {
+  p.replaceChildren();
+  const words = text.split(" ").map((word) => {
+    const span = document.createElement("span");
+    span.textContent = `${word} `;
+    p.appendChild(span);
+    return span;
+  });
+  const rows: HTMLElement[][] = [];
+  let lastTop = Number.NaN;
+  for (const word of words) {
+    const top = Math.round(word.getBoundingClientRect().top);
+    if (Number.isNaN(lastTop) || Math.abs(top - lastTop) > 2) {
+      rows.push([]);
+      lastTop = top;
+    }
+    rows[rows.length - 1].push(word);
+  }
+  p.replaceChildren();
+  rows.forEach((row, i) => {
+    const line = document.createElement("span");
+    line.className = i === rows.length - 1 ? "manifesto-line is-last" : "manifesto-line";
+    line.append(...row);
+    p.appendChild(line);
+  });
+}
+
 export default function Manifesto({ onClose }: { onClose: () => void }) {
   const [closing, setClosing] = useState(false);
   const screenRef = useRef<HTMLElement>(null);
 
-  // Each paragraph starts almost invisible and brightens as it scrolls up into the middle of the screen.
+  // Lines are built from the text, then each line brightens as it scrolls up into the middle of the screen.
   useEffect(() => {
     const screen = screenRef.current;
     if (!screen) return;
-    const items = Array.from(screen.querySelectorAll<HTMLElement>("[data-reveal]"));
     let frame = 0;
+
+    function layout() {
+      frame = 0;
+      screen!.querySelectorAll<HTMLElement>("[data-paragraph]").forEach((el) => {
+        buildLines(el, PARAGRAPHS[Number(el.dataset.paragraph)]);
+      });
+      update();
+    }
 
     function update() {
       frame = 0;
       const vh = screen!.clientHeight;
-      for (const el of items) {
+      screen!.querySelectorAll<HTMLElement>("[data-reveal]").forEach((el) => {
         const top = el.getBoundingClientRect().top;
         const progress = Math.min(1, Math.max(0, (vh * 0.85 - top) / (vh * 0.5)));
         el.style.opacity = String(0.1 + 0.9 * progress);
-      }
-    }
-    function onScroll() {
-      if (!frame) frame = requestAnimationFrame(update);
+      });
     }
 
-    update();
-    screen.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
+    function scheduleUpdate() {
+      if (!frame) frame = requestAnimationFrame(update);
+    }
+    function scheduleLayout() {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(layout);
+    }
+
+    layout();
+    screen.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleLayout);
     return () => {
-      screen.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      screen.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("resize", scheduleLayout);
       cancelAnimationFrame(frame);
     };
   }, []);
@@ -77,11 +117,9 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
         Close
       </button>
       <article className="manifesto-text">
-        <p className="manifesto-text__tag">[manif.]</p>
-        {PARAGRAPHS.map((paragraph, i) => (
-          <p key={i} data-reveal>
-            {paragraph}
-          </p>
+        {/* layout() writes the text into these paragraphs, so React does not manage their contents. */}
+        {PARAGRAPHS.map((_, i) => (
+          <p key={i} className="manifesto-paragraph" data-paragraph={i} aria-label={PARAGRAPHS[i]} />
         ))}
         <div className="manifesto-text__sign" data-reveal>
           <p className="manifesto-text__name">— Ricardo</p>
