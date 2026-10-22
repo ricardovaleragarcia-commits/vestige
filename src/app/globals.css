@@ -546,7 +546,7 @@ button:disabled {
   inset: 0;
   z-index: 5;
   overflow-y: auto;
-  padding: 6rem 20px 60vh;
+  padding: 6rem 28px 60vh;
   background: #000;
   color: #fff;
   animation: dissolve-to-black 0.9s ease both;

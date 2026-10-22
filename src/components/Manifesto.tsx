@@ -47,6 +47,7 @@ function buildLines(p: HTMLElement, text: string) {
   rows.forEach((row, i) => {
     const line = document.createElement("span");
     line.className = i === rows.length - 1 ? "manifesto-line is-last" : "manifesto-line";
+    line.dataset.reveal = "";
     line.append(...row);
     p.appendChild(line);
   });
