@@ -18,7 +18,7 @@ export default function Intro({ onReveal, hidden }: IntroProps) {
     const lift = setTimeout(() => {
       setLifted(true);
       onReveal();
-    }, 1400);
+    }, 2200);
     return () => clearTimeout(lift);
   }, [onReveal]);
 

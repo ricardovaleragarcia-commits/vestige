@@ -344,6 +344,8 @@ export default function Collection({
             targetScale = 1;
             targetX = sw / 2 - (p.x + p.w / 2);
             targetY = groupTop + imgH / 2 - (p.y + p.h / 2);
+            // The close button sits halfway between the top of the screen and the top of the open piece.
+            document.documentElement.style.setProperty("--close-y", `${groupTop / 2}px`);
           }
         }
 
