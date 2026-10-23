@@ -1,6 +1,6 @@
-// The site is published as static files on GitHub Pages, under /vestige.
+// The site is published as static files on GitHub Pages, under /vstg.
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? "/vestige" : "";
+const basePath = isProd ? "/vstg" : "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

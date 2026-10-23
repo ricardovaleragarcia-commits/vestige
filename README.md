@@ -23,17 +23,17 @@ No database and no accounts. All content lives in `src/data/vestiges.ts` and `pu
 3. Commit and push. Vercel publishes the change.
 
 ## Publishing
-The site is published with GitHub Pages at https://ricardovaleragarcia-commits.github.io/vestige/
+The site is published with GitHub Pages at https://ricardovaleragarcia-commits.github.io/vstg/
 
 Every push to `main` builds the site and publishes it, through `.github/workflows/pages.yml`.
 
 One-time setup: in the repository, go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
 
 ## Admin page
-The archive can be edited from the browser at `/vestige/admin/`.
+The archive can be edited from the browser at `/vstg/admin/`.
 
 1. On GitHub, go to **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
-2. Under **Repository access**, choose only `vestige`.
+2. Under **Repository access**, choose only `vstg`.
 3. Under **Permissions**, set **Contents** to *Read and write*.
 4. Paste the token in the admin page and press **Load archive**.
 

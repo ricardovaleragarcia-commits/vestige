@@ -2,7 +2,7 @@
 // only write to this repository. Every save is a commit, and GitHub Pages rebuilds the site.
 
 export const OWNER = "ricardovaleragarcia-commits";
-export const REPO = "vestige";
+export const REPO = "vstg";
 const BRANCH = "main";
 const DATA_PATH = "src/data/vestiges.ts";
 const API = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
