@@ -80,7 +80,7 @@
     "source": "U.S. Atomic Energy Commission reports on Project Chariot (1958–1962). Wikipedia, \"Project Chariot\".",
     "link": "https://en.wikipedia.org/wiki/Project_Chariot",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Investigada. Verificar el año de cancelación (1962) y la fuente primaria de la AEC.",
+    "status": "Verificada con la hoja informativa del DOE (energy.gov): propuesta en 1958, trabajos del Plowshare cancelados en 1962 porque \"the public strongly opposed it\". Sin ensayos nucleares en el lugar.",
     "level": "documented"
   },
   {
@@ -192,7 +192,7 @@
     "source": "Dyson, G. (2002). Project Orion: The True Story of the Atomic Spaceship. Henry Holt and Company. Wikipedia, \"Project Orion (nuclear propulsion)\".",
     "link": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Investigada. Discrepan las fechas de cancelación (1964 y 1965). El año del código es 1963, año del tratado.",
+    "status": "Investigada. Discrepan las fechas de cancelación (1964 y 1965). Entrevista de Dyson en Web of Stories (historia 120, \"The nuclear test ban and the end of Project Orion\"): el texto no está accesible, pendiente de leer.",
     "level": "documented"
   },
   {
@@ -276,7 +276,7 @@
     "source": "Wikipedia, \"Voyager program (Mars)\". NASA JSC oral histories. Referencia primaria por confirmar.",
     "link": "https://en.wikipedia.org/wiki/Voyager_program_(Mars)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Pendiente: confirmar el año de la cancelación (1972 provisional).",
+    "status": "Pendiente: la historia oral de Donna Shirley (NASA JSC, 2001) no se pudo leer (redirección). Año 1972 provisional.",
     "level": "documented"
   },
   {
@@ -426,11 +426,11 @@
     "name": "Project Babylon, 1988–1990",
     "image": "/vestigios/vstg-0071.png",
     "description": "An Iraqi project to build a very long-range gun, designed by Gerald Bull. Bull was murdered in 1990 and the project was stopped.",
-    "failedFuture": "A gun that would have launched satellites from the ground. Its designer was killed and parts were seized in transit; the gun never fired.",
+    "failedFuture": "A gun that would have launched satellites from the ground. Its designer was shot dead in Brussels on 22 March 1990, and the gun never fired.",
     "source": "Wikipedia, \"Project Babylon\" and \"Gerald Bull\". Referencia primaria por confirmar.",
     "link": "https://en.wikipedia.org/wiki/Project_Babylon",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Investigada. Verificar las fechas (1988–1990).",
+    "status": "Verificada la muerte de Bull (22 de marzo de 1990, LRB). Sin verificar: fechas de inicio y fin del proyecto, y el embargo de piezas.",
     "level": "documented"
   },
   {
@@ -523,12 +523,12 @@
     "suffix": "",
     "name": "Mars One, 2012–2019",
     "image": "/vestigios/vstg-0078.png",
-    "description": "A private programme to establish a permanent settlement on Mars, announced in 2012 and selected candidates. It ceased operations in 2019.",
+    "description": "A private programme to establish a permanent settlement on Mars, announced in 2012 with selected candidates. The company declared bankruptcy on 15 January 2019.",
     "failedFuture": "A one-way trip to Mars that was sold as a reality show. It never flew; the company failed, and the settlers never left.",
     "source": "Wikipedia, \"Mars One\". Referencia primaria por confirmar.",
     "link": "https://en.wikipedia.org/wiki/Mars_One",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Pendiente: confirmar la fecha de cese (2019) y la fuente de la empresa.",
+    "status": "Verificada la fecha de quiebra (15 de enero de 2019, Dezeen, 11 feb. 2019). Falta la respuesta de la empresa: no se obtuvo comentario de Lansdorp.",
     "level": "documented"
   },
   {

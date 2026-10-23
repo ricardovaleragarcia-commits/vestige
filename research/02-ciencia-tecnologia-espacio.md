@@ -100,7 +100,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0046 — Project Chariot, 1958–1962
 
-**Código visible:** vstg.1958.c  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1962) y la fuente primaria de la AEC.
+**Código visible:** vstg.1958.c  ·  **Nivel:** documented  ·  **Estado:** Verificada con la hoja informativa del DOE (energy.gov): propuesta en 1958, trabajos del Plowshare cancelados en 1962 porque "the public strongly opposed it". Sin ensayos nucleares en el lugar.
 
 **[desc.]** A proposed Atomic Energy Commission plan to excavate a harbour at Cape Thompson, Alaska, with a series of nuclear explosions. Cancelled in 1962 after protests from Iñupiat communities and scientists.
 
@@ -244,7 +244,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0054 — Project Orion, 1958–1965
 
-**Código visible:** vstg.1963.c  ·  **Nivel:** documented  ·  **Estado:** Investigada. Discrepan las fechas de cancelación (1964 y 1965). El año del código es 1963, año del tratado.
+**Código visible:** vstg.1963.c  ·  **Nivel:** documented  ·  **Estado:** Investigada. Discrepan las fechas de cancelación (1964 y 1965). Entrevista de Dyson en Web of Stories (historia 120, "The nuclear test ban and the end of Project Orion"): el texto no está accesible, pendiente de leer.
 
 **[desc.]** Study drawings and test models of a spacecraft driven by small nuclear explosions, developed at General Atomics between 1958 and 1965.
 
@@ -352,7 +352,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0060 — Voyager program (Mars), 1960s–1972
 
-**Código visible:** vstg.1972  ·  **Nivel:** documented  ·  **Estado:** Pendiente: confirmar el año de la cancelación (1972 provisional).
+**Código visible:** vstg.1972  ·  **Nivel:** documented  ·  **Estado:** Pendiente: la historia oral de Donna Shirley (NASA JSC, 2001) no se pudo leer (redirección). Año 1972 provisional.
 
 **[desc.]** A series of robotic Mars missions planned in the 1960s and early 1970s, cancelled as budgets shrank. Its concepts passed to Viking.
 
@@ -550,11 +550,11 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0071 — Project Babylon, 1988–1990
 
-**Código visible:** vstg.1990  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar las fechas (1988–1990).
+**Código visible:** vstg.1990  ·  **Nivel:** documented  ·  **Estado:** Verificada la muerte de Bull (22 de marzo de 1990, LRB). Sin verificar: fechas de inicio y fin del proyecto, y el embargo de piezas.
 
 **[desc.]** An Iraqi project to build a very long-range gun, designed by Gerald Bull. Bull was murdered in 1990 and the project was stopped.
 
-**[f.f. expl.]** A gun that would have launched satellites from the ground. Its designer was killed and parts were seized in transit; the gun never fired.
+**[f.f. expl.]** A gun that would have launched satellites from the ground. Its designer was shot dead in Brussels on 22 March 1990, and the gun never fired.
 
 **Fuente:** Wikipedia, "Project Babylon" and "Gerald Bull". Referencia primaria por confirmar.
 
@@ -676,9 +676,9 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0078 — Mars One, 2012–2019
 
-**Código visible:** vstg.2019  ·  **Nivel:** documented  ·  **Estado:** Pendiente: confirmar la fecha de cese (2019) y la fuente de la empresa.
+**Código visible:** vstg.2019  ·  **Nivel:** documented  ·  **Estado:** Verificada la fecha de quiebra (15 de enero de 2019, Dezeen, 11 feb. 2019). Falta la respuesta de la empresa: no se obtuvo comentario de Lansdorp.
 
-**[desc.]** A private programme to establish a permanent settlement on Mars, announced in 2012 and selected candidates. It ceased operations in 2019.
+**[desc.]** A private programme to establish a permanent settlement on Mars, announced in 2012 with selected candidates. The company declared bankruptcy on 15 January 2019.
 
 **[f.f. expl.]** A one-way trip to Mars that was sold as a reality show. It never flew; the company failed, and the settlers never left.
 
@@ -688,7 +688,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 **Licencia de la imagen:** Pendiente: verificar licencia de la imagen
 
-**Notas:** Año 2019 provisional.
+**Notas:** Año 2019 confirmado.
 
 ---
 
