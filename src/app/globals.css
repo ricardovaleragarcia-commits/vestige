@@ -553,7 +553,7 @@ button:disabled {
   inset: 0;
   z-index: 5;
   overflow-y: auto;
-  padding: 6rem 28px 60vh;
+  padding: 40vh 28px 60vh;
   background: #000;
   color: #fff;
   animation: dissolve-to-black 0.9s ease both;
@@ -597,11 +597,19 @@ button:disabled {
   font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
   line-height: 1.45;
   text-align: justify;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .manifesto-line {
+  display: block;
   opacity: 0;
+  text-align: justify;
+  text-align-last: justify;
+  will-change: transform, opacity;
+}
+
+.manifesto-line:last-child {
+  text-align-last: left;
 }
 
 
