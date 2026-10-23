@@ -59,6 +59,7 @@ function buildLines(p: HTMLElement, text: string) {
 
 export default function Manifesto({ onClose }: { onClose: () => void }) {
   const [closing, setClosing] = useState(false);
+  const [legalOpen, setLegalOpen] = useState(false);
   const screenRef = useRef<HTMLElement>(null);
 
   // Lines are built from the text, then each line brightens as it scrolls up into the middle of the screen.
@@ -153,6 +154,25 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/brandmark.svg`}
             alt="VSTG"
           />
+        </div>
+        <div className="manifesto-legal">
+          <button
+            type="button"
+            className="manifesto-legal__toggle"
+            aria-expanded={legalOpen}
+            onClick={() => setLegalOpen((v) => !v)}
+          >
+            Legal
+          </button>
+          {legalOpen && (
+            <p className="manifesto-legal__text">
+              VSTG is a non-profit project. Every image is sought from public-domain or freely licensed sources, and the
+              author and licence of each one are recorded on its entry. If an image is not free to use, or you are its
+              author or rights holder, please get in touch and it will be credited or removed promptly. Send your
+              inquiry to{" "}
+              <a href="mailto:ricardo.valera.garcia@gmail.com">ricardo.valera.garcia@gmail.com</a>.
+            </p>
+          )}
         </div>
       </article>
     </section>

@@ -728,3 +728,38 @@ button:disabled {
 .piece-label__digits {
   font-size: 1.1em;
 }
+
+/* Legal note at the very end of the manifesto. */
+.manifesto-legal {
+  margin: 5rem auto 0;
+  max-width: 34rem;
+  padding: 0 0 6rem;
+  text-align: center;
+  color: #fff;
+}
+
+.manifesto-legal__toggle {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+.manifesto-legal__toggle:hover {
+  background: none;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.manifesto-legal__text {
+  margin: 1.4rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.manifesto-legal__text a {
+  color: #fff;
+  text-decoration: underline;
+}

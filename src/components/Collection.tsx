@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Application, Assets, BlurFilter, Container, Graphics, Sprite, Text } from "pixi.js";
+import { Application, Assets, BlurFilter, Container, Graphics, Sprite, Text, Texture, TilingSprite } from "pixi.js";
 import {
   initArchive,
   BLOCK_HEIGHT,
@@ -12,6 +12,26 @@ import {
 } from "@/lib/demo-collection";
 
 const BLUR = 14;
+const GRAIN = 0.55; // strength of the film grain over photographs, 0 to 1
+
+// One small noise tile, shared by every photograph.
+let grainCache: Texture | null = null;
+function grainTexture(): Texture {
+  if (grainCache) return grainCache;
+  const size = 192;
+  const canvas = document.createElement("canvas");
+  canvas.width = canvas.height = size;
+  const ctx = canvas.getContext("2d")!;
+  const data = ctx.createImageData(size, size);
+  for (let i = 0; i < data.data.length; i += 4) {
+    const v = 190 + Math.random() * 65; // light grey noise
+    data.data[i] = data.data[i + 1] = data.data[i + 2] = v;
+    data.data[i + 3] = 255;
+  }
+  ctx.putImageData(data, 0, 0);
+  grainCache = Texture.from(canvas);
+  return grainCache;
+}
 const DRAG_TOLERANCE = 6; // pixels moved before a press counts as dragging, not clicking
 const TOP_SPACE = 200; // keeps the first pieces below the masthead
 const CODE_GAP = 44; // space between the image and its code when a piece is open
@@ -282,8 +302,8 @@ export default function Collection({
           inner.addChild(copy);
         }
 
-        // Real photographs are .jpg; the grey .png files are still placeholders and are not loaded.
-        if (piece.image && piece.image.endsWith(".jpg")) {
+        // Real photographs are .webp (or .jpg); the grey .png files are still placeholders and are not loaded.
+        if (piece.image && /\.(webp|jpe?g)$/.test(piece.image)) {
           const url = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${piece.image}`;
           Assets.load(url)
             .then((texture) => {
@@ -294,6 +314,11 @@ export default function Collection({
               sprite.scale.set(k);
               sprite.position.set((piece.w - texture.width * k) / 2, (piece.h - texture.height * k) / 2);
               inner.addChildAt(sprite, 1);
+              // A light film grain over the photograph (multiplied, so it only darkens a little).
+              const grain = new TilingSprite({ texture: grainTexture(), width: piece.w, height: piece.h });
+              grain.blendMode = "multiply";
+              grain.alpha = GRAIN;
+              inner.addChildAt(grain, 2);
             })
             .catch(() => {});
         }
@@ -443,8 +468,9 @@ export default function Collection({
 
           // Public pieces reveal on hover or focus. Private pieces stay blurred.
           const isPublic = entry.piece.visibility === "public";
-          const revealed = isPublic && (isFocus || (!focusedId && hoveredId === id));
-          entry.blur.strength += ((revealed ? 0 : BLUR) - entry.blur.strength) * Math.min(1, 0.15 * dt);
+          // Hover lifts half of the blur; opening the piece removes the rest.
+          const targetBlur = !isPublic ? BLUR : isFocus ? 0 : !focusedId && hoveredId === id ? BLUR * 0.5 : BLUR;
+          entry.blur.strength += (targetBlur - entry.blur.strength) * Math.min(1, 0.15 * dt);
 
           const targetNodeScale = isFocus ? focusScale(entry.piece.h) : 1;
           entry.node.scale.set(entry.node.scale.x + (targetNodeScale - entry.node.scale.x) * k);
