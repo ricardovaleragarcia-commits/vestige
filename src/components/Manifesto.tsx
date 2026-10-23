@@ -105,12 +105,21 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
     }
 
     layout();
+    // While the text rises into place on opening, keep the line reveal in step with it.
+    let rising = 0;
+    const riseStart = performance.now();
+    const followRise = () => {
+      update();
+      if (performance.now() - riseStart < 3200) rising = requestAnimationFrame(followRise);
+    };
+    rising = requestAnimationFrame(followRise);
     screen.addEventListener("scroll", scheduleUpdate, { passive: true });
     window.addEventListener("resize", scheduleLayout);
     return () => {
       screen.removeEventListener("scroll", scheduleUpdate);
       window.removeEventListener("resize", scheduleLayout);
       cancelAnimationFrame(frame);
+      cancelAnimationFrame(rising);
     };
   }, []);
 

@@ -588,6 +588,13 @@ button:disabled {
 .manifesto-text {
   width: 100%;
   margin: 0;
+  animation: manifesto-rise 2.4s cubic-bezier(0.65, 0, 0.35, 1) 0.4s both;
+}
+
+/* On opening, the text rises into place like the masthead on the home screen. */
+@keyframes manifesto-rise {
+  from { transform: translateY(45vh); }
+  to { transform: none; }
 }
 
 /* Paragraphs are a justified block inside the margins; the lines wrap as normal text. Each line is a span
@@ -595,7 +602,7 @@ button:disabled {
 .manifesto-paragraph {
   margin: 0 0 2.4rem;
   font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
-  line-height: 1.45;
+  line-height: 1.3;
   text-align: justify;
   hyphens: none;
 }
