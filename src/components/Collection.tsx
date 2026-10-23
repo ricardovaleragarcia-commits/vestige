@@ -50,19 +50,27 @@ type PieceNode = {
 };
 type BlockView = { container: Container; ids: string[] };
 
-// A bracketed label that rewrites itself into its unabbreviated form on hover:
-// it erases back to the shared prefix, then types the rest.
+// A bracketed label that rewrites itself into its unabbreviated form when touched
+// or hovered: it erases back to the shared prefix, types the rest, stays readable
+// for a few seconds, then rewrites itself back by itself.
+const REWRITE_HOLD_MS = 3500;
 function RewriteLabel({ short, full }: { short: string; full: string }) {
   const [text, setText] = useState(short);
   const target = useRef(short);
   const current = useRef(short);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hold = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  const go = (to: string) => {
+    target.current = to;
+    if (!timer.current) step();
+  };
   const step = () => {
     const goal = target.current;
     const now = current.current;
     if (now === goal) {
       timer.current = null;
+      if (goal === full) hold.current = setTimeout(() => go(short), REWRITE_HOLD_MS);
       return;
     }
     current.current = goal.startsWith(now)
@@ -71,30 +79,33 @@ function RewriteLabel({ short, full }: { short: string; full: string }) {
     setText(current.current);
     timer.current = setTimeout(step, 26);
   };
-  const go = (to: string) => {
-    target.current = to;
-    if (!timer.current) step();
+  const trigger = () => {
+    if (hold.current) {
+      clearTimeout(hold.current);
+      hold.current = null;
+    }
+    go(full);
   };
 
   useEffect(
     () => () => {
       if (timer.current) clearTimeout(timer.current);
+      if (hold.current) clearTimeout(hold.current);
     },
     [],
   );
   useEffect(() => {
+    if (timer.current) clearTimeout(timer.current);
+    if (hold.current) clearTimeout(hold.current);
+    timer.current = null;
+    hold.current = null;
     target.current = short;
     current.current = short;
     setText(short);
   }, [short, full]);
 
   return (
-    <span
-      className="detail__rewrite"
-      onPointerEnter={() => go(full)}
-      onPointerLeave={() => go(short)}
-      onClick={() => go(target.current === full ? short : full)}
-    >
+    <span className="detail__rewrite" onPointerEnter={trigger}>
       {text}
     </span>
   );
