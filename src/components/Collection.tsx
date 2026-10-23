@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Application, BlurFilter, Container, Graphics, Text } from "pixi.js";
+import { Application, Assets, BlurFilter, Container, Graphics, Sprite, Text } from "pixi.js";
 import {
   initArchive,
   BLOCK_HEIGHT,
@@ -280,6 +280,22 @@ export default function Collection({
           });
           copy.position.set(20, 20);
           inner.addChild(copy);
+        }
+
+        // Real photographs are .jpg; the grey .png files are still placeholders and are not loaded.
+        if (piece.image && piece.image.endsWith(".jpg")) {
+          const url = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${piece.image}`;
+          Assets.load(url)
+            .then((texture) => {
+              if (inner.destroyed) return;
+              const sprite = new Sprite(texture);
+              // Fill the frame, cropped from the centre.
+              const k = Math.max(piece.w / texture.width, piece.h / texture.height);
+              sprite.scale.set(k);
+              sprite.position.set((piece.w - texture.width * k) / 2, (piece.h - texture.height * k) / 2);
+              inner.addChildAt(sprite, 1);
+            })
+            .catch(() => {});
         }
 
         const blur = new BlurFilter({ strength: BLUR });
