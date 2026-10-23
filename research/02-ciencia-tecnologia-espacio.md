@@ -26,7 +26,25 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0042 — Silbervogel, 1944
+## vstg-0042 — Project Habbakuk, 1942–1943
+
+**Código visible:** vstg.1943  ·  **Nivel:** documented  ·  **Estado:** Verificada con fuente secundaria: material (86 % hielo, 14 % serrín o pulpa de madera), modelo de 60 pies y última reunión en diciembre de 1943. Falta la fuente primaria británica.
+
+**[desc.]** A British plan, promoted by Geoffrey Pyke, for an enormous aircraft carrier built from Pykrete, a mix of ice and wood pulp. A 60-foot scale model was tested; the project was abandoned in 1943.
+
+**[f.f. expl.]** A carrier made of frozen water, cheap and hard to sink. The model was built and tested, but the war changed and the need disappeared. It survives as a case of wartime invention that never reached the sea.
+
+**Fuente:** National Interest, "Project Habakkuk: Churchill's Plan for an Aircraft Carrier Made of Ice".
+
+**Enlace:** https://nationalinterest.org/print/blog/reboot/project-habakkuk-churchill%E2%80%99s-plan-aircraft-carrier-made-ice-187183
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0043 — Silbervogel, 1944
 
 **Código visible:** vstg.1944  ·  **Nivel:** documented  ·  **Estado:** Investigada. Confirmar la fecha exacta de la propuesta (1944 o 1945) en la fuente primaria.
 
@@ -44,7 +62,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0043 — Von Braun's Mars Project, 1952
+## vstg-0044 — Von Braun's Mars Project, 1952
 
 **Código visible:** vstg.1952  ·  **Nivel:** documented  ·  **Estado:** Investigada: fuente y año confirmados en la ficha de referencia.
 
@@ -62,7 +80,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0044 — Ford Nucleon, 1958
+## vstg-0045 — Ford Nucleon, 1958
 
 **Código visible:** vstg.1958.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar la fuente primaria del fabricante (1958).
 
@@ -80,7 +98,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0045 — Project Sherwood, 1951–1958
+## vstg-0046 — Project Sherwood, 1951–1958
 
 **Código visible:** vstg.1958.b  ·  **Nivel:** documented  ·  **Estado:** Investigada: fuente bibliográfica confirmada.
 
@@ -98,7 +116,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0046 — Project Chariot, 1958–1962
+## vstg-0047 — Project Chariot, 1958–1962
 
 **Código visible:** vstg.1958.c  ·  **Nivel:** documented  ·  **Estado:** Verificada con la hoja informativa del DOE (energy.gov): propuesta en 1958, trabajos del Plowshare cancelados en 1962 porque "the public strongly opposed it". Sin ensayos nucleares en el lugar.
 
@@ -116,63 +134,9 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0047 — Project A119, 1958
+## vstg-0048 — Aircraft Nuclear Propulsion, 1946–1961
 
-**Código visible:** vstg.1958.d  ·  **Nivel:** documented  ·  **Estado:** Pendiente: confirmar la fuente primaria y la fecha exacta.
-
-**[desc.]** A 1958 US proposal, studied by the Pentagon, to detonate a nuclear device on the Moon as a visible demonstration of power.
-
-**[f.f. expl.]** A flash on the Moon, visible from Earth, meant to show the power of the state. Never carried out; the Moon remains without a crater made by human hands.
-
-**Fuente:** Wikipedia, "Project A119". Referencia primaria por confirmar.
-
-**Enlace:** https://en.wikipedia.org/wiki/Project_A119
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** Año 1958 provisional.
-
----
-
-## vstg-0048 — Lunex Project, 1959–1963
-
-**Código visible:** vstg.1959  ·  **Nivel:** documented  ·  **Estado:** Pendiente: confirmar las fechas de estudio y cancelación.
-
-**[desc.]** An US Air Force study for a crewed lunar base and a first crewed mission to the Moon, developed by the Martin company before the Apollo programme was chosen.
-
-**[f.f. expl.]** A lunar base planned as a military installation, cancelled in 1963 in favour of Apollo. The base was never built; the Moon was reached by a different route.
-
-**Fuente:** Wikipedia, "Lunex Project". Referencia primaria por confirmar.
-
-**Enlace:** https://en.wikipedia.org/wiki/Lunex_Project
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** —
-
----
-
-## vstg-0049 — Project Horizon, 1959–1960
-
-**Código visible:** vstg.1960  ·  **Nivel:** documented  ·  **Estado:** Pendiente: confirmar el año (1959 o 1960) y las cifras del equipo.
-
-**[desc.]** A US Army proposal for a permanent lunar outpost with a crew of twelve, to be established by 1967 in the Moon's shadow.
-
-**[f.f. expl.]** An outpost on the Moon run by soldiers. It was shelved in favour of a faster lunar landing, and the Army's lunar base was never assembled.
-
-**Fuente:** Wikipedia, "Project Horizon". Referencia primaria por confirmar.
-
-**Enlace:** https://en.wikipedia.org/wiki/Project_Horizon
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** —
-
----
-
-## vstg-0050 — Aircraft Nuclear Propulsion, 1946–1961
-
-**Código visible:** vstg.1961  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1961) en la fuente primaria.
+**Código visible:** vstg.1961.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1961) en la fuente primaria.
 
 **[desc.]** The US programme to build a nuclear-powered bomber that could stay airborne for weeks. Engines were tested on the ground; the programme was cancelled in 1961.
 
@@ -188,7 +152,25 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0051 — Sea Dragon, 1962
+## vstg-0049 — B-70 Valkyrie, 1961
+
+**Código visible:** vstg.1961.b  ·  **Nivel:** documented  ·  **Estado:** Verificada con el museo de la USAF: dos XB-70A, cancelación en 1961 («before a prototype was built» en el texto original sobre el programa de bombardeo), velocidad máxima Mach 3.1.
+
+**[desc.]** North American's XB-70 Valkyrie, a Mach 3 bomber. Two prototypes were built; the bomber programme was cancelled in 1961, before any production aircraft existed.
+
+**[f.f. expl.]** A bomber meant to fly at three times the speed of sound above Soviet defences. It was cancelled before a single operational aircraft was built; the two prototypes survived as supersonic test aircraft.
+
+**Fuente:** National Museum of the U.S. Air Force, fact sheet "North American XB-70 Valkyrie".
+
+**Enlace:** https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195767/
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0050 — Sea Dragon, 1962
 
 **Código visible:** vstg.1962  ·  **Nivel:** documented  ·  **Estado:** Investigada: fuente de referencia encontrada. Verificar la autoría y el año.
 
@@ -206,7 +188,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0052 — Dyna-Soar, 1963
+## vstg-0051 — Dyna-Soar, 1963
 
 **Código visible:** vstg.1963.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1963).
 
@@ -224,7 +206,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0053 — Nova rocket, 1963
+## vstg-0052 — Nova rocket, 1963
 
 **Código visible:** vstg.1963.b  ·  **Nivel:** documented  ·  **Estado:** Investigada con fuente de revista especializada. Verificar la fecha de la propuesta.
 
@@ -242,7 +224,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0054 — Project Orion, 1958–1965
+## vstg-0053 — Project Orion, 1958–1965
 
 **Código visible:** vstg.1963.c  ·  **Nivel:** documented  ·  **Estado:** Investigada. Discrepan las fechas de cancelación (1964 y 1965). Entrevista de Dyson en Web of Stories (historia 120, "The nuclear test ban and the end of Project Orion"): el texto no está accesible, pendiente de leer.
 
@@ -260,7 +242,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0055 — Project Pluto, 1957–1964
+## vstg-0054 — Project Pluto, 1957–1964
 
 **Código visible:** vstg.1964  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar las fechas (1957–1964).
 
@@ -278,9 +260,9 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0056 — Project Mohole, 1957–1966
+## vstg-0055 — Project Mohole, 1957–1966
 
-**Código visible:** vstg.1966  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1966).
+**Código visible:** vstg.1966.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1966).
 
 **[desc.]** A US project to drill through the Earth's crust beneath the ocean floor to reach the mantle, to read the planet's interior. Cancelled in 1966.
 
@@ -289,6 +271,24 @@ Los textos para la web están en inglés. Las notas, en español.
 **Fuente:** Wikipedia, "Project Mohole". Referencia primaria por confirmar.
 
 **Enlace:** https://en.wikipedia.org/wiki/Project_Mohole
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0056 — Project Iceworm, 1959–1966
+
+**Código visible:** vstg.1966.b  ·  **Nivel:** documented  ·  **Estado:** Verificada con Wikipedia: hasta 600 misiles, cancelación en 1966 por el movimiento del hielo. El inicio de 1959 es el de Camp Century, no el del plan secreto.
+
+**[desc.]** A secret US Army plan to hide up to 600 nuclear missiles in tunnels beneath the Greenland ice sheet, under cover of the Camp Century base. Cancelled in 1966.
+
+**[f.f. expl.]** Missile fields under the ice, meant to survive a first strike and reach the Soviet Union. The ice moved faster than expected and would have crushed the tunnels within about two years, so the plan was abandoned.
+
+**Fuente:** Wikipedia, "Project Iceworm" (con referencia a Camp Century, 1959).
+
+**Enlace:** https://en.wikipedia.org/wiki/Project_Iceworm
 
 **Licencia de la imagen:** Pendiente: verificar licencia de la imagen
 
@@ -350,25 +350,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0060 — Voyager program (Mars), 1960s–1972
-
-**Código visible:** vstg.1972  ·  **Nivel:** documented  ·  **Estado:** Pendiente: la historia oral de Donna Shirley (NASA JSC, 2001) no se pudo leer (redirección). Año 1972 provisional.
-
-**[desc.]** A series of robotic Mars missions planned in the 1960s and early 1970s, cancelled as budgets shrank. Its concepts passed to Viking.
-
-**[f.f. expl.]** A chain of robotic probes that would have followed the Mariner flights. Cancelled; the Viking landers took their place, and Mars was reached one lander at a time.
-
-**Fuente:** Wikipedia, "Voyager program (Mars)". NASA JSC oral histories. Referencia primaria por confirmar.
-
-**Enlace:** https://en.wikipedia.org/wiki/Voyager_program_(Mars)
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** —
-
----
-
-## vstg-0061 — NERVA and Project Rover, 1959–1973
+## vstg-0060 — NERVA and Project Rover, 1959–1973
 
 **Código visible:** vstg.1973.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1972 o 1973).
 
@@ -386,7 +368,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0062 — Skylab B, 1973
+## vstg-0061 — Skylab B, 1973
 
 **Código visible:** vstg.1973.b  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el estado final del hardware de respaldo.
 
@@ -404,7 +386,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0063 — Aérotrain, 1965–1974
+## vstg-0062 — Aérotrain, 1965–1974
 
 **Código visible:** vstg.1974.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1974).
 
@@ -422,7 +404,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0064 — Moller Skycar, 1974
+## vstg-0063 — Moller Skycar, 1974
 
 **Código visible:** vstg.1974.b  ·  **Nivel:** documented  ·  **Estado:** Investigada. El año es el de inicio del diseño (1974), no de un fracaso formal.
 
@@ -440,7 +422,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0065 — Project Plowshare, 1957–1975
+## vstg-0064 — Project Plowshare, 1957–1975
 
 **Código visible:** vstg.1975  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cierre (1975).
 
@@ -458,7 +440,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0066 — N1 rocket, Soviet lunar programme
+## vstg-0065 — N1 rocket, Soviet lunar programme
 
 **Código visible:** vstg.1976  ·  **Nivel:** documented  ·  **Estado:** Investigada. Pendiente una referencia académica primaria.
 
@@ -476,7 +458,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0067 — Project Daedalus, 1973–1978
+## vstg-0066 — Project Daedalus, 1973–1978
 
 **Código visible:** vstg.1978  ·  **Nivel:** documented  ·  **Estado:** Investigada: fuente primaria identificada. Verificar la imagen.
 
@@ -494,9 +476,9 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0068 — Solar Power Satellite, 1979
+## vstg-0067 — Solar Power Satellite, 1979
 
-**Código visible:** vstg.1979  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar la fuente primaria del DOE (1979).
+**Código visible:** vstg.1979.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar la fuente primaria del DOE (1979).
 
 **[desc.]** NASA and the Department of Energy's 1979 studies of satellites in orbit that would collect sunlight and beam electricity to Earth by microwave.
 
@@ -505,6 +487,24 @@ Los textos para la web están en inglés. Las notas, en español.
 **Fuente:** NASA/DOE (1979). Satellite Power System Concept Development and Evaluation Program. Wikipedia, "Solar power satellite".
 
 **Enlace:** https://en.wikipedia.org/wiki/Solar_power_satellite
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0068 — Almaz OPS-4, 1977–1979
+
+**Código visible:** vstg.1979.b  ·  **Nivel:** documented  ·  **Estado:** Verificada con Wikipedia: cancelación formal en febrero de 1979; el lanzamiento se había retrasado desde finales de 1977. Sin motivo oficial en la fuente.
+
+**[desc.]** The fourth Almaz military space station, OPS-4, planned by the Soviet Union with a synthetic-aperture radar and a space-to-space cannon. Formally cancelled in February 1979; never launched.
+
+**[f.f. expl.]** A secret military station that would have carried radar and a cannon for combat in orbit. Its sensors were moved to Salyut 7 instead, and the station stayed on paper.
+
+**Fuente:** Wikipedia, "OPS-4 (Almaz program)".
+
+**Enlace:** https://en.wikipedia.org/wiki/OPS-4_(Almaz_program)
 
 **Licencia de la imagen:** Pendiente: verificar licencia de la imagen
 
@@ -568,7 +568,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ## vstg-0072 — Fifth Generation Computer Systems, 1982–1992
 
-**Código visible:** vstg.1992  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cierre (1992).
+**Código visible:** vstg.1992.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cierre (1992).
 
 **[desc.]** Japan's programme to build machines that could reason with logic and handle natural language. It ended in 1992.
 
@@ -584,7 +584,25 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0073 — Superconducting Super Collider, 1983–1993
+## vstg-0073 — Hermes spaceplane, 1987–1992
+
+**Código visible:** vstg.1992.b  ·  **Nivel:** documented  ·  **Estado:** Verificada con ESA. Cita textual: «in 1992, the project was cancelled after numerous delays and neither cost or performance goals could be achieved». Año del código: 1992.
+
+**[desc.]** The European crewed spaceplane Hermes, approved by ESA in November 1987 to carry three astronauts to orbit on Ariane 5. Cancelled in 1992; no vehicle was built.
+
+**[f.f. expl.]** Europe's own route to orbit with crews, meant to serve a station in space. After repeated delays and cost overruns the project was cancelled, and Europe never flew a crewed spacecraft of its own.
+
+**Fuente:** ESA, "History: Hermes spaceplane, 1987".
+
+**Enlace:** https://www.esa.int/About_Us/ESA_history/History_Hermes_spaceplane_1987
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0074 — Superconducting Super Collider, 1983–1993
 
 **Código visible:** vstg.1993.a  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar la longitud del anillo y la fecha de cancelación.
 
@@ -602,7 +620,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0074 — Rockwell X-30 (NASP), 1986–1993
+## vstg-0075 — Rockwell X-30 (NASP), 1986–1993
 
 **Código visible:** vstg.1993.b  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (1993).
 
@@ -620,7 +638,25 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0075 — Total Information Awareness, 2002–2003
+## vstg-0076 — X-33 and VentureStar, 1996–2001
+
+**Código visible:** vstg.2001  ·  **Nivel:** documented  ·  **Estado:** Verificada con NASASpaceflight: cancelación a inicios de 2001; el tanque de compuesto falló el 3 de noviembre de 1999. El texto da «by early 2001» y el testimonio de Bekey es del 11 de abril de 2001: discrepancia por resolver.
+
+**[desc.]** NASA and Lockheed Martin's X-33, a suborbital prototype for VentureStar, a reusable single-stage-to-orbit spaceplane. Cancelled in early 2001 after a composite fuel tank failed in 1999.
+
+**[f.f. expl.]** A reusable rocket that would have lifted cargo to orbit for a fraction of the cost. The composite tank broke in testing, the funding dispute followed, and the single-stage future was pushed back.
+
+**Fuente:** NASASpaceflight.com (2006), "X-33/VentureStar – What really happened".
+
+**Enlace:** https://www.nasaspaceflight.com/2006/01/x-33venturestar-what-really-happened/
+
+**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
+
+**Notas:** —
+
+---
+
+## vstg-0077 — Total Information Awareness, 2002–2003
 
 **Código visible:** vstg.2003  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de la defunding (2003).
 
@@ -638,7 +674,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0076 — Project Prometheus, 2003–2005
+## vstg-0078 — Project Prometheus, 2003–2005
 
 **Código visible:** vstg.2005  ·  **Nivel:** documented  ·  **Estado:** Investigada con fuentes del NAP y de The Space Review. Verificar el año de cierre (2005).
 
@@ -656,7 +692,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0077 — Constellation, Ares I and Ares V, 2005–2010
+## vstg-0079 — Constellation, Ares I and Ares V, 2005–2010
 
 **Código visible:** vstg.2010  ·  **Nivel:** documented  ·  **Estado:** Investigada. Verificar el año de cancelación (2010).
 
@@ -674,7 +710,7 @@ Los textos para la web están en inglés. Las notas, en español.
 
 ---
 
-## vstg-0078 — Mars One, 2012–2019
+## vstg-0080 — Mars One, 2012–2019
 
 **Código visible:** vstg.2019  ·  **Nivel:** documented  ·  **Estado:** Verificada la fecha de quiebra (15 de enero de 2019, Dezeen, 11 feb. 2019). Falta la respuesta de la empresa: no se obtuvo comentario de Lansdorp.
 
@@ -689,41 +725,5 @@ Los textos para la web están en inglés. Las notas, en español.
 **Licencia de la imagen:** Pendiente: verificar licencia de la imagen
 
 **Notas:** Año 2019 confirmado.
-
----
-
-## vstg-0079 — Concorde B, 1970s
-
-**Código visible:** vstg.NA  ·  **Nivel:** documented  ·  **Estado:** Pendiente: fecha de la propuesta no confirmada. Código NA.
-
-**[desc.]** A British–French proposal for a longer-range variant of Concorde, studied in the 1970s. Never built.
-
-**[f.f. expl.]** A longer-range supersonic airliner that would have flown further than Concorde. Not built; Concorde kept its single-purpose design.
-
-**Fuente:** Heritage Concorde, "Concorde B". Referencia primaria por confirmar.
-
-**Enlace:** https://heritageconcorde.com/concorde-b
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** Código NA por regla del proyecto.
-
----
-
-## vstg-0080 — Shuttle-C, 1980s
-
-**Código visible:** vstg.NA  ·  **Nivel:** documented  ·  **Estado:** Pendiente: fecha de la propuesta no confirmada. Código NA.
-
-**[desc.]** A cargo version of the Space Shuttle, studied in the 1980s for heavy-lift flights. Not built.
-
-**[f.f. expl.]** A cargo shuttle that would have carried loads without crews. Not built; the heavy-lift rockets of later decades took its role.
-
-**Fuente:** Wikipedia, "Shuttle-C". Referencia primaria por confirmar.
-
-**Enlace:** https://en.wikipedia.org/wiki/Shuttle-C
-
-**Licencia de la imagen:** Pendiente: verificar licencia de la imagen
-
-**Notas:** Código NA por regla del proyecto.
 
 ---
