@@ -2024,7 +2024,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0088",
     "year": 1954,
-    "suffix": "",
+    "suffix": "a",
     "name": "European Political Community, 1952–1954",
     "image": "/vestigios/vstg-0088.png",
     "description": "The political community proposed in 1952 to bring the European Coal and Steel Community and the European Defence Community under one bicameral parliament and a supranational executive. It was abandoned in 1954, after the French National Assembly stalled the EDC.",
@@ -2684,8 +2684,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Leonardo's horse\".",
     "link": "https://en.wikipedia.org/wiki/Leonardo%27s_horse",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: encargo en 1482; modelo de arcilla exhibido en noviembre de 1493; bronce entregado en noviembre de 1494.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1482,
+    "closureYear": 1499,
+    "presentEffect": {
+      "text": "In 1999 Nina Akamu's 24-foot design, based on Leonardo's studies, was cast twice: the primary cast was unveiled in Milan on 10 September 1999 and the American Horse placed in Grand Rapids, Michigan, on 7 October. Replicas were later dedicated in Vinci (2001), Allentown (2002) and Sheridan, Wyoming (2014).",
+      "kind": "documented",
+      "source": "Wikipedia, \"Leonardo's horse\".",
+      "link": "https://en.wikipedia.org/wiki/Leonardo%27s_horse"
+    },
+    "anchorYear": 2020,
+    "distance": 538
   },
   {
     "code": "vstg-0117",
@@ -2698,8 +2708,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Codex on the Flight of Birds\".",
     "link": "https://en.wikipedia.org/wiki/Codex_on_the_Flight_of_Birds",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: c. 1505; 18 folios; intentos de lanzamiento desde una colina cerca de Florencia, fracasados.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto.",
+    "level": "documented",
+    "conceptionYear": 1505,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The codex is held by the Royal Library in Turin; it was displayed at the National Air and Space Museum in Washington for 40 days from 13 September 2013, and at the Biblioteca Reale in Turin until 8 March 2020.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Codex on the Flight of Birds\".",
+      "link": "https://en.wikipedia.org/wiki/Codex_on_the_Flight_of_Birds"
+    },
+    "anchorYear": 2020,
+    "distance": 515
   },
   {
     "code": "vstg-0118",
@@ -2712,8 +2732,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Tomb of Pope Julius II\".",
     "link": "https://en.wikipedia.org/wiki/Tomb_of_Pope_Julius_II",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: encargo en 1505; plan inicial de unas 40 estatuas; terminado en 1545 en San Pietro in Vincoli; cenotafio.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1505,
+    "closureYear": 1545,
+    "presentEffect": {
+      "text": "The reduced monument stands in San Pietro in Vincoli, Rome, with Michelangelo's Moses at its centre. The Dying Slave and Rebellious Slave are in the Louvre, and the Young, Bearded, Atlas and Awakening Slaves in the Galleria dell'Accademia, Florence; the monument is only a cenotaph, since Julius II is buried in St Peter's.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Tomb of Pope Julius II\".",
+      "link": "https://en.wikipedia.org/wiki/Tomb_of_Pope_Julius_II"
+    },
+    "anchorYear": 2020,
+    "distance": 515
   },
   {
     "code": "vstg-0119",
@@ -2722,12 +2752,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Mozart's Requiem, 1791",
     "image": "/vestigios/vstg-0119.png",
     "description": "Mozart's Requiem, commissioned anonymously in 1791 and left unfinished at his death on 5 December 1791. Only the Introitus was completed; Franz Xaver Süssmayr completed the rest.",
-    "failedFuture": "A mass whose composer finished only its opening movement. Another composer completed the rest.",
+    "failedFuture": "A requiem Mozart began in late 1791 and left unfinished when he died on 5 December. He wrote only the first eight bars of the Lacrimosa; Joseph Eybler and then Franz Xaver Süssmayr completed it.",
     "source": "Wikipedia, \"Requiem (Mozart)\".",
     "link": "https://en.wikipedia.org/wiki/Requiem_(Mozart)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: muerte el 5 de diciembre de 1791; solo el Introitus completo; Süssmayr completó el resto.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1791,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The version completed by Franz Xaver Süssmayr 'has become widely accepted by the public'. At least 19 conjectural completions exist, eleven of them from after 2005, among them Robert Levin's, which adds an Amen fugue.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Requiem (Mozart)\".",
+      "link": "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
+    },
+    "anchorYear": 2020,
+    "distance": 229
   },
   {
     "code": "vstg-0120",
@@ -2740,8 +2780,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Charles Babbage\".",
     "link": "https://en.wikipedia.org/wiki/Charles_Babbage",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: iniciada en 1822; quedó sin terminar; el Tesoro dejó de confiar en el proyecto; Babbage murió sin terminar los diseños.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no da 1833 como cierre; se deja sin cierre.",
+    "level": "documented",
+    "conceptionYear": 1822,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Science Museum in London built a working Difference Engine from Babbage's plans between 1989 and 1991, returning results to 31 digits, and completed his printer in 2000. A second engine went on show at the Computer History Museum in California on 10 May 2008, and in 2011 researchers proposed 'Plan 28' to build the Analytical Engine.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Charles Babbage\".",
+      "link": "https://en.wikipedia.org/wiki/Charles_Babbage"
+    },
+    "anchorYear": 2020,
+    "distance": 198
   },
   {
     "code": "vstg-0121",
@@ -2754,8 +2804,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Symphony No. 10 (Schubert)\".",
     "link": "https://en.wikipedia.org/wiki/Symphony_No._10_(Schubert)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: bocetos de tres movimientos fechados en octubre–noviembre de 1828.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no recoge grabaciones concretas.",
+    "level": "documented",
+    "conceptionYear": 1828,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Brian Newbould's orchestration of the sketches (article 1985, book 1992, full score 1995) has been performed, published and recorded. Pierre Bartholomée reharmonised parts of it, and Luciano Berio's Rendering (1989) is also based on the sketches.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Symphony No. 10 (Schubert)\".",
+      "link": "https://en.wikipedia.org/wiki/Symphony_No._10_(Schubert)"
+    },
+    "anchorYear": 2020,
+    "distance": 192
   },
   {
     "code": "vstg-0122",
@@ -2764,12 +2824,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Niels Henrik Abel, 1829",
     "image": "/vestigios/vstg-0122.png",
     "description": "The Norwegian mathematician Niels Henrik Abel died of tuberculosis on 6 April 1829, aged 26. Two days before, a letter arrived offering him a professorship in Berlin, which he never received.",
-    "failedFuture": "A chair in Berlin that arrived two days after its candidate died. His work was published after his death and bears his name in the prize awarded from 2003.",
+    "failedFuture": "A mathematical career cut short by tuberculosis at 26, after most of his work was done in six or seven years. Charles Hermite said he left mathematicians enough to keep them busy for five hundred years.",
     "source": "Wikipedia, \"Niels Henrik Abel\".",
     "link": "https://en.wikipedia.org/wiki/Niels_Henrik_Abel",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: muerte el 6 de abril de 1829; carta de Crelle con la plaza en Berlín llegó dos días después; premio Abel desde 2003.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no menciona la cátedra de Berlín; se conserva el texto original.",
+    "level": "documented",
+    "conceptionYear": 1829,
+    "closureYear": 1829,
+    "presentEffect": {
+      "text": "The Abel Prize, first awarded in 2003, is named in his honour, and the adjective 'abelian' is used throughout mathematics. His portrait appeared on a Norwegian banknote, and a statue stands in Oslo and a crater on the Moon bears his name.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Niels Henrik Abel\".",
+      "link": "https://en.wikipedia.org/wiki/Niels_Henrik_Abel"
+    },
+    "anchorYear": 2020,
+    "distance": 191
   },
   {
     "code": "vstg-0123",
@@ -2778,12 +2848,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Évariste Galois, 1832",
     "image": "/vestigios/vstg-0123.png",
     "description": "The French mathematician Évariste Galois, who died after a duel on 30 May 1832, aged 20. The night before, he wrote a letter and three manuscripts setting out his mathematical ideas.",
-    "failedFuture": "A mathematics left in three manuscripts the night before a duel. They were published in 1846, fourteen years later.",
+    "failedFuture": "Mathematics summed up in a letter to Auguste Chevalier before a duel on 30 May 1832, from which he died the next day. Joseph Liouville published his manuscripts in 1846.",
     "source": "Wikipedia, \"Évariste Galois\".",
     "link": "https://en.wikipedia.org/wiki/%C3%89variste_Galois",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: duelo el 30 de mayo de 1832; muerte al día siguiente; manuscritos publicados por Liouville en 1846.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1832,
+    "closureYear": 1832,
+    "presentEffect": {
+      "text": "Joseph Liouville published his manuscripts in 1846. They contain the foundations of Galois theory, a proof that the general quintic cannot be solved by radicals, the concept of finite fields and the groups PSL(2,p), among the first families of finite simple groups.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Évariste Galois\".",
+      "link": "https://en.wikipedia.org/wiki/%C3%89variste_Galois"
+    },
+    "anchorYear": 2020,
+    "distance": 188
   },
   {
     "code": "vstg-0124",
@@ -2796,8 +2876,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Georg Büchner\".",
     "link": "https://en.wikipedia.org/wiki/Georg_B%C3%BCchner",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 1813–1837; murió en Zúrich a los 23 años; Woyzeck quedó en fragmentos y se publicó póstumamente.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1837,
+    "closureYear": 1837,
+    "presentEffect": {
+      "text": "The Georg Büchner Prize has been awarded annually in Germany since 1923; Alban Berg's opera Wozzeck premiered in 1925 and Werner Herzog's film Woyzeck followed in 1979. The play is part of the curriculum for grade 12 students in Germany.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Georg Büchner\".",
+      "link": "https://en.wikipedia.org/wiki/Georg_B%C3%BCchner"
+    },
+    "anchorYear": 2020,
+    "distance": 183
   },
   {
     "code": "vstg-0125",
@@ -2810,8 +2900,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Ada Lovelace\".",
     "link": "https://en.wikipedia.org/wiki/Ada_Lovelace",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: publicada en septiembre de 1843; notas A a G; la Nota G tiene el método de los números de Bernoulli.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1843,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Ada programming language, created by the US Department of Defense, was named after her; its reference manual was approved on 10 December 1980. Ada Lovelace Day has been held every year since 2009, and Alan Turing named 'Lady Lovelace's Objection' in his paper on machine intelligence.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Ada Lovelace\".",
+      "link": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    },
+    "anchorYear": 2020,
+    "distance": 177
   },
   {
     "code": "vstg-0126",
@@ -2824,22 +2924,42 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Franklin's lost expedition\".",
     "link": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: salida el 19 de mayo de 1845; naves HMS Erebus y HMS Terror abandonadas en abril de 1848; 129 hombres.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1845,
+    "closureYear": 1848,
+    "presentEffect": {
+      "text": "The wrecks of HMS Erebus (found in 2014) and HMS Terror (found in 2016) are protected as a National Historic Site, with research and dive expeditions each year. Inuit oral testimony helped guide the searches, and under a 2018 agreement the UK owns the first 65 artefacts from Erebus while Canada and the Inuit jointly own the wrecks.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Franklin's lost expedition\".",
+      "link": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition"
+    },
+    "anchorYear": 2020,
+    "distance": 175
   },
   {
     "code": "vstg-0127",
-    "year": 1852,
-    "suffix": "",
-    "name": "Gogol's burned manuscripts, 1852",
+    "year": 1915,
+    "suffix": "a",
+    "name": "Henry Moseley, 1915",
     "image": "/vestigios/vstg-0127.png",
-    "description": "Nikolai Gogol burned the manuscript of the second part of Dead Souls on the night of 24 February 1852 (Old Style). He died in Moscow on 4 March 1852.",
-    "failedFuture": "A second book that the author burned himself, days before his death. He blamed a prank by the Devil.",
-    "source": "Wikipedia, \"Nikolai Gogol\".",
-    "link": "https://en.wikipedia.org/wiki/Nikolai_Gogol",
+    "description": "Henry Moseley, the English physicist who showed that X-ray wavelengths follow a systematic relationship with atomic number. He was killed by a sniper at Gallipoli on 10 August 1915, aged 27.",
+    "failedFuture": "A physicist whom Rutherford believed would have won a Nobel Prize; Arrhenius nominated him for the 1915 chemistry prize and the committee did not award it. His measurements had identified the missing atomic numbers 43, 61, 72 and 75.",
+    "source": "Wikipedia, \"Henry Moseley\".",
+    "link": "https://en.wikipedia.org/wiki/Henry_Moseley",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: quemó el manuscrito la noche del 24 de febrero de 1852 (calendario juliano); murió el 4 de marzo de 1852.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia. Concepción = año de la muerte.",
+    "level": "documented",
+    "conceptionYear": 1915,
+    "closureYear": 1915,
+    "presentEffect": {
+      "text": "Moseley's law gave atomic numbers a physical basis, and elements 43 and 61 were later confirmed as technetium and promethium. The Institute of Physics Henry Moseley Medal and Prize is named after him, with memorial plaques at Manchester and Eton; Robert Millikan wrote that the war's 'snuffing out of this young life' was itself a grave loss.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Henry Moseley\".",
+      "link": "https://en.wikipedia.org/wiki/Henry_Moseley"
+    },
+    "anchorYear": 2020,
+    "distance": 105
   },
   {
     "code": "vstg-0128",
@@ -2852,8 +2972,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Bibliotheca Alexandrina, SCIplanet, \"Ignaz Semmelweis: Killed by Ignorance\".",
     "link": "https://www.bibalex.org/SCIplanet/en/Article/Details.aspx?id=7238",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con fuente secundaria: 1847; mortalidad del 10 % o más bajó a cerca del 2 %; murió en 1865 en una institución mental.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1847,
+    "closureYear": 1865,
+    "presentEffect": {
+      "text": "Handwashing is recognised as the antiseptic policy he pioneered, and Google marked 20 March 2020 with a Doodle to promote it during the COVID-19 pandemic. The 'Semmelweis reflex' names the rejection of new knowledge that conflicts with entrenched norms; a Budapest medical university, a museum in his birth house and the Ignác Semmelweis Prize bear his name.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Ignaz Semmelweis\".",
+      "link": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+    },
+    "anchorYear": 2020,
+    "distance": 173
   },
   {
     "code": "vstg-0129",
@@ -2866,22 +2996,42 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Gregor Mendel\".",
     "link": "https://en.wikipedia.org/wiki/Gregor_Mendel",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: conferencias de 8 de febrero y 8 de marzo de 1865; publicación en 1866; redescubierto en 1900 por De Vries, Correns y Tschermak.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1856,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "His experiments, begun in 1856 on some 28,000 plants, led to the laws of segregation and independent assortment, known as Mendelian inheritance. Hugo de Vries, Carl Correns and Erich von Tschermak independently confirmed them in 1900, launching modern genetics, and the genes behind his seven traits were identified by 2025.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Gregor Mendel\".",
+      "link": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+    },
+    "anchorYear": 2020,
+    "distance": 164
   },
   {
     "code": "vstg-0130",
-    "year": 1879,
-    "suffix": "",
-    "name": "Vincent van Gogh, missionary in the Borinage",
+    "year": 1920,
+    "suffix": "c",
+    "name": "Srinivasa Ramanujan, 1920",
     "image": "/vestigios/vstg-0130.png",
-    "description": "Vincent van Gogh took up a post as missionary at Petit-Wasmes in the Borinage, a mining district in Belgium, in January 1879. Church authorities dismissed him that year for undermining the dignity of the priesthood.",
-    "failedFuture": "A career as a preacher that ended in a single year. He moved to Brussels in 1880 to study art.",
-    "source": "Wikipedia, \"Vincent van Gogh\".",
-    "link": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+    "description": "A self-taught Indian mathematician who wrote to G. H. Hardy in 1913, joined him at Cambridge in 1914 and died in 1920, aged 32.",
+    "failedFuture": "A mathematician who compiled nearly 3,900 results and was elected a Fellow of the Royal Society in 1918; illness cut his work short at 32.",
+    "source": "Wikipedia, \"Srinivasa Ramanujan\".",
+    "link": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: enero de 1879 en Petit-Wasmes; despedido ese año; traslado a Bruselas en 1880.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1913,
+    "closureYear": 1920,
+    "presentEffect": {
+      "text": "His 'lost notebook' was rediscovered in 1976 by George Andrews, and the Ramanujan conjecture on the tau function was proven in 1973 as a consequence of Pierre Deligne's work. India marks 22 December as National Mathematics Day, and the SASTRA and ICTP prizes are named after him.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Srinivasa Ramanujan\".",
+      "link": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+    },
+    "anchorYear": 2020,
+    "distance": 107
   },
   {
     "code": "vstg-0131",
@@ -2894,8 +3044,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Hiram Maxim\".",
     "link": "https://en.wikipedia.org/wiki/Hiram_Maxim",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: pruebas de 1894; la máquina se elevó y los puntales la retuvieron; Maxim abandonó el trabajo.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1889,
+    "closureYear": 1894,
+    "presentEffect": {
+      "text": "Maxim turned his experience to fairground rides: the 'Captive Flying Machine' at Blackpool Pleasure Beach still operates, the oldest operating amusement ride in Europe and virtually unchanged from his design. His maxim gun was developed into the Vickers machine gun.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Hiram Maxim\".",
+      "link": "https://en.wikipedia.org/wiki/Hiram_Maxim"
+    },
+    "anchorYear": 2020,
+    "distance": 131
   },
   {
     "code": "vstg-0132",
@@ -2908,8 +3068,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Andrée's Arctic balloon expedition\".",
     "link": "https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: salida el 11 de julio de 1897 desde Svalbard; globo Örnen; restos hallados en 1930 en Kvitøya.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1897,
+    "closureYear": 1897,
+    "presentEffect": {
+      "text": "The remains and records found on Kvitøya in 1930 caused national mourning in Sweden; Strindberg's photographs are now valued for their historical and artistic significance. Per Olof Sundman's 1967 novel and the 1982 film based on it, which was Oscar-nominated, kept the story in circulation, and Bea Uusma has argued a polar bear killed Strindberg.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Andrée's Arctic balloon expedition\".",
+      "link": "https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition"
+    },
+    "anchorYear": 2020,
+    "distance": 123
   },
   {
     "code": "vstg-0133",
@@ -2922,8 +3092,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Percy Pilcher\".",
     "link": "https://en.wikipedia.org/wiki/Percy_Pilcher",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: muerte el 2 de octubre de 1899; fallo estructural del planeador Hawk; estudio de Cranfield de 2003.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1899,
+    "closureYear": 1899,
+    "presentEffect": {
+      "text": "In 2003 researchers at Cranfield University built a full-size working replica of his triplane for the BBC programme Horizon; it flew for 1 minute 25 seconds and the team concluded his design was more or less workable. The original Hawk glider hangs in the National Museum of Scotland after conservation completed in 2016.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Percy Pilcher\".",
+      "link": "https://en.wikipedia.org/wiki/Percy_Pilcher"
+    },
+    "anchorYear": 2020,
+    "distance": 121
   },
   {
     "code": "vstg-0134",
@@ -2936,8 +3116,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Samuel Pierpont Langley\".",
     "link": "https://en.wikipedia.org/wiki/Samuel_Pierpont_Langley",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fracasos de 7 de octubre y 8 de diciembre de 1903; financiación de 50.000 dólares del Departamento de Guerra.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1903,
+    "closureYear": 1903,
+    "presentEffect": {
+      "text": "The Smithsonian displayed the Aerodrome as 'the first man-carrying aeroplane in the history of the world capable of sustained free flight', a claim that led to a long dispute with Orville Wright. On 28 May 1914 Glenn Curtiss flew a modified Aerodrome, and NASA's Langley Research Center, the Langley Gold Medal and Langley Air Force Base carry his name.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Samuel Pierpont Langley\".",
+      "link": "https://en.wikipedia.org/wiki/Samuel_Pierpont_Langley"
+    },
+    "anchorYear": 2020,
+    "distance": 117
   },
   {
     "code": "vstg-0135",
@@ -2950,27 +3140,47 @@ export const VESTIGES: Vestige[] = [
     "source": "Pruitt, S., History.com, based on Ullrich, V. (2016). Hitler: Ascent, 1889–1939.",
     "link": "https://www.history.com/articles/adolf-hitler-artist-paintings-vienna",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con History.com: 1907, dibujo «unsatisfactory»; 1908, en otoño, rechazado de nuevo.",
-    "level": "documented"
+    "status": "Efecto presente verificado en History.com; la atribución a Klingen está en la fuente.",
+    "level": "documented",
+    "conceptionYear": 1907,
+    "closureYear": 1908,
+    "presentEffect": {
+      "text": "Hitler's paintings are still bought and sold: 14 works sold at a Nuremberg auction in June 2015 for about $450,000, and in January 2019 German police seized three watercolours at a Berlin auction house on suspicion of forgery. Stephan Klingen of the Central Institute for Art History in Munich said his style was that of a 'moderately ambitious amateur', making his work hard to tell apart from hundreds of thousands of similar works.",
+      "kind": "attributed",
+      "source": "History.com, \"Adolf Hitler's paintings\" (citing Stephan Klingen).",
+      "link": "https://www.history.com/articles/adolf-hitler-artist-paintings-vienna"
+    },
+    "anchorYear": 2020,
+    "distance": 113
   },
   {
     "code": "vstg-0136",
-    "year": 1912,
+    "year": 1945,
     "suffix": "",
-    "name": "Scott's Terra Nova expedition, 1912",
+    "name": "Anne Frank, 1942-1945",
     "image": "/vestigios/vstg-0136.png",
-    "description": "Robert Falcon Scott reached the South Pole on 17 January 1912, after Amundsen had reached it on 14 December 1911. Scott and his companions died on the return march in late March 1912; their bodies were found in November 1912.",
-    "failedFuture": "A pole reached second, with no return. The men died on the way back; their bodies were found months later.",
-    "source": "Wikipedia, \"Terra Nova Expedition\".",
-    "link": "https://en.wikipedia.org/wiki/Terra_Nova_Expedition",
+    "description": "Anne Frank's diary, written between 1942 and 1944 while her family hid in an annex in Amsterdam; her father Otto published it in 1947.",
+    "failedFuture": "A life after hiding. The Gestapo arrested the family in August 1944, and Anne and her sister Margot likely died of typhus at Bergen-Belsen in early 1945.",
+    "source": "Wikipedia, \"Anne Frank\".",
+    "link": "https://en.wikipedia.org/wiki/Anne_Frank",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Scott en el Polo el 17 de enero de 1912; Amundsen el 14 de diciembre de 1911; muerte a finales de marzo de 1912.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1942,
+    "closureYear": 1945,
+    "presentEffect": {
+      "text": "The diary has been translated into more than 70 languages; UNESCO added it to its Memory of the World Register in 2009, and the Anne Frank House in Amsterdam is a major tourist site. Claims that it was a forgery were rejected in court, and forensic studies supported its authenticity.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Anne Frank\".",
+      "link": "https://en.wikipedia.org/wiki/Anne_Frank"
+    },
+    "anchorYear": 2020,
+    "distance": 78
   },
   {
     "code": "vstg-0137",
     "year": 1915,
-    "suffix": "",
+    "suffix": "b",
     "name": "Shackleton's Endurance expedition, 1914–1916",
     "image": "/vestigios/vstg-0137.png",
     "description": "Ernest Shackleton's Imperial Trans-Antarctic Expedition. The Endurance was caught in the Weddell Sea ice in 1915 and crushed; all 28 men survived, reaching Elephant Island and then South Georgia.",
@@ -2978,27 +3188,47 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Imperial Trans-Antarctic Expedition\".",
     "link": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Endurance atrapado y aplastado en 1915; 28 hombres; sin pérdidas de vidas.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. El hallazgo del pecio es posterior a 2020.",
+    "level": "documented",
+    "conceptionYear": 1914,
+    "closureYear": 1915,
+    "presentEffect": {
+      "text": "The wreck of the Endurance was found on the seafloor on 5 March 2022, remarkably preserved. Frank Hurley's photographs, the best 120 of about 550 glass plates, survive.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Imperial Trans-Antarctic Expedition\".",
+      "link": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition"
+    },
+    "anchorYear": 2020,
+    "distance": 106
   },
   {
     "code": "vstg-0138",
-    "year": 1916,
-    "suffix": "a",
-    "name": "Antonio Sant'Elia, Città Nuova, 1914–1916",
+    "year": 1954,
+    "suffix": "b",
+    "name": "Alan Turing, 1952-1954",
     "image": "/vestigios/vstg-0138.png",
-    "description": "Antonio Sant'Elia's Città Nuova, a series of drawings for a futurist city, shown at the group's only exhibition in Milan in May–June 1914. He was killed on 10 October 1916, aged 28, during the Eighth Battle of the Isonzo.",
-    "failedFuture": "A city of towers and transit, drawn but never built. Its designer died in the war, two years after the exhibition.",
-    "source": "Wikipedia, \"Antonio Sant'Elia\".",
-    "link": "https://en.wikipedia.org/wiki/Antonio_Sant%27Elia",
+    "description": "Alan Turing, whose 1936 formalisation of algorithm and computation remains a central object of study in the theory of computation. He was convicted in 1952 and died on 7 June 1954, aged 41.",
+    "failedFuture": "A career cut short: after his conviction for 'gross indecency' he accepted hormone treatment as an alternative to prison, and the inquest recorded suicide by cyanide poisoning, though the evidence is also consistent with accidental poisoning.",
+    "source": "Wikipedia, \"Alan Turing\".",
+    "link": "https://en.wikipedia.org/wiki/Alan_Turing",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: exposición de mayo–junio de 1914 en Milán; muerte el 10 de octubre de 1916, a los 28 años; sin ciudad construida.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1952,
+    "closureYear": 1954,
+    "presentEffect": {
+      "text": "Prime Minister Gordon Brown apologised in 2009, calling his treatment 'appalling', and Queen Elizabeth II pardoned him in 2013. The 2017 'Alan Turing law' retroactively pardoned men convicted under historical laws against homosexual acts; the Turing Award bears his name, and his portrait is on the Bank of England £50 note, first released on 23 June 2021.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Alan Turing\".",
+      "link": "https://en.wikipedia.org/wiki/Alan_Turing"
+    },
+    "anchorYear": 2020,
+    "distance": 68
   },
   {
     "code": "vstg-0139",
     "year": 1916,
-    "suffix": "b",
+    "suffix": "a",
     "name": "Umberto Boccioni, 1916",
     "image": "/vestigios/vstg-0139.png",
     "description": "Umberto Boccioni, painter and sculptor of Italian Futurism, was thrown from his horse during cavalry training in Verona on 16 August 1916 and died the next day, aged 33. His key work, Unique Forms of Continuity in Space, was completed in 1913.",
@@ -3006,13 +3236,23 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Umberto Boccioni\".",
     "link": "https://en.wikipedia.org/wiki/Umberto_Boccioni",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: accidente el 16 de agosto de 1916; murió al día siguiente, a los 33 años; obra de 1913.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción = año de la muerte; la ficha no confirma el año de emisión de la moneda.",
+    "level": "documented",
+    "conceptionYear": 1916,
+    "closureYear": 1916,
+    "presentEffect": {
+      "text": "Unique Forms of Continuity in Space was first cast in bronze in 1931, and in 1998 it was selected as the image for the back of the Italian 20-cent euro coin.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Umberto Boccioni\".",
+      "link": "https://en.wikipedia.org/wiki/Umberto_Boccioni"
+    },
+    "anchorYear": 2020,
+    "distance": 104
   },
   {
     "code": "vstg-0140",
     "year": 1916,
-    "suffix": "c",
+    "suffix": "b",
     "name": "Franz Marc, 1916",
     "image": "/vestigios/vstg-0140.png",
     "description": "Franz Marc, founder of the journal Der Blaue Reiter in 1911, was killed on 4 March 1916 at the Battle of Verdun, aged 36.",
@@ -3020,8 +3260,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Franz Marc\".",
     "link": "https://en.wikipedia.org/wiki/Franz_Marc",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: muerte el 4 de marzo de 1916 en Verdun, a los 36 años; fundador de Der Blaue Reiter en 1911.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción = año de la muerte.",
+    "level": "documented",
+    "conceptionYear": 1916,
+    "closureYear": 1916,
+    "presentEffect": {
+      "text": "The Franz Marc Museum opened in 1986 in Kochel am See. About 130 of his works were removed from German museums by the Nazis, who labelled him a 'degenerate artist'; his works now hang in the Guggenheim and the Kunstmuseum Basel, and The Foxes sold for £42.6 million in 2022 after restitution to the heirs of Kurt Grawi.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Franz Marc\".",
+      "link": "https://en.wikipedia.org/wiki/Franz_Marc"
+    },
+    "anchorYear": 2020,
+    "distance": 104
   },
   {
     "code": "vstg-0141",
@@ -3034,8 +3284,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Wardenclyffe Tower\".",
     "link": "https://en.wikipedia.org/wiki/Wardenclyffe_Tower",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: construcción 1901–1902; Morgan retiró los fondos en 1901; demolición desde el 4 de julio de 1917.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1901,
+    "closureYear": 1917,
+    "presentEffect": {
+      "text": "A nonprofit supported by The Oatmeal's crowdfunding campaign bought the 15.69-acre site on 2 May 2013 to create the Tesla Science Center at Wardenclyffe. The site was listed on the National Register of Historic Places on 27 July 2018.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Wardenclyffe Tower\".",
+      "link": "https://en.wikipedia.org/wiki/Wardenclyffe_Tower"
+    },
+    "anchorYear": 2020,
+    "distance": 119
   },
   {
     "code": "vstg-0142",
@@ -3048,8 +3308,18 @@ export const VESTIGES: Vestige[] = [
     "source": "MacTutor, \"Richardson, Lewis Fry\".",
     "link": "https://mathshistory.st-andrews.ac.uk/DNB/Richardson.html",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con MacTutor: cálculo mientras conducía una ambulancia en Francia; libro de 1922; «grossly in error».",
-    "level": "documented"
+    "status": "Efecto presente verificado en MacTutor. Concepción: 1916, año del borrador.",
+    "level": "documented",
+    "conceptionYear": 1916,
+    "closureYear": 1922,
+    "presentEffect": {
+      "text": "His ideas gained serious attention in the 1950s, when better observations and much faster computers became available, and numerical methods spread worldwide within a few years. The Richardson number, developed in his later work, is a criterion for whether turbulence will increase or decrease.",
+      "kind": "documented",
+      "source": "St Andrews MacTutor, \"Lewis Fry Richardson\".",
+      "link": "https://mathshistory.st-andrews.ac.uk/DNB/Richardson.html"
+    },
+    "anchorYear": 2020,
+    "distance": 104
   },
   {
     "code": "vstg-0143",
@@ -3062,8 +3332,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Max Brod\".",
     "link": "https://en.wikipedia.org/wiki/Max_Brod",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: muerte de Kafka en 1924; Brod se negó; El proceso (1925), El castillo (1926), América (1927).",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La fecha del fallo del Tribunal Supremo no está clara en la ficha (2016 o 2019).",
+    "level": "documented",
+    "conceptionYear": 1924,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Max Brod refused Kafka's instruction and published The Trial (1925), The Castle (1926) and Amerika (1927). About two-thirds of the papers went to the Bodleian Library in 1961, and Israel's Supreme Court ruled in favour of the National Library of Israel in a long litigation over the rest, reported to the end in 2019.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Max Brod\".",
+      "link": "https://en.wikipedia.org/wiki/Max_Brod"
+    },
+    "anchorYear": 2020,
+    "distance": 96
   },
   {
     "code": "vstg-0144",
@@ -3072,12 +3352,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Walter Benjamin, habilitation, 1925",
     "image": "/vestigios/vstg-0144.png",
     "description": "Walter Benjamin submitted his habilitation thesis, The Origin of German Tragic Drama, to the University of Frankfurt in 1925. The faculty found it impenetrable and urged him to withdraw it, and he did.",
-    "failedFuture": "An academic career that closed at its entrance. The book was published in 1928, after the faculty asked the author to withdraw it.",
+    "failedFuture": "An academic career that closed at its entrance: in 1925 the Frankfurt faculty found his habilitation thesis impenetrable and urged him to withdraw it.",
     "source": "Wikipedia, \"The Origin of German Tragic Drama\".",
     "link": "https://en.wikipedia.org/wiki/The_Origin_of_German_Tragic_Drama",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentada en 1925; la facultad la consideró «impenetrable»; publicada en 1928.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1925,
+    "closureYear": 1925,
+    "presentEffect": {
+      "text": "The book is now considered a paradigm-shifting work in critical theory and the philosophy of history. Adorno taught it as a seminar at Frankfurt by 1931, it influenced The Origins of Totalitarianism and Dialectic of Enlightenment, and a translation by John Osborne was published by Verso in 2003.",
+      "kind": "documented",
+      "source": "Wikipedia, \"The Origin of German Tragic Drama\".",
+      "link": "https://en.wikipedia.org/wiki/The_Origin_of_German_Tragic_Drama"
+    },
+    "anchorYear": 2020,
+    "distance": 95
   },
   {
     "code": "vstg-0145",
@@ -3086,12 +3376,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Alfred Wegener, continental drift, 1912–1930",
     "image": "/vestigios/vstg-0145.png",
     "description": "Alfred Wegener proposed continental drift in 1912. Most geologists rejected it, mainly because no mechanism was known. He died in Greenland in November 1930, aged 50, during his last expedition.",
-    "failedFuture": "A theory of moving continents that his contemporaries refused for want of a mechanism. He died on the ice of the expedition he led.",
+    "failedFuture": "A theory of moving continents, presented in 1912 and rejected by most attendees at a 1926 symposium in New York. He died in Greenland in November 1930, on an expedition.",
     "source": "Wikipedia, \"Alfred Wegener\".",
     "link": "https://en.wikipedia.org/wiki/Alfred_Wegener",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: propuesta el 6 de enero de 1912; expedición de 1930; murió en Groenlandia en noviembre de 1930, a los 50 años.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1912,
+    "closureYear": 1930,
+    "presentEffect": {
+      "text": "In the 1960s seafloor spreading revived continental drift as plate tectonics, which gained mainstream acceptance. The Alfred Wegener Institute for Polar and Marine Research was established in Bremerhaven in 1980 on his centenary, and craters on the Moon and Mars bear his name.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Alfred Wegener\".",
+      "link": "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    },
+    "anchorYear": 2020,
+    "distance": 108
   },
   {
     "code": "vstg-0146",
@@ -3104,22 +3404,32 @@ export const VESTIGES: Vestige[] = [
     "source": "Poets.org, \"Federico García Lorca\".",
     "link": "https://www.poets.org/poetsorg/poet/federico-garc%C3%ADa-lorca",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Poets.org: detenido el 16 de agosto de 1936; muerto el 18 o 19 de agosto; La Barraca desde 1931.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1936,
+    "closureYear": 1936,
+    "presentEffect": {
+      "text": "His remains have never been found; excavations at Alfacar in 2009 and searches in 2014 and 2016 failed, and excavations of mass graves at Barranco de Víznar have continued since 2021. The Huerta de San Vicente in Granada is now a museum, and the Lorca Foundation, directed by his niece Laura García Lorca, holds family documents and promotes his work.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Federico García Lorca\".",
+      "link": "https://en.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
+    },
+    "anchorYear": 2020,
+    "distance": 84
   },
   {
     "code": "vstg-0147",
-    "year": 1937,
+    "year": null,
     "suffix": "",
-    "name": "Amelia Earhart, disappearance, 1937",
+    "name": "Pendiente",
     "image": "/vestigios/vstg-0147.png",
-    "description": "Amelia Earhart disappeared on 2 July 1937 during her attempt to circle the globe in a Lockheed Electra, with navigator Fred Noonan. The search found no physical trace of the fliers or the aircraft.",
-    "failedFuture": "A flight around the world that never ended. No trace of the fliers or the aircraft was ever found.",
-    "source": "History.com, \"Amelia Earhart disappears\".",
-    "link": "https://history.com/this-day-in-history/amelia-earhart-disappears",
+    "description": "",
+    "failedFuture": "",
+    "source": "",
+    "link": "",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con History.com: 2 de julio de 1937; Lockheed Electra; Noonan; búsqueda sin rastro.",
-    "level": "documented"
+    "status": "Pendiente de investigar. Debe cumplir la regla: hecho verificado, efecto presente con fuente o comentario atribuido.",
+    "level": "pending"
   },
   {
     "code": "vstg-0148",
@@ -3128,12 +3438,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Ettore Majorana, disappearance, 1938",
     "image": "/vestigios/vstg-0148.png",
     "description": "The Italian physicist Ettore Majorana disappeared on 25 March 1938, after buying a ticket from Palermo to Naples. He was never seen again; his fate is unknown.",
-    "failedFuture": "A physicist whose last paper was published in 1937, a year before he vanished. The note he sent from Palermo is his last known letter.",
+    "failedFuture": "A physicist whose last paper, in 1937, predicted what are now called Majorana fermions; in 1938 he vanished after buying a ship ticket from Palermo to Naples.",
     "source": "Wikipedia, \"Ettore Majorana\".",
     "link": "https://en.wikipedia.org/wiki/Ettore_Majorana",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: desaparición el 25 de marzo de 1938; último artículo en 1937; la carta de Palermo.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1938,
+    "closureYear": 1938,
+    "presentEffect": {
+      "text": "His last paper, in 1937, predicted that electrically neutral fermions could be their own antiparticles; they are now called Majorana fermions, and Microsoft's 'Majorana 1' topological qubit device is named after him. A 2015 statement by Rome prosecutors said he likely lived in Valencia, Venezuela, between 1955 and 1959, and an annual Majorana Prize honours his work.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Ettore Majorana\".",
+      "link": "https://en.wikipedia.org/wiki/Ettore_Majorana"
+    },
+    "anchorYear": 2020,
+    "distance": 82
   },
   {
     "code": "vstg-0149",
@@ -3146,8 +3466,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"The Master and Margarita\".",
     "link": "https://en.wikipedia.org/wiki/The_Master_and_Margarita",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: escrita de 1928 a 1940; publicación censurada en Moskva en 1966–1967; texto completo en 1973.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha avisa de que los datos de los museos pueden estar desactualizados.",
+    "level": "documented",
+    "conceptionYear": 1928,
+    "closureYear": 1940,
+    "presentEffect": {
+      "text": "Critics often rank the novel among the best of the 20th century; it has inspired many stage and screen adaptations, and two museums in Moscow honour Bulgakov and the novel.",
+      "kind": "documented",
+      "source": "Wikipedia, \"The Master and Margarita\".",
+      "link": "https://en.wikipedia.org/wiki/The_Master_and_Margarita"
+    },
+    "anchorYear": 2020,
+    "distance": 92
   },
   {
     "code": "vstg-0150",
@@ -3160,8 +3490,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"The Man Without Qualities\".",
     "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: inicio en 1921; volúmenes de 1930 y 1933; muerte en 1942 con la novela inacabada; viuda publicó los restos en 1943.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto.",
+    "level": "documented",
+    "conceptionYear": 1921,
+    "closureYear": 1942,
+    "presentEffect": {
+      "text": "His widow Martha published a posthumous collection of unpublished material in 1943, including 20 chapters Musil had withdrawn from the proofs. A Knopf English edition by Sophie Wilkins and Burton Pike (1996, 1,774 pages) keeps the unfinished novel in print.",
+      "kind": "documented",
+      "source": "Wikipedia, \"The Man Without Qualities\".",
+      "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities"
+    },
+    "anchorYear": 2020,
+    "distance": 99
   },
   {
     "code": "vstg-0151",
@@ -3170,12 +3510,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Nikolai Vavilov, died 1943",
     "image": "/vestigios/vstg-0151.png",
     "description": "Nikolai Vavilov, the Soviet geneticist and seed collector, was arrested in August 1940 and died in Saratov prison on 26 January 1943. He had opposed Trofim Lysenko's anti-Mendelian views.",
-    "failedFuture": "The science of crop diversity he built was set aside under Lysenko's theories. He died in prison, and the death certificate cited heart failure, though some authors say starvation.",
+    "failedFuture": "A plant geneticist who built a world collection of crop diversity. He died in a Saratov prison in 1943; the death certificate gives 'decline of cardiac activity', though some authors say starvation.",
     "source": "Wikipedia, \"Nikolai Vavilov\".",
     "link": "https://en.wikipedia.org/wiki/Nikolai_Vavilov",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: arresto en agosto de 1940; muerte en la cárcel de Saratov el 26 de enero de 1943; cita del certificado de defunción.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción = año de la muerte.",
+    "level": "documented",
+    "conceptionYear": 1943,
+    "closureYear": 1943,
+    "presentEffect": {
+      "text": "The Vavilov Institute of Plant Industry in St Petersburg, renamed after him in 1968, still holds one of the world's largest plant genetic collections. Its staff protected the seed bank through the 28-month siege of Leningrad, and some died of starvation rather than eat the seeds.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Nikolai Vavilov\".",
+      "link": "https://en.wikipedia.org/wiki/Nikolai_Vavilov"
+    },
+    "anchorYear": 2020,
+    "distance": 77
   },
   {
     "code": "vstg-0152",
@@ -3188,8 +3538,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Atomic Archive, \"Lise Meitner (1878–1968)\".",
     "link": "https://www.atomicarchive.com/resources/biographies/meitner.html",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Atomic Archive: Hahn fue el único premiado en 1944; Meitner y Frisch dieron la explicación física y el nombre «nuclear fission».",
-    "level": "documented"
+    "status": "Efecto presente atribuido (Perutz y biógrafos) vía Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1944,
+    "closureYear": 1944,
+    "presentEffect": {
+      "text": "Element 109 was named meitnerium in 1997. Nobel committee records, opened in the 1990s, showed that its judgment was shaped by disciplinary bias, and biographers and Nobel laureate Max Perutz called the award unjust.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Lise Meitner\".",
+      "link": "https://en.wikipedia.org/wiki/Lise_Meitner"
+    },
+    "anchorYear": 2020,
+    "distance": 76
   },
   {
     "code": "vstg-0153",
@@ -3198,12 +3558,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Rosalind Franklin, Photograph 51, 1952",
     "image": "/vestigios/vstg-0153.png",
     "description": "Photograph 51, an X-ray diffraction image of DNA taken in 1952 by Raymond Gosling, a student of Rosalind Franklin. Franklin died of cancer in 1958; the 1962 Nobel Prize went to Crick, Watson and Wilkins.",
-    "failedFuture": "Evidence for the structure of DNA that did not reach its author's name in the prize. The Nobel rules of the time did not allow posthumous awards.",
+    "failedFuture": "Evidence for the structure of DNA whose author died in 1958, at 37. Wilkins, Crick and Watson shared the 1962 Nobel Prize in Physiology or Medicine.",
     "source": "Wikipedia, \"Rosalind Franklin\".",
     "link": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fotografía de 1952; Nobel de 1962 a Crick, Watson y Wilkins; muerte el 16 de abril de 1958; no se concedían póstumos.",
-    "level": "documented"
+    "status": "Efecto presente atribuido (Watson) vía Wikipedia; es de los más débiles de la categoría. La ficha no cubre el róver Rosalind Franklin.",
+    "level": "documented",
+    "conceptionYear": 1952,
+    "closureYear": 1958,
+    "presentEffect": {
+      "text": "Aaron Klug, Franklin's former colleague, won the 1982 Nobel Prize in Chemistry. Wikipedia reports that her contribution was largely unrecognised in her lifetime and that Watson suggested she would ideally have shared a Nobel in Chemistry.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Rosalind Franklin\".",
+      "link": "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+    },
+    "anchorYear": 2020,
+    "distance": 68
   },
   {
     "code": "vstg-0154",
@@ -3216,8 +3586,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Patrice Lumumba\".",
     "link": "https://en.wikipedia.org/wiki/Patrice_Lumumba",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: primer ministro desde el 24 de junio de 1960; muerte el 17 de enero de 1961 en Katanga.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Parte de los hechos son posteriores a 2020.",
+    "level": "documented",
+    "conceptionYear": 1960,
+    "closureYear": 1961,
+    "presentEffect": {
+      "text": "Belgium formally apologised in 2002 and acknowledged 'moral responsibility' for his death, after a 2001 parliamentary commission found Belgium had not ordered the execution but wanted him arrested and did not act to prevent his death. In 2022 Belgium returned Lumumba's tooth to his family, and he is regarded as a martyr of the pan-African movement.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Patrice Lumumba\".",
+      "link": "https://en.wikipedia.org/wiki/Patrice_Lumumba"
+    },
+    "anchorYear": 2020,
+    "distance": 60
   },
   {
     "code": "vstg-0155",
@@ -3230,8 +3610,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Len Bias\".",
     "link": "https://en.wikipedia.org/wiki/Len_Bias",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: segunda elección del draft de 1986; murió el 19 de junio de 1986; ley firmada por Reagan el 27 de octubre de 1986.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no trata las reformas posteriores (2010, 2018).",
+    "level": "documented",
+    "conceptionYear": 1986,
+    "closureYear": 1986,
+    "presentEffect": {
+      "text": "The Anti-Drug Abuse Act of 1986, signed by President Reagan, set a 20-year mandatory minimum for drug distribution leading to death or serious injury and is known as the 'Len Bias Law'. A 2009 ESPN documentary, Without Bias, and an episode of the series Snowfall kept the story in circulation.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Len Bias\".",
+      "link": "https://en.wikipedia.org/wiki/Len_Bias"
+    },
+    "anchorYear": 2020,
+    "distance": 34
   },
   {
     "code": "vstg-0156",
@@ -3348,7 +3738,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0164",
     "year": 1920,
-    "suffix": "c",
+    "suffix": "d",
     "name": "The League of Nations",
     "image": "/vestigios/vstg-0164.png",
     "description": "The League of Nations' Covenant took effect with the Treaty of Versailles on 10 January 1920, and the Council first met on 16 January 1920.",
