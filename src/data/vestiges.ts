@@ -223,7 +223,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0009",
     "year": 1914,
-    "suffix": "a",
+    "suffix": "",
     "name": "Città Nuova",
     "image": "/vestigios/vstg-0009.png",
     "description": "Antonio Sant'Elia's drawings for the Città Nuova, a futurist city of towers, elevated roads and multi-level stations, shown in 1914 in Milan.",
@@ -3324,7 +3324,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0143",
     "year": 1924,
-    "suffix": "",
+    "suffix": "a",
     "name": "Kafka's unpublished manuscripts, 1924",
     "image": "/vestigios/vstg-0143.png",
     "description": "In his will, Franz Kafka asked Max Brod to destroy all his unpublished manuscripts. Brod refused, and published The Trial in 1925, The Castle in 1926 and Amerika in 1927.",
@@ -4234,8 +4234,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Gleaning\".",
     "link": "https://en.wikipedia.org/wiki/Gleaning",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: derecho de espigar para los cottagers; campana del sacristán; fin efectivo con Steel v Houghton (1788).",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1788,
+    "closureYear": 1788,
+    "presentEffect": {
+      "text": "In 2020 there were 143 gleaning organisations in the United States and Canada combined, harvesting an estimated 163,000 to 5.2 million pounds of food. The UK Gleaning Network and the US National Gleaning Project link modern gleaning and food-recovery groups, and Agnès Varda's film The Gleaners and I (2000) explored gleaning in rural France.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Gleaning\".",
+      "link": "https://en.wikipedia.org/wiki/Gleaning"
+    },
+    "anchorYear": 2020,
+    "distance": 232
   },
   {
     "code": "vstg-0182",
@@ -4248,8 +4258,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Public bathing\".",
     "link": "https://en.wikipedia.org/wiki/Public_bathing",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: ley del 26 de agosto de 1846; ámbito de Inglaterra y Gales; hoy casi solo de uso recreativo.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto: la ficha no dice cuáles edificios están catalogados.",
+    "level": "documented",
+    "conceptionYear": 1846,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Public baths are now almost exclusively used recreationally. The Pittsburgh Wash House and Public Baths Building (1904) was nominated for historic landmark status in 2018, and the Asser Levy Public Baths in New York (1908) are listed among surviving public baths.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Public bathing\".",
+      "link": "https://en.wikipedia.org/wiki/Public_bathing"
+    },
+    "anchorYear": 2020,
+    "distance": 174
   },
   {
     "code": "vstg-0183",
@@ -4262,22 +4282,42 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Chimney sweep\".",
     "link": "https://en.wikipedia.org/wiki/Chimney_sweep",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: ley de 1840 'ampliamente ignorada'; ley de 1875 aprobada en septiembre de 1875.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción: ley de 1840 (ignorada hasta 1875).",
+    "level": "documented",
+    "conceptionYear": 1840,
+    "closureYear": 1875,
+    "presentEffect": {
+      "text": "Chimney sweeping remains a working trade: the CSIA and the National Chimney Sweep Guild certify sweeps in the US. In Great Britain a bride seeing a sweep on her wedding day is considered lucky, and some sweeps attend weddings for this purpose; Rochester, Kent, revived its Sweeps' Festival in 1980.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Chimney sweep\".",
+      "link": "https://en.wikipedia.org/wiki/Chimney_sweep"
+    },
+    "anchorYear": 2020,
+    "distance": 180
   },
   {
     "code": "vstg-0184",
-    "year": 1877,
-    "suffix": "",
-    "name": "The first manual telephone switchboard",
+    "year": 1924,
+    "suffix": "b",
+    "name": "The red telephone box",
     "image": "/vestigios/vstg-0184.png",
-    "description": "The Holmes Burglar Alarm Company in Boston installed the first central office and switchboard in May 1877. In 1878 Boston Telephone Dispatch hired Emma Nutt, its first woman operator.",
-    "failedFuture": "The automatic exchange, invented by Almon Strowger in 1888, replaced most central-exchange switchboards. AT&T's operator offices had been reduced to two by 2004.",
-    "source": "Wikipedia, \"Telephone switchboard\".",
-    "link": "https://en.wikipedia.org/wiki/Telephone_switchboard",
+    "description": "Sir Giles Gilbert Scott's design won a 1924 competition and became the K2, which went into service in 1926; his K6 followed in 1935. Phone boxes peaked at about 100,000 in 1990.",
+    "failedFuture": "The public payphone as a fixture of every street. In 1984 BT introduced the KX100 to replace most existing boxes, and payphone use fell from about 800 million minutes in 2002 to 7 million by 2020.",
+    "source": "Wikipedia, \"Red telephone box\".",
+    "link": "https://en.wikipedia.org/wiki/Red_telephone_box",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: primer conmutador en mayo de 1877 (Boston); Emma Nutt en 1878; Strowger en 1888; dos oficinas de operadoras en 2004.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no da el número de cabinas adoptadas por 2020.",
+    "level": "documented",
+    "conceptionYear": 1924,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "About 8,000 traditional red boxes remained in public service in January 2020. A K6 in Westbury-sub-Mendip became a library in 2009, a box in Glendaruel, Argyll, was fitted with a defibrillator after a Girl Guide competition in 2011, and the K2 prototype at Burlington House was listed Grade II* in 2019.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Red telephone box\".",
+      "link": "https://en.wikipedia.org/wiki/Red_telephone_box"
+    },
+    "anchorYear": 2020,
+    "distance": 96
   },
   {
     "code": "vstg-0185",
@@ -4290,22 +4330,42 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Matchgirls' strike\".",
     "link": "https://en.wikipedia.org/wiki/Matchgirls%27_strike",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: huelga de 1888; unos 1.400 trabajadoras al final del primer día; acuerdo del 16 de julio de 1888; sindicato formado después.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1888,
+    "closureYear": 1888,
+    "presentEffect": {
+      "text": "Bryant & May announced in 1901 that its factory no longer used white phosphorus, and the White Phosphorus Matches Prohibition Act 1908 barred its use in the UK after 31 December 1910. The strike was marked on its 125th anniversary in London in 2013, featured in a BBC Ripper Street episode that November, and in a 2017 U2 tour tribute.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Matchgirls' strike\".",
+      "link": "https://en.wikipedia.org/wiki/Matchgirls%27_strike"
+    },
+    "anchorYear": 2020,
+    "distance": 132
   },
   {
     "code": "vstg-0186",
-    "year": 1914,
-    "suffix": "b",
-    "name": "Natural ice, from Tudor to the refrigerator",
+    "year": 1985,
+    "suffix": "",
+    "name": "Blockbuster, the video rental chain",
     "image": "/vestigios/vstg-0186.png",
-    "description": "Frederic Tudor began shipping natural ice in 1806, when he sent it to Martinique. The natural ice trade peaked at the end of the nineteenth century.",
-    "failedFuture": "By 1914 American plants were producing more ice than was harvested naturally. After the First World War the natural ice industry collapsed, and cheap electric motors made home refrigerators common in American homes by the 1930s.",
-    "source": "Wikipedia, \"Ice trade\".",
-    "link": "https://en.wikipedia.org/wiki/Ice_trade",
+    "description": "David Cook opened the first Blockbuster in Dallas, Texas, on 19 October 1985. By 2004 it had more than 9,000 stores and 84,300 employees.",
+    "failedFuture": "A chain meant to remain the way people rent films. It filed for Chapter 11 on 23 September 2010, citing about $900 million in debt and competition from Netflix, Redbox and video on demand; Dish Network closed the last 300 corporate-owned US stores between November 2013 and January 2014.",
+    "source": "Wikipedia, \"Blockbuster (retailer)\".",
+    "link": "https://en.wikipedia.org/wiki/Blockbuster_(retailer)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: inicio en 1806 con Tudor; plantas superan la cosecha natural en 1914; colapso tras la guerra.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Cierre = tiendas corporativas (nov. 2013–ene. 2014).",
+    "level": "documented",
+    "conceptionYear": 1985,
+    "closureYear": 2013,
+    "presentEffect": {
+      "text": "In January 2020 the last store outside the United States, in Dargaville, New Zealand, closed, leaving the franchise store in Bend, Oregon, as the last Blockbuster in the world. In August 2020 the Bend location was listed as an Airbnb rental for a 1990s-themed sleepover.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Blockbuster (retailer)\".",
+      "link": "https://en.wikipedia.org/wiki/Blockbuster_(retailer)"
+    },
+    "anchorYear": 2020,
+    "distance": 35
   },
   {
     "code": "vstg-0187",
@@ -4318,8 +4378,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Telegram\".",
     "link": "https://en.wikipedia.org/wiki/Telegram",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: unos 200 millones en 1929; pico a finales del XIX y comienzos del XX; mensajes de texto como causa.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no da año de concepción del telégrafo en este contexto; distancia no calculada.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Telegram services survive in diplomatic telegrams (which keep the name 'telegram' or 'cable'), singing telegrams, telegrams of condolence, familygrams to submariners and radiograms. The name was reused by the instant-messaging service Telegram.org.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Telegram\".",
+      "link": "https://en.wikipedia.org/wiki/Telegram"
+    },
+    "anchorYear": 2020,
+    "distance": null
   },
   {
     "code": "vstg-0188",
@@ -4332,8 +4402,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Organ grinder\".",
     "link": "https://en.wikipedia.org/wiki/Organ_grinder",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: prohibición en Nueva York en 1935; ordenanzas en Reino Unido; cifra de 1880 en algunas zonas de Italia.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1935,
+    "closureYear": 1935,
+    "presentEffect": {
+      "text": "Dutch street organs were common until the start of the 21st century and are on display at the Museum Speelklok in Utrecht and the Draaiorgelmuseum in Haarlem. Organ rallies such as MEMUSI in Vienna gather enthusiasts in period costume, and organ grinders are common in Mexico City and in Bilbao, Vitoria and San Sebastián. New York's 1935 ban was repealed in 1975.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Organ grinder\".",
+      "link": "https://en.wikipedia.org/wiki/Organ_grinder"
+    },
+    "anchorYear": 2020,
+    "distance": 85
   },
   {
     "code": "vstg-0189",
@@ -4346,8 +4426,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Hansom cab\".",
     "link": "https://en.wikipedia.org/wiki/Hansom_cab",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: patente de 1834; taxímetros de gasolina en 1908; última licencia de coche de caballos en Londres en 1947.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1834,
+    "closureYear": 1947,
+    "presentEffect": {
+      "text": "The Sherlock Holmes Museum in London owns and operates a surviving hansom cab; restored cabs are held by the Remington Carriage Museum in Alberta, the Smithsonian National Museum of American History and Hinckley and Bosworth Borough Council. Production companies still rent replicas or restored originals as props.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Hansom cab\".",
+      "link": "https://en.wikipedia.org/wiki/Hansom_cab"
+    },
+    "anchorYear": 2020,
+    "distance": 186
   },
   {
     "code": "vstg-0190",
@@ -4356,12 +4446,22 @@ export const VESTIGES: Vestige[] = [
     "name": "Lamplighter and the gas street lamp",
     "image": "/vestigios/vstg-0190.png",
     "description": "Lamplighters lit and extinguished the gas street lamps of cities. Gas lighting took over from candles and oil lamps after Frederick Albert Winsor's 1807 exhibition. Baltimore removed nearly all of its gas streetlights in 1957.",
-    "failedFuture": "The trade ended as gas gave way to electric light and automatic systems reduced the need for lamplighters. Some cities keep the tradition for tourism, including Zagreb, Wrocław and Brest, and a small team operates in London as of 2022.",
+    "failedFuture": "The trade ended as gas gave way to electric light and automatic systems reduced the need for lamplighters. Baltimore removed nearly all of its gas streetlights in 1957.",
     "source": "Wikipedia, \"Lamplighter\".",
     "link": "https://en.wikipedia.org/wiki/Lamplighter",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: alumbrado de gas tras 1807; Baltimore retiró casi todo el gas en 1957; tradición turística en Zagreb, Wrocław y Brest; equipo pequeño en Londres en 2022.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción: exhibición de Winsor en 1807 (la ficha no la presenta como invención).",
+    "level": "documented",
+    "conceptionYear": 1807,
+    "closureYear": 1957,
+    "presentEffect": {
+      "text": "Lamplighters remain on duty in Zagreb and Wrocław, and since 2009 a lamplighter has lit kerosene lamps daily in Brest, Belarus. About 1,500 gas lamps still operate in central London, Berlin has about 37,000 (as of 2014), and Boston has more than 2,800 in its historic districts.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Lamplighter\".",
+      "link": "https://en.wikipedia.org/wiki/Lamplighter"
+    },
+    "anchorYear": 2020,
+    "distance": 213
   },
   {
     "code": "vstg-0191",
@@ -4374,8 +4474,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Rag-and-bone man\".",
     "link": "https://en.wikipedia.org/wiki/Rag-and-bone_man",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Mayhew (1851); informe de 1965 con 'unos pocos cientos'; Manchester y Salford.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1965,
+    "closureYear": 1965,
+    "presentEffect": {
+      "text": "Rag-and-bone collection continues in the 21st century: rising scrap prices brought rag-and-bone men back in the UK, now in vans with megaphones (a 2011 Daily Telegraph story reported complaints about the noise). In India, a 2017 study reported by the Hindustan Times put ragpicking at about ₹3,200 crore and credited it with the country's near-90% recycling rate for PET bottles; in 2015 the Environment Minister created a national award for ragpickers.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Rag-and-bone man\".",
+      "link": "https://en.wikipedia.org/wiki/Rag-and-bone_man"
+    },
+    "anchorYear": 2020,
+    "distance": 55
   },
   {
     "code": "vstg-0192",
@@ -4388,8 +4498,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Milkman\".",
     "link": "https://en.wikipedia.org/wiki/Milkman",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: reparto en botella en Gran Bretaña en 1880; cifras de Estados Unidos (1963, 1975); supermercados y refrigeradores.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1975,
+    "closureYear": 1975,
+    "presentEffect": {
+      "text": "By 2005 about 0.4% of US consumers had milk delivered, and a handful of companies had sprung up to offer the service; interest kept growing in the 2010s as part of the local food movement. During the coronavirus outbreak in 2020 some remaining milkmen saw demand jump.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Milkman\".",
+      "link": "https://en.wikipedia.org/wiki/Milkman"
+    },
+    "anchorYear": 2020,
+    "distance": 45
   },
   {
     "code": "vstg-0193",
@@ -4402,8 +4522,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Penny arcade\".",
     "link": "https://en.wikipedia.org/wiki/Penny_arcade",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: término hacia 1905–1910; boom de 1980–1982 (unas 13.000); crisis de 1983 y recesión de 1994.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1983,
+    "closureYear": 1983,
+    "presentEffect": {
+      "text": "Barcade opened in Brooklyn in 2004 with classic machines from the 1970s and 1980s and inspired similar businesses across the United States. Arcade Club in Bury, Greater Manchester, holds over 400 original machines, and opened a Leeds location in May 2019.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Penny arcade\".",
+      "link": "https://en.wikipedia.org/wiki/Penny_arcade"
+    },
+    "anchorYear": 2020,
+    "distance": 37
   },
   {
     "code": "vstg-0194",
@@ -4416,8 +4546,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Pneumatic tube\".",
     "link": "https://en.wikipedia.org/wiki/Pneumatic_tube",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: red parisina cerrada en 1984; unos 467 km en 1934.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto de la tecnología en general: la ficha no recoge rastros específicos de la red de París.",
+    "level": "documented",
+    "conceptionYear": 1984,
+    "closureYear": 1984,
+    "presentEffect": {
+      "text": "The page calls the Prague pneumatic post the world's last preserved pneumatic mail system, started for the public in 1889. Pneumatic tubes remain in use in hospitals, which move blood and other specimens to laboratories, and Mission Control's tubes were removed in 2017 for restoration.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Pneumatic tube\".",
+      "link": "https://en.wikipedia.org/wiki/Pneumatic_tube"
+    },
+    "anchorYear": 2020,
+    "distance": 36
   },
   {
     "code": "vstg-0195",
@@ -4430,8 +4570,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Morse code\".",
     "link": "https://en.wikipedia.org/wiki/Morse_code",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fin del uso internacional en socorro marítimo en 1999; Armada francesa en 1997; sustituido por GMDSS.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1999,
+    "closureYear": 1999,
+    "presentEffect": {
+      "text": "Morse remains most popular among amateur radio operators; the FCC removed all Morse proficiency requirements on 23 February 2007. VOR and NDB radio navigation aids still broadcast identifiers in Morse, and Android 5.0 and later let users enter text in Morse as an assistive input.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Morse code\".",
+      "link": "https://en.wikipedia.org/wiki/Morse_code"
+    },
+    "anchorYear": 2020,
+    "distance": 21
   },
   {
     "code": "vstg-0196",
@@ -4444,8 +4594,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Knocker-up\".",
     "link": "https://en.wikipedia.org/wiki/Knocker-up",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: origen en la Revolución Industrial; declive en los años cuarenta y cincuenta; pervivencia hasta comienzos de los setenta en algunas zonas.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto; sin año de concepción confirmado.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "In 2019 BBC News reported that 'knocky-up boards' were saved from ex-miners' homes in Ferryhill, County Durham. The trade survives in culture: Andrea U'Ren's picture book Mary Smith (2003), based on a knocker-up, and Paul Flynn's musical The Wind Road Boys, which opens with a knocker-up character.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Knocker-up\".",
+      "link": "https://en.wikipedia.org/wiki/Knocker-up"
+    },
+    "anchorYear": 2020,
+    "distance": null
   },
   {
     "code": "vstg-0197",
@@ -4458,8 +4618,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Town crier\".",
     "link": "https://en.wikipedia.org/wiki/Town_crier",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: avisos en Inglaterra medieval; aviso de Chester en 1845; recuperación del cargo desde mediados de los noventa.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Many English and Welsh councils reinstated the post from the mid-1990s, and in October 2010 144 towns in England and Wales had registered criers. The Ancient and Honourable Guild of Town Criers and the Loyal Company of Town Criers hold championships; Burlingame, California, added a town crier in 2016.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Town crier\".",
+      "link": "https://en.wikipedia.org/wiki/Town_crier"
+    },
+    "anchorYear": 2020,
+    "distance": null
   },
   {
     "code": "vstg-0198",
@@ -4472,8 +4642,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Night soil\".",
     "link": "https://en.wikipedia.org/wiki/Night_soil",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 'gong farmers' en la Inglaterra Tudor; sistema de Rochdale; conexión al alcantarillado en Australia a comienzos del siglo XX.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Night soil collection continues in some areas of Japan (kumitori benjo toilets). Manual scavenging was reported in 2014 in Maharashtra, Gujarat, Madhya Pradesh, Uttar Pradesh and Rajasthan despite India's 1993 law banning it, and night soil is used as fertiliser in North Korea.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Night soil\".",
+      "link": "https://en.wikipedia.org/wiki/Night_soil"
+    },
+    "anchorYear": 2020,
+    "distance": null
   },
   {
     "code": "vstg-0199",
@@ -4486,8 +4666,18 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Blacksmith\".",
     "link": "https://en.wikipedia.org/wiki/Blacksmith",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: mínimo en Estados Unidos en los años sesenta; el automóvil como causa; antiguos herreros como primeros mecánicos.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Interest in blacksmithing revived in the 1970s: the Artist Blacksmiths' Association of North America formed in 1973 with 27 members and had almost 4,000 by 2013, and the British Artist Blacksmiths Association (1978) had about 600 in 2013. Hefaiston in the Czech Republic is a major annual meeting of artist-blacksmiths.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Blacksmith\".",
+      "link": "https://en.wikipedia.org/wiki/Blacksmith"
+    },
+    "anchorYear": 2020,
+    "distance": null
   },
   {
     "code": "vstg-0200",
@@ -4500,7 +4690,17 @@ export const VESTIGES: Vestige[] = [
     "source": "Wikipedia, \"Dance hall\".",
     "link": "https://en.wikipedia.org/wiki/Dance_hall",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: auge desde los años 1900 hasta los años veinte; fin del dominio a comienzos de los sesenta.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto: la ficha no indica cuáles de estas salas siguen abiertas.",
+    "level": "documented",
+    "conceptionYear": null,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Texas has a high concentration of community dance halls, most built by German and Czech immigrants, and the Sivakan lava dance pavilion in Kaavi, Finland, has hosted dances since 1907 according to some sources.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Dance hall\".",
+      "link": "https://en.wikipedia.org/wiki/Dance_hall"
+    },
+    "anchorYear": 2020,
+    "distance": null
   }
 ];
