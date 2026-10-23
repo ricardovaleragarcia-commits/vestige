@@ -6,12 +6,22 @@
     "name": "Solresol, the musical language",
     "image": "/vestigios/vstg-0156.png",
     "description": "Jean-François Sudre began presenting Solresol in 1817. It is built on the seven solfège syllables do, re, mi, fa, sol, la, si. His book Langue musicale universelle appeared posthumously in 1866.",
-    "failedFuture": "A universal language that could be sung, whistled or played on instruments. It had a brief spell of popularity in the late nineteenth century and today survives only in small groups of enthusiasts.",
+    "failedFuture": "A universal language that could be sung, whistled or played on instruments. Today small communities of enthusiasts keep it alive.",
     "source": "Wikipedia, \"Solresol\".",
     "link": "https://en.wikipedia.org/wiki/Solresol",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentación en 1817; libro póstumo en 1866; siete sílabas del solfeo.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1817,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Stephen L. Rice published an English translation of Gajewski's Grammaire du Solrésol in 1997, Jason Hutchens released an English–Solresol dictionary in 1998, and Phil Shary released open-source translation software with live MIDI support in 2015. A team including Daniel Parson produced a modernised dictionary in 2018; a request for an ISO 639-3 code was rejected on 23 January 2018.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Solresol\".",
+      "link": "https://en.wikipedia.org/wiki/Solresol"
+    },
+    "anchorYear": 2020,
+    "distance": 203
   },
   {
     "code": "vstg-0157",
@@ -24,36 +34,66 @@
     "source": "Wikipedia, \"Volapük\".",
     "link": "https://en.wikipedia.org/wiki/Volap%C3%BCk",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: esbozo de mayo de 1879; libro de 1880; 283 clubes en 1889; declive por cismas y por el esperanto.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción: esbozo de 1879; libro de 1880.",
+    "level": "documented",
+    "conceptionYear": 1879,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Volapük edition of Wikipedia reached over 112,000 articles in December 2007, mostly small geographic stubs created by an enthusiast's program (119,091 in March 2013). Unicode 7.0 (June 2014) encoded Volapük-specific letters, and Hermann Philipps has led the movement as Cifal since 2014.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Volapük\".",
+      "link": "https://en.wikipedia.org/wiki/Volap%C3%BCk"
+    },
+    "anchorYear": 2020,
+    "distance": 141
   },
   {
     "code": "vstg-0158",
-    "year": 1903,
+    "year": 1854,
     "suffix": "",
-    "name": "Latino sine flexione, Peano's simplified Latin",
+    "name": "The Deseret alphabet",
     "image": "/vestigios/vstg-0158.png",
-    "description": "Giuseppe Peano published De Latino sine flexione in 1903, a simplified form of Latin that keeps its vocabulary. At the 1907 Paris delegation Peano declared for it, but he could not take part in the final vote.",
-    "failedFuture": "A Latin-based auxiliary language meant to be learned in weeks. Mathematicians were largely put off by its artificial appearance, and it was never adopted as an international language.",
-    "source": "Wikipedia, \"Latino sine flexione\".",
-    "link": "https://en.wikipedia.org/wiki/Latino_sine_flexione",
+    "description": "A 38-letter phonetic alphabet developed from 1847 by the University of Deseret's board of regents under Brigham Young, with George D. Watt designing most glyphs. The board approved it on 19 January 1854.",
+    "failedFuture": "An alphabet meant to replace English spelling in Utah. Four books were printed in 1868–69, including the full Book of Mormon, but only about 500 copies sold and advertisements were quietly removed from the Deseret News in winter 1870.",
+    "source": "Wikipedia, \"Deseret alphabet\".",
+    "link": "https://en.wikipedia.org/wiki/Deseret_alphabet",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: publicada en 1903; versión simplificada del latín; no hay adopción formal.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto. Unicode 3.1 es de 2001 (no 1999). Cierre: retirada de anuncios en el invierno de 1870.",
+    "level": "documented",
+    "conceptionYear": 1854,
+    "closureYear": 1870,
+    "presentEffect": {
+      "text": "Unicode added the script in March 2001 (version 3.1). Digital fonts and transcriptions have since revived it as a cultural heirloom, and a replica headstone in Cedar City is one modern-era example.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Deseret alphabet\".",
+      "link": "https://en.wikipedia.org/wiki/Deseret_alphabet"
+    },
+    "anchorYear": 2020,
+    "distance": 166
   },
   {
     "code": "vstg-0159",
-    "year": 1906,
+    "year": 1910,
     "suffix": "",
-    "name": "Ro, an a priori language of categories",
+    "name": "The Mundaneum",
     "image": "/vestigios/vstg-0159.png",
-    "description": "Rev. Edward Powell Foster began building Ro in 1904 and issued the first booklet about it in 1906. Words are formed from a category system, so related concepts share prefixes; for example, words beginning with 'bofo-' denote colours.",
-    "failedFuture": "A language whose vocabulary was meant to be logical from the ground up. The text finds no evidence that it was ever adopted; the only official act was a 1914 House resolution sent to committee.",
-    "source": "Wikipedia, \"Ro (language)\".",
-    "link": "https://en.wikipedia.org/wiki/Ro_(language)",
+    "description": "An institution created in 1910 by the Belgian lawyers Paul Otlet and Henri La Fontaine to gather the world's knowledge and classify it under the Universal Decimal Classification; it first occupied a wing of the Cinquantenaire Palace in Brussels.",
+    "failedFuture": "In 1934 Otlet proposed a network of 'electric telescopes' for searching linked documents. In 1940, after Nazi Germany invaded Belgium, the Mundaneum was replaced with an exhibit of Third Reich art and some material was lost; in 1972 it was forced to leave its Leopold Park building.",
+    "source": "Wikipedia, \"Mundaneum\".",
+    "link": "https://en.wikipedia.org/wiki/Mundaneum",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Foster, 1904 inicio, 1906 primer folleto; resolución de 1914 enviada a comisión; sin adopción documentada.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no confirma el cierre belga de 1934 ni la destrucción total; cierre = 1940 (sustitución por exposición del Tercer Reich).",
+    "level": "documented",
+    "conceptionYear": 1910,
+    "closureYear": 1940,
+    "presentEffect": {
+      "text": "A museum opened in Mons in 1998, where the Mundaneum is now based. In 2012 the New York Times reported a planned Google venture with the museum, and on 23 August 2015 a Google Doodle honoured it.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Mundaneum\".",
+      "link": "https://en.wikipedia.org/wiki/Mundaneum"
+    },
+    "anchorYear": 2020,
+    "distance": 110
   },
   {
     "code": "vstg-0160",
@@ -66,27 +106,47 @@
     "source": "Wikipedia, \"Ido (language)\".",
     "link": "https://en.wikipedia.org/wiki/Ido_(language)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: nacimiento en 1907; de Beaufront; estimación de unos 500 hablantes activos.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1907,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Wikipedio, the Ido edition of Wikipedia, was the 93rd most visited Wikipedia in 2018. The Uniono por la Linguo Internaciona Ido holds yearly conventions (Provins 2018, Berlin 2019) and the journal Progreso has been published since 1908.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Ido (language)\".",
+      "link": "https://en.wikipedia.org/wiki/Ido_(language)"
+    },
+    "anchorYear": 2020,
+    "distance": 113
   },
   {
     "code": "vstg-0161",
     "year": 1909,
-    "suffix": "",
+    "suffix": "b",
     "name": "The Futurist Manifesto",
     "image": "/vestigios/vstg-0161.png",
     "description": "Filippo Tommaso Marinetti published the Manifesto of Futurism on 5 February 1909 in La gazzetta dell'Emilia. Le Figaro reprinted it on 20 February 1909.",
-    "failedFuture": "A movement built on speed and the destruction of the old. The 1914 rift between the Milan and Florence groups weakened it, and the Great War ended its coherent existence.",
+    "failedFuture": "A movement built on speed and the destruction of the old. The 1914 rift between the Milan and Florence groups weakened it, and the page regards organised Futurism as extinct since Marinetti's death in 1944.",
     "source": "Wikipedia, \"Futurism\".",
     "link": "https://en.wikipedia.org/wiki/Futurism",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: manifiesto del 5 de febrero de 1909; reproducido por Le Figaro el 20 de febrero de 1909; ruptura de 1914.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1909,
+    "closureYear": 1944,
+    "presentEffect": {
+      "text": "In 2014 the Guggenheim Museum in New York staged 'Italian Futurism, 1909–1944: Reconstructing the Universe'. Boccioni's Unique Forms of Continuity in Space appears on the Italian 20-cent euro coin, Futurist stations at Trento and Florence Santa Maria Novella are still in use, and ZTT Records takes its name from Marinetti's poem Zang Tumb Tumb.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Futurism\".",
+      "link": "https://en.wikipedia.org/wiki/Futurism"
+    },
+    "anchorYear": 2020,
+    "distance": 111
   },
   {
     "code": "vstg-0162",
     "year": 1917,
-    "suffix": "",
+    "suffix": "b",
     "name": "Proletkult, the proletarian culture organisation",
     "image": "/vestigios/vstg-0162.png",
     "description": "Proletkult was founded in October 1917; its first conference met in Petrograd from 16 to 19 October. In 1920 Lenin pushed through a decision to absorb it into the People's Commissariat of Education (Narkompros), with a Central Committee decree published on 1 December 1920.",
@@ -94,8 +154,18 @@
     "source": "Wikipedia, \"Proletkult\".",
     "link": "https://en.wikipedia.org/wiki/Proletkult",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fundación en octubre de 1917; absorción en Narkompros; decreto del 1 de diciembre de 1920.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Atribuido a Peter Kenez y Lynn Mally; la ficha da la disolución en abril de 1932.",
+    "level": "documented",
+    "conceptionYear": 1917,
+    "closureYear": 1932,
+    "presentEffect": {
+      "text": "Historian Peter Kenez (1992) argues that Proletkult's ideas shaped the early films of Sergei Eisenstein (Strike, Battleship Potemkin, October). Lynn Mally's Culture of the Future (1990) and the Wu Ming collective's 2018 novel Proletkult keep the movement in historical and literary discussion.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Proletkult\".",
+      "link": "https://en.wikipedia.org/wiki/Proletkult"
+    },
+    "anchorYear": 2020,
+    "distance": 103
   },
   {
     "code": "vstg-0163",
@@ -108,13 +178,23 @@
     "source": "Wikipedia, \"Bauhaus\".",
     "link": "https://en.wikipedia.org/wiki/Bauhaus",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fundada en Weimar el 1 de abril de 1919; cierre en Berlín en 1933; presión nazi.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1919,
+    "closureYear": 1933,
+    "presentEffect": {
+      "text": "Four Bauhaus sites in Germany were added to the UNESCO World Heritage List in 1996 (two more in 2017). The 2019 centenary exhibition at the Berlinische Galerie drew over 130,000 visitors, the Bauhaus Museum Dessau opened in September 2019, and in 2020 the European Commission introduced the New European Bauhaus initiative.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Bauhaus\".",
+      "link": "https://en.wikipedia.org/wiki/Bauhaus"
+    },
+    "anchorYear": 2020,
+    "distance": 101
   },
   {
     "code": "vstg-0164",
     "year": 1920,
-    "suffix": "",
+    "suffix": "d",
     "name": "The League of Nations",
     "image": "/vestigios/vstg-0164.png",
     "description": "The League of Nations' Covenant took effect with the Treaty of Versailles on 10 January 1920, and the Council first met on 16 January 1920.",
@@ -122,13 +202,23 @@
     "source": "Wikipedia, \"League of Nations\".",
     "link": "https://en.wikipedia.org/wiki/League_of_Nations",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Pacto en vigor el 10 de enero de 1920; disolución formal el 18 de abril de 1946; salidas de 1933, 1937 y 1939.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Cierre: disolución formal el 18 de abril de 1946.",
+    "level": "documented",
+    "conceptionYear": 1920,
+    "closureYear": 1946,
+    "presentEffect": {
+      "text": "Three League institutions passed to the United Nations: the International Labour Organization (a UN agency since 1946), the Permanent Court of International Justice (now the International Court of Justice) and the Health Organisation (restructured as the World Health Organization). Its Commission on Intellectual Cooperation is described as a precursor to UNESCO.",
+      "kind": "documented",
+      "source": "Wikipedia, \"League of Nations\".",
+      "link": "https://en.wikipedia.org/wiki/League_of_Nations"
+    },
+    "anchorYear": 2020,
+    "distance": 100
   },
   {
     "code": "vstg-0165",
     "year": 1922,
-    "suffix": "",
+    "suffix": "c",
     "name": "Occidental, later Interlingue",
     "image": "/vestigios/vstg-0165.png",
     "description": "Edgar de Wahl announced Occidental in 1922 with the first issue of Cosmoglotta in Tallinn. It was renamed Interlingue in 1949, to show neutrality towards the Soviet Union and to prepare for closer ties with Interlingua.",
@@ -136,8 +226,18 @@
     "source": "Wikipedia, \"Interlingue\".",
     "link": "https://en.wikipedia.org/wiki/Interlingue",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: anuncio en 1922 en Tallin; cambio de nombre en 1949; prohibición en Alemania, Austria y Checoslovaquia; declive tras 1951.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1922,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "An Interlingue edition of Wikipedia was approved in 2004, the first Occidental Yahoo! group was founded in 1999, and meetings resumed in Ulm in 2013 and 2015. The journal Cosmoglotta, begun in 1922, is still published.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Interlingue\".",
+      "link": "https://en.wikipedia.org/wiki/Interlingue"
+    },
+    "anchorYear": 2020,
+    "distance": 98
   },
   {
     "code": "vstg-0166",
@@ -150,27 +250,47 @@
     "source": "Wikipedia, \"Yañalif\".",
     "link": "https://en.wikipedia.org/wiki/Ya%C3%B1alif",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: adopción en 1927; versión final en 1928; prohibición en 1939; uso hasta enero de 1940.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1927,
+    "closureYear": 1940,
+    "presentEffect": {
+      "text": "The Internet alphabet Inalif (2003) was partly inspired by Yañalif. Unicode recommends reusing Cyrillic Ь ь and Ѣ ѣ for Yañalif letters, and the IETF has registered the subtag 'baku1926' for text in this notation. After 1991 several former Soviet states in Central Asia returned to Latin scripts with slight modifications to Yañalif.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Yañalif\".",
+      "link": "https://en.wikipedia.org/wiki/Ya%C3%B1alif"
+    },
+    "anchorYear": 2020,
+    "distance": 93
   },
   {
     "code": "vstg-0167",
-    "year": 1928,
+    "year": 1950,
     "suffix": "",
-    "name": "Novial, Jespersen's language",
+    "name": "The Shavian alphabet",
     "image": "/vestigios/vstg-0167.png",
-    "description": "Danish linguist Otto Jespersen introduced Novial in 1928. The language was updated in the 1930 dictionary Novial Lexike, and further modifications were proposed in the 1930s.",
-    "failedFuture": "A language that lived mainly through its author. It became dormant with Jespersen's death in 1943.",
-    "source": "Wikipedia, \"Novial\".",
-    "link": "https://en.wikipedia.org/wiki/Novial",
+    "description": "A phonetic alphabet called for in George Bernard Shaw's will of 1950. After his death in November 1950 and a legal dispute, the Public Trustee announced a design competition; four designers won and Ronald Kingsley Read combined their designs.",
+    "failedFuture": "A new alphabet intended to replace English spelling. The only book the trust could afford was the bi-alphabetic Penguin edition of Androcles and the Lion in 1962; Read published eight issues of the journal Shaw-Script in 1963–1965.",
+    "source": "Wikipedia, \"Shavian alphabet\".",
+    "link": "https://en.wikipedia.org/wiki/Shavian_alphabet",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: introducida en 1928; diccionario Novial Lexike de 1930; inactiva a la muerte de Jespersen en 1943.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha no data el concurso en 1958–59.",
+    "level": "documented",
+    "conceptionYear": 1950,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Shavian was added to Unicode in version 4.0 in 2003. Tim Browne published Poe Meets Shaw in 2012, Thomas Thurman's Shavian transcription of Alice's Adventures in Wonderland appeared in 2013 with fonts by Michael Everson, and a Shavian-only edition of Pride and Prejudice was published by Shavian.info in 2019.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Shavian alphabet\".",
+      "link": "https://en.wikipedia.org/wiki/Shavian_alphabet"
+    },
+    "anchorYear": 2020,
+    "distance": 70
   },
   {
     "code": "vstg-0168",
     "year": 1929,
-    "suffix": "",
+    "suffix": "a",
     "name": "Uzbek in the Latin alphabet, 1929–1940",
     "image": "/vestigios/vstg-0168.png",
     "description": "Uzbek was switched to the Latin alphabet in 1929. In 1940 it was switched to Cyrillic under Stalin. In 1992 the Latin alphabet was officially reintroduced.",
@@ -178,13 +298,23 @@
     "source": "Wikipedia, \"Uzbek alphabet\".",
     "link": "https://en.wikipedia.org/wiki/Uzbek_alphabet",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Latín en 1929; Cirílico en 1940; reintroducción oficial en 1992.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1929,
+    "closureYear": 1940,
+    "presentEffect": {
+      "text": "Latin script was officially reintroduced in 1992 and the current 29-letter Latin alphabet took effect in 1995; Latin appeared on coins from 2001. A government reform to replace digraphs with diacritics was launched in 2018 and a revised proposal published in May 2019, while both scripts remain in use.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Uzbek alphabet\".",
+      "link": "https://en.wikipedia.org/wiki/Uzbek_alphabet"
+    },
+    "anchorYear": 2020,
+    "distance": 91
   },
   {
     "code": "vstg-0169",
     "year": 1930,
-    "suffix": "",
+    "suffix": "c",
     "name": "Basic English, Ogden's 850 words",
     "image": "/vestigios/vstg-0169.png",
     "description": "C. K. Ogden presented Basic English in his 1930 book Basic English: A General Introduction with Rules and Grammar. The core vocabulary is 850 words.",
@@ -192,13 +322,23 @@
     "source": "Wikipedia, \"Basic English\".",
     "link": "https://en.wikipedia.org/wiki/Basic_English",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentada en 1930; 850 palabras base; propósito de lengua auxiliar y enseñanza.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1930,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The 850-word list remains a common beginner vocabulary, especially in Asia. Basic English influenced Voice of America's Special English and Simplified Technical English, and George Orwell, who promoted it from 1942 to 1944, drew on it for Newspeak in Nineteen Eighty-Four.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Basic English\".",
+      "link": "https://en.wikipedia.org/wiki/Basic_English"
+    },
+    "anchorYear": 2020,
+    "distance": 90
   },
   {
     "code": "vstg-0170",
     "year": 1931,
-    "suffix": "",
+    "suffix": "b",
     "name": "Latinxua Sin Wenz, the Latin script for Chinese",
     "image": "/vestigios/vstg-0170.png",
     "description": "Latinxua Sin Wenz, a Latin-based script for Chinese, was established in 1931 through the work of Soviet sinologists and Moscow-based Chinese scholars, including Qu Qiubai. A prototype had been devised in 1929.",
@@ -206,13 +346,23 @@
     "source": "Wikipedia, \"Latinxua Sin Wenz\".",
     "link": "https://en.wikipedia.org/wiki/Latinxua_Sin_Wenz",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: sistema establecido en 1931; prototipo en 1929; restringido en 1944; telegramas ferroviarios a Pinyin en 1958.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto: la ficha no dice que Pinyin descienda formalmente de Sin Wenz.",
+    "level": "documented",
+    "conceptionYear": 1931,
+    "closureYear": 1944,
+    "presentEffect": {
+      "text": "The page describes Hanyu Pinyin as similar in orthography to Beifangxua Sin Wenz, and notes that in 1958 railway telegrams in the north-east moved from Sin Wenz to Hanyu Pinyin.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Latinxua Sin Wenz\".",
+      "link": "https://en.wikipedia.org/wiki/Latinxua_Sin_Wenz"
+    },
+    "anchorYear": 2020,
+    "distance": 89
   },
   {
     "code": "vstg-0171",
     "year": 1935,
-    "suffix": "",
+    "suffix": "a",
     "name": "The Sun Language Theory",
     "image": "/vestigios/vstg-0171.png",
     "description": "Turkish linguists of the Turkish Language Society developed the Sun Language Theory over about ten months in late 1935 and early 1936, presenting it at the Third Turkish Language Congress. It claims all languages descend from a proto-Turkic primal language.",
@@ -220,13 +370,23 @@
     "source": "Wikipedia, \"Sun Language Theory\".",
     "link": "https://en.wikipedia.org/wiki/Sun_Language_Theory",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: desarrollo en 1935–1936; III Congreso de la Lengua Turca; pérdida de papel tras la muerte de Atatürk en noviembre de 1938.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto débil: la ficha menciona el eco de 2018 sin establecer causalidad; interpretación de la ficha, no hecho documentado.",
+    "level": "documented",
+    "conceptionYear": 1935,
+    "closureYear": 1938,
+    "presentEffect": {
+      "text": "The page cites Ghil'ad Zuckermann's suggestion that Atatürk may have adopted the theory to 'legitimize the Arabic and Persian words' that language authorities could not remove. It also records that in 2018 Ahmet Ardıç's attempt to link the Voynich manuscript to Old Turkish drew criticism for resembling Goropism.",
+      "kind": "interpretation",
+      "source": "Wikipedia, \"Sun Language Theory\".",
+      "link": "https://en.wikipedia.org/wiki/Sun_Language_Theory"
+    },
+    "anchorYear": 2020,
+    "distance": 85
   },
   {
     "code": "vstg-0172",
     "year": 1938,
-    "suffix": "",
+    "suffix": "b",
     "name": "The Hall of Records at Mount Rushmore",
     "image": "/vestigios/vstg-0172.png",
     "description": "Excavation for a Hall of Records behind the Mount Rushmore monument began in July 1938. The chamber was to hold records of American history and aspirations, including the Declaration of Independence and the Constitution, and busts of more than twenty prominent Americans.",
@@ -234,8 +394,18 @@
     "source": "History.com, \"Mount Rushmore's Secret Chamber\".",
     "link": "https://www.history.com/articles/mount-rushmores-secret-chamber",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con History.com: inicio en julio de 1938; paralización hacia 1939; 16 paneles sellados en 1998.",
-    "level": "documented"
+    "status": "Efecto presente verificado en History.com.",
+    "level": "documented",
+    "conceptionYear": 1938,
+    "closureYear": 1939,
+    "presentEffect": {
+      "text": "On 9 August 1998 four generations of the Borglum family gathered in the chamber and sealed 16 porcelain enamel panels in a teakwood box and titanium vault under a 1,200-pound granite capstone. Visitors are prohibited from climbing to the Hall of Records for safety and security reasons.",
+      "kind": "documented",
+      "source": "History.com, \"Mount Rushmore's Secret Chamber\".",
+      "link": "https://www.history.com/articles/mount-rushmores-secret-chamber"
+    },
+    "anchorYear": 2020,
+    "distance": 82
   },
   {
     "code": "vstg-0173",
@@ -248,8 +418,18 @@
     "source": "Wikipedia, \"Azerbaijani alphabet\".",
     "link": "https://en.wikipedia.org/wiki/Azerbaijani_alphabet",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Cirílico en 1939 por orden de Stalin; alfabeto latino adoptado en 1991.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1939,
+    "closureYear": 1991,
+    "presentEffect": {
+      "text": "Since 2001 the Latin alphabet has been the official alphabet of the Republic of Azerbaijan, after a 1991 law restored it and both scripts were accepted from 1991 to 2001. North Azerbaijani in Dagestan is still written in Cyrillic, and in Iran an Arabic-based script is used.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Azerbaijani alphabet\".",
+      "link": "https://en.wikipedia.org/wiki/Azerbaijani_alphabet"
+    },
+    "anchorYear": 2020,
+    "distance": 81
   },
   {
     "code": "vstg-0174",
@@ -262,27 +442,47 @@
     "source": "Wikipedia, \"Fraktur\".",
     "link": "https://en.wikipedia.org/wiki/Fraktur",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: decreto del 3 de enero de 1941 firmado por Bormann; el texto cita 'Judenlettern'; cambio a Antiqua.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto: la ficha no detalla usos modernos concretos.",
+    "level": "documented",
+    "conceptionYear": 1941,
+    "closureYear": 1945,
+    "presentEffect": {
+      "text": "The page states that Fraktur was unbanned after 1945 and remains in limited use. Unicode includes Mathematical Fraktur code points, and Fraktur is available in LaTeX through the \\mathfrak command and fontspec.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Fraktur\".",
+      "link": "https://en.wikipedia.org/wiki/Fraktur"
+    },
+    "anchorYear": 2020,
+    "distance": 79
   },
   {
     "code": "vstg-0175",
     "year": 1946,
-    "suffix": "",
+    "suffix": "b",
     "name": "Mongolian script replaced by Cyrillic",
     "image": "/vestigios/vstg-0175.png",
     "description": "The traditional Mongolian script was the most widespread until the introduction of Cyrillic in 1946. From 1941 onwards the traditional script became known as the 'Old Script', in contrast to the Cyrillic 'New Script'.",
-    "failedFuture": "A script that lost its official status for decades. The Mongolian government announced in March 2020 a plan to expand its use, and it became co-official in Mongolia in 2025, alongside Cyrillic.",
+    "failedFuture": "A script that lost its official status for decades. The Mongolian government announced in March 2020 a plan to expand its use.",
     "source": "Wikipedia, \"Mongolian script\".",
     "link": "https://en.wikipedia.org/wiki/Mongolian_script",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Cirílico desde 1946; nombre 'Old Script' desde 1941; anuncio de marzo de 2020; cooficialidad desde 2025.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1946,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "In March 2020 the Mongolian government announced plans to increase the use of the traditional Mongolian script and to use both Cyrillic and Mongolian script in official documents by 2025. In Inner Mongolia, China, the script has remained in continuous use and is taught in schools; Unicode encoded it in 1999 and added a supplement in 2016.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Mongolian script\".",
+      "link": "https://en.wikipedia.org/wiki/Mongolian_script"
+    },
+    "anchorYear": 2020,
+    "distance": 74
   },
   {
     "code": "vstg-0176",
     "year": 1949,
-    "suffix": "",
+    "suffix": "b",
     "name": "Bliss symbolics, the international auxiliary of symbols",
     "image": "/vestigios/vstg-0176.png",
     "description": "Charles K. Bliss devised his symbols from 1942 to 1949 and published Semantography in 1949. He wanted an easy-to-learn international auxiliary language of symbols; the name Blissymbolics came later, in the 1960s.",
@@ -290,13 +490,23 @@
     "source": "Wikipedia, \"Bliss symbolics\".",
     "link": "https://en.wikipedia.org/wiki/Bliss_symbolics",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Semantography de 1949; nombre Blissymbolics en los años sesenta; uso terapéutico desde 1971.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1949,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Blissymbolics Communication International coordinates its use for augmentative and alternative communication, which began in 1971 with Shirley McNaughton's program at the Ontario Crippled Children's Centre (now Holland Bloorview Kids Rehabilitation Hospital in Toronto). It has the ISO 639-3 code 'zbl' and has been used in Canada, Sweden and a few other countries.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Bliss symbolics\".",
+      "link": "https://en.wikipedia.org/wiki/Bliss_symbolics"
+    },
+    "anchorYear": 2020,
+    "distance": 71
   },
   {
     "code": "vstg-0177",
     "year": 1951,
-    "suffix": "",
+    "suffix": "b",
     "name": "Interlingua, the Gode language",
     "image": "/vestigios/vstg-0177.png",
     "description": "The International Auxiliary Language Association (IALA) presented Interlingua in 1951, with the finalised grammar and the Interlingua–English Dictionary. Alexander Gode led the final development phase.",
@@ -304,8 +514,18 @@
     "source": "Wikipedia, \"Interlingua\".",
     "link": "https://en.wikipedia.org/wiki/Interlingua",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentada en 1951 por IALA; unos pocos cientos de hablantes activos (cifra de 2007); sin órgano regulador.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1951,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Union Mundial pro Interlingua organises an international conference every two years, the magazine Panorama in Interlingua appears bimonthly, and Interlingua editions of Wikipedia and Wiktionary exist. A two-week course was held at the University of Granada in 2007.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Interlingua\".",
+      "link": "https://en.wikipedia.org/wiki/Interlingua"
+    },
+    "anchorYear": 2020,
+    "distance": 69
   },
   {
     "code": "vstg-0178",
@@ -318,8 +538,18 @@
     "source": "Wikipedia, \"Lincos language\".",
     "link": "https://en.wikipedia.org/wiki/Lincos_language",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: Freudenthal, 1960; Cosmic Call en 1999 desde Yevpatoria; repetido en 2003.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1960,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "In 1999 Canadian astrophysicists Yvan Dutil and Stéphane Dumas beamed a Lincos-encoded message from the Yevpatoria RT-70 radio telescope toward nearby stars, repeating it in 2003 (Cosmic Call). Alexander Ollongren of Leiden University extended the idea in his book Astrolinguistics (2013).",
+      "kind": "documented",
+      "source": "Wikipedia, \"Lincos language\".",
+      "link": "https://en.wikipedia.org/wiki/Lincos_language"
+    },
+    "anchorYear": 2020,
+    "distance": 60
   },
   {
     "code": "vstg-0179",
@@ -332,8 +562,18 @@
     "source": "Wikipedia, \"Lingua Franca Nova\".",
     "link": "https://en.wikipedia.org/wiki/Lingua_Franca_Nova",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: diseño desde 1965; presentación en internet en 1998; muerte de Boeree el 5 de enero de 2021.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción: diseño desde 1965; presentación en internet en 1998.",
+    "level": "documented",
+    "conceptionYear": 1965,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Vicipedia edition in the language launched on 18 April 2018, a dictionary of over 20,000 entries was published in print in 2018, and Vicente Costalago's La xerca per Pahoa, the first original novel in the language, appeared online in May 2020. SIL assigned it the code 'lfn' in January 2008.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Lingua Franca Nova\".",
+      "link": "https://en.wikipedia.org/wiki/Lingua_Franca_Nova"
+    },
+    "anchorYear": 2020,
+    "distance": 55
   },
   {
     "code": "vstg-0180",
@@ -346,7 +586,17 @@
     "source": "Wikipedia, \"Kazakh alphabet\".",
     "link": "https://en.wikipedia.org/wiki/Kazakh_alphabet",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: anuncio de abril de 2017; decreto de octubre de 2017; aplazamiento en enero de 2021 hasta 2031.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. Concepción = anuncio de 2017.",
+    "level": "documented",
+    "conceptionYear": 2017,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "Decree 569 (October 2017) ordered the change to Latin by 2025; Decree 637 (February 2018) revised the alphabet, a further revision followed in 2019, and in 2020 President Kassym-Jomart Tokayev called for another revision. Kazakhstan still uses Cyrillic while the transition continues.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Kazakh alphabet\".",
+      "link": "https://en.wikipedia.org/wiki/Kazakh_alphabet"
+    },
+    "anchorYear": 2020,
+    "distance": 3
   }
 ]
