@@ -583,24 +583,18 @@ button:disabled {
   margin: 0;
 }
 
-/* Each line is revealed on scroll (see Manifesto.tsx). Lines are justified; the last line of a paragraph is not. */
-.manifesto-line {
-  display: block;
-  font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
-  line-height: 1.3;
-  text-align: justify;
-  text-align-last: justify;
-  hyphens: auto;
-  opacity: 0.1;
-  transition: opacity 0.2s linear;
-}
-
-.manifesto-line.is-last {
-  text-align-last: left;
-}
-
+/* Paragraphs are centred, with the lines ragged as they wrap. Each line is a span
+   inside the paragraph and fades in on scroll (see Manifesto.tsx). */
 .manifesto-paragraph {
-  margin: 0 0 2.2rem;
+  margin: 0 0 2.4rem;
+  font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
+  line-height: 1.45;
+  text-align: center;
+  hyphens: none;
+}
+
+.manifesto-line {
+  opacity: 0;
 }
 
 
@@ -675,7 +669,7 @@ button:disabled {
 }
 
 .manifesto-text__name {
-  margin: 0 0 2.6rem;
+  margin: 0 0 3.4rem;
   font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
 }
 
