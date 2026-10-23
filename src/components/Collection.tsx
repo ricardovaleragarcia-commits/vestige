@@ -50,6 +50,56 @@ type PieceNode = {
 };
 type BlockView = { container: Container; ids: string[] };
 
+// A bracketed label that rewrites itself into its unabbreviated form on hover:
+// it erases back to the shared prefix, then types the rest.
+function RewriteLabel({ short, full }: { short: string; full: string }) {
+  const [text, setText] = useState(short);
+  const target = useRef(short);
+  const current = useRef(short);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const step = () => {
+    const goal = target.current;
+    const now = current.current;
+    if (now === goal) {
+      timer.current = null;
+      return;
+    }
+    current.current = goal.startsWith(now)
+      ? goal.slice(0, now.length + 1)
+      : now.slice(0, -1);
+    setText(current.current);
+    timer.current = setTimeout(step, 26);
+  };
+  const go = (to: string) => {
+    target.current = to;
+    if (!timer.current) step();
+  };
+
+  useEffect(
+    () => () => {
+      if (timer.current) clearTimeout(timer.current);
+    },
+    [],
+  );
+  useEffect(() => {
+    target.current = short;
+    current.current = short;
+    setText(short);
+  }, [short, full]);
+
+  return (
+    <span
+      className="detail__rewrite"
+      onPointerEnter={() => go(full)}
+      onPointerLeave={() => go(short)}
+      onClick={() => go(target.current === full ? short : full)}
+    >
+      {text}
+    </span>
+  );
+}
+
 export default function Collection({
   onFocusChange,
 }: {
@@ -441,16 +491,29 @@ export default function Collection({
 
       {focused && (
         <aside ref={detailRef} className="detail" aria-live="polite" style={{ top: detailTop }}>
-          <p className="detail__label">[desc.]</p>
+          <p className="detail__label">
+            <RewriteLabel short="[desc.]" full="[description]" />
+          </p>
           <p className="detail__text">{focused.description}</p>
-          <p className="detail__label">[f.f. expl.]</p>
+          <p className="detail__label">
+            <RewriteLabel short="[f.f. expl.]" full="[failed future explained]" />
+          </p>
           <p className="detail__text">{focused.failedFuture}</p>
           {focused.presentEffect && (
             <>
               <p className="detail__label">
-                {focused.presentEffect.kind === "documented"
-                  ? "[r.c.t.]"
-                  : `[r.c.t. — ${focused.presentEffect.kind}]`}
+                <RewriteLabel
+                  short={
+                    focused.presentEffect.kind === "documented"
+                      ? "[r.c.t.]"
+                      : `[r.c.t. — ${focused.presentEffect.kind}]`
+                  }
+                  full={
+                    focused.presentEffect.kind === "documented"
+                      ? "[residual contemporary times]"
+                      : `[residual contemporary times — ${focused.presentEffect.kind}]`
+                  }
+                />
               </p>
               <p className="detail__text">{focused.presentEffect.text}</p>
             </>
