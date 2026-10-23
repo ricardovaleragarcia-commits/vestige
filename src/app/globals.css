@@ -583,14 +583,14 @@ button:disabled {
   margin: 0;
 }
 
-/* Paragraphs are centred, with the lines ragged as they wrap. Each line is a span
+/* Paragraphs are a justified block inside the margins; the lines wrap as normal text. Each line is a span
    inside the paragraph and fades in on scroll (see Manifesto.tsx). */
 .manifesto-paragraph {
   margin: 0 0 2.4rem;
   font-size: calc(clamp(1.1rem, 2.6vw, 2.4rem) + 2pt);
   line-height: 1.45;
-  text-align: center;
-  hyphens: none;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .manifesto-line {
