@@ -44,10 +44,10 @@ function buildLines(p: HTMLElement, text: string) {
     rows[rows.length - 1].push(word);
   }
   p.replaceChildren();
-  rows.forEach((row, i) => {
+  rows.forEach((row) => {
     const line = document.createElement("span");
-    line.className = i === rows.length - 1 ? "manifesto-line is-last" : "manifesto-line";
-    line.dataset.reveal = "";
+    line.className = "manifesto-line";
+    line.dataset.reveal = "line";
     line.append(...row);
     p.appendChild(line);
   });
@@ -76,8 +76,9 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
       const vh = screen!.clientHeight;
       screen!.querySelectorAll<HTMLElement>("[data-reveal]").forEach((el) => {
         const top = el.getBoundingClientRect().top;
-        const progress = Math.min(1, Math.max(0, (vh * 0.85 - top) / (vh * 0.5)));
-        el.style.opacity = String(0.1 + 0.9 * progress);
+        const progress = Math.min(1, Math.max(0, (vh * 0.85 - top) / (vh * 0.4)));
+        // Lines go from fully hidden to fully shown; the signature stays faintly visible until it is reached.
+        el.style.opacity = el.dataset.reveal === "line" ? String(progress) : String(0.1 + 0.9 * progress);
       });
     }
 
