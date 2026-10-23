@@ -456,3 +456,18 @@ Posición libre. Espera un vestigio que cumpla la regla.
 - 0068 Almaz OPS-4: los sensores volaron en Salyut 7 en los años ochenta; no hay traza actual verificada.
 - 0070 Longshot: sin efecto en el presente verificado; la ficha no lo vincula con Starshot.
 - 0078 Prometheus: la ficha no lo vincula con proyectos posteriores; la página de NASA sobre energía de fisión no lo menciona. Queda libre.
+
+## Sustitutos añadidos en la ronda de relleno
+
+Posiciones que estaban pendientes; ahora ocupadas por fichas que cumplen la regla. Los códigos visibles pueden haber cambiado por la asignación global de sufijos.
+
+## vstg-0078 — Hughes H-4 Hercules, the Spruce Goose
+
+- Código visible: vstg.1942.a
+- Concepción: 1942 · Cierre: 1947 · Distancia a 2020: 78
+- [desc.] The development contract for the H-4 Hercules, designed by Howard Hughes after a concept by Henry J. Kaiser, was issued in 1942. It was built mostly of birch using the Duramold plywood-and-resin process.
+- [f.f. expl.] A flying boat meant to carry cargo and troops across the Atlantic, not finished before the Second World War ended. On 2 November 1947 it flew about a mile, roughly 70 feet above the water, for 26 seconds, and never flew again.
+- [Efecto en el presente — documented] The Aero Club of Southern California acquired it in 1980 and displayed it in Long Beach; it arrived at the museum in McMinnville, Oregon, on 27 February 1993, where it is kept. It was relisted on the National Register of Historic Places in 2024.
+- Fuente del efecto: Wikipedia, "Hughes H-4 Hercules". https://en.wikipedia.org/wiki/Hughes_H-4_Hercules
+- Fuente: Wikipedia, "Hughes H-4 Hercules". https://en.wikipedia.org/wiki/Hughes_H-4_Hercules
+- Nota: Efecto presente verificado en Wikipedia. Efecto modesto. La ficha no menciona la película de 2004 ni la fecha del museo de Evergreen.

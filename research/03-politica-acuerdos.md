@@ -394,3 +394,29 @@ Posición libre. Espera un vestigio que cumpla la regla.
 - 0103 Acuerdos de Arusha: sin efecto presente en la fuente consultada.
 - 0105 Protocolo de Lusaka: la ficha termina en 1999; sin sustituto verificado, queda libre.
 - 0106 Acuerdo de Rambouillet: los comentarios atribuidos (Kissinger, Clark, Albright) son de 1999; la fuente no cubre el efecto presente. Queda libre.
+
+## Sustitutos añadidos en la ronda de relleno
+
+Posiciones que estaban pendientes; ahora ocupadas por fichas que cumplen la regla. Los códigos visibles pueden haber cambiado por la asignación global de sufijos.
+
+## vstg-0105 — Pan-Europa, Coudenhove-Kalergi's union
+
+- Código visible: vstg.1923
+- Concepción: 1923 · Cierre: 1933 · Distancia a 2020: 97
+- [desc.] Richard von Coudenhove-Kalergi's manifesto Paneuropa (1923) began the Pan-European movement. Aristide Briand gave a widely recognised speech at the League of Nations in Geneva on 5 September 1929 calling for a federal Europe.
+- [f.f. expl.] A federal Europe built from the Pan-European movement. Nazi Germany prohibited the organisation in 1933; it was refounded after the Second World War.
+- [Efecto en el presente — documented] The International Paneuropean Union, described as the oldest European unification movement, still exists, with its General Secretariat in Munich. It became known for organising the Pan-European Picnic during the Revolutions of 1989, and Otto von Habsburg was its international president from 1973.
+- Fuente del efecto: Wikipedia, "Pan-European Union". https://en.wikipedia.org/wiki/Pan-European_Union
+- Fuente: Wikipedia, "Pan-European Union". https://en.wikipedia.org/wiki/Pan-European_Union
+- Nota: Efecto presente verificado en Wikipedia. Cierre = prohibición nazi de 1933 (la unión fue refundada). La ficha no fecha el Picnic Paneuropeo.
+
+## vstg-0106 — UN Partition Plan for Palestine, 1947
+
+- Código visible: vstg.1947.a
+- Concepción: 1947 · Cierre: 1948 · Distancia a 2020: 73
+- [desc.] On 29 November 1947 the UN General Assembly voted 33 to 13, with 10 abstentions, for Resolution 181: a plan to partition Mandatory Palestine into an Arab and a Jewish state, with an international regime for Jerusalem and an economic union.
+- [f.f. expl.] Two states in Mandatory Palestine. The Arab Higher Committee, the Arab League and Arab governments rejected the plan; civil war broke out, the British Mandate ended on 14 May 1948, and the plan was not implemented.
+- [Efecto en el presente — documented] The PLO's Palestinian Declaration of Independence (1988) relied on Resolution 181 as a basis for Palestinian sovereignty, and in a 2004 advisory opinion the International Court of Justice cited the Palestinian people's entitlement to a state 'as originally envisaged in Resolution 181 (II)'. 29 November is the International Day of Solidarity with the Palestinian People.
+- Fuente del efecto: Wikipedia, "1947 UN Partition Plan". https://en.wikipedia.org/wiki/1947_UN_Partition_Plan
+- Fuente: Wikipedia, "1947 UN Partition Plan". https://en.wikipedia.org/wiki/1947_UN_Partition_Plan
+- Nota: Efecto presente verificado en Wikipedia. La ficha no dice que la Declaración de Independencia de Israel cite la resolución.

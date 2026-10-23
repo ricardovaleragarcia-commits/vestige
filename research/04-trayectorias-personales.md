@@ -450,3 +450,18 @@ Posición libre. Espera un vestigio que cumpla la regla.
 - 0147 Earhart: la fuente consultada solo cubre la desaparición de 1937; sin sustituto verificado, queda libre.
 
 Nota sobre el año de concepción: en muertes y desapariciones se usa el año de la interrupción, porque el futuro perdido no tiene un año de proyecto propio. Está indicado en la nota de cada ficha.
+
+## Sustitutos añadidos en la ronda de relleno
+
+Posiciones que estaban pendientes; ahora ocupadas por fichas que cumplen la regla. Los códigos visibles pueden haber cambiado por la asignación global de sufijos.
+
+## vstg-0147 — Raoul Wallenberg, 1944–1945
+
+- Código visible: vstg.1945.b
+- Concepción: 1945 · Cierre: 1945 · Distancia a 2020: 75
+- [desc.] Raoul Wallenberg arrived in Budapest on 9 July 1944 as Sweden's envoy and issued protective passports until December. Soviet agents detained him on 17 January 1945 on suspicion of espionage, and he disappeared.
+- [f.f. expl.] A diplomat's mission to protect Budapest's Jews, cut short by his arrest. On 6 February 1957 the Soviet government released a document dated 17 July 1947 reporting his death in prison.
+- [Efecto en el presente — documented] Yad Vashem named him one of the Righteous Among the Nations in 1963. In 1981 Reagan signed Tom Lantos's bill making him an honorary US citizen, and he received a Congressional Gold Medal in 2012. In 2016 the Swedish Tax Agency declared him dead in absentia, with a pro forma date of death of 31 July 1952.
+- Fuente del efecto: Wikipedia, "Raoul Wallenberg". https://en.wikipedia.org/wiki/Raoul_Wallenberg
+- Fuente: Wikipedia, "Raoul Wallenberg". https://en.wikipedia.org/wiki/Raoul_Wallenberg
+- Nota: Efecto presente verificado en Wikipedia. Concepción = año de la detención. La ficha no menciona un 'Día de Raoul Wallenberg'; el dictamen de 2016 es de la Agencia Tributaria sueca, no de un tribunal.

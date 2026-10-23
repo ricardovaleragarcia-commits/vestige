@@ -1,6 +1,6 @@
 # 01. Arquitectura y urbanismo — versión «Residual Contemporary Times»
 
-**Fichas:** 40 posiciones (vstg-0001 a vstg-0040): 32 con contenido, 8 pendientes.  ·  **Punto de relación:** 2020
+**Fichas:** 40 posiciones (vstg-0001 a vstg-0040): 40 con contenido (los 8 antes pendientes se rellenaron; ver el final del archivo).  ·  **Punto de relación:** 2020
 
 Los textos para la web están en inglés. Las notas, en español.
 
@@ -744,3 +744,95 @@ No tenían un efecto en el presente verificable ni un comentario atribuido:
 - vstg-0033 Plug-In City: la influencia en el Centre Pompidou se afirma sin autor identificado.
 
 **Excluidos de la lista de sustitutos:** Embarcadero Freeway (autopista construida y demolida, no un futuro que no llegó), Tempelhof (el futuro fallido no está claro), Park Hill (superviviente, no fracaso), Kowloon Walled City (no fue un futuro concebido).
+
+## Sustitutos añadidos en la ronda de relleno
+
+Posiciones que estaban pendientes; ahora ocupadas por fichas que cumplen la regla. Los códigos visibles pueden haber cambiado por la asignación global de sufijos.
+
+## vstg-0027 — Ciudad Lineal, Madrid
+
+- Código visible: vstg.1882
+- Concepción: 1882 · Cierre: n/d · Distancia a 2020: 138
+- [desc.] Arturo Soria (Madrid 1844–1920) first presented the linear city in the newspaper El Progreso in 1882. He founded the Compañía Madrileña de Urbanización in 1894, and the first section, 5.2 km long and 40 m wide between the Aragon road and Pinar de Chamartín, was finished in 1911.
+- [f.f. expl.] 'The city of the future' (la ciudad del porvenir), with all the advances and comforts of its time. Of the original buildings only some single-family houses survived.
+- [Efecto en el presente — documented] Madrid City Council's heritage leaflet states that Soria's legacy is still perceived today in Calle de Arturo Soria, with low-rise housing and large tree-lined spaces; it lists the former offices and depots of the Compañía Madrileña de Urbanización (no. 12) and surviving villas such as Villa Sotera and Villa Luisiana, and marked the centenary of his death in 2020. Ciudad Lineal is one of Madrid's 21 districts.
+- Fuente del efecto: Ayuntamiento de Madrid, itinerary leaflet "Ciudad Lineal"; Wikipedia, "Ciudad Lineal". https://patrimonioypaisaje.madrid.es/FWProjects/monumenta/contenidos/ficheros/folleto_CiudadLineal.pdf
+- Fuente: Biografías y Vidas, "Arturo Soria". https://www.biografiasyvidas.com/biografia/s/soria_arturo.htm
+- Nota: Efecto verificado en el folleto del Ayuntamiento de Madrid. Cierre no confirmado: el tranvía línea 70 cerró en 1972 (Wikipedia), pero no se toma como cierre del proyecto.
+
+## vstg-0028 — Broadacre City, 1932
+
+- Código visible: vstg.1932
+- Concepción: 1932 · Cierre: n/d · Distancia a 2020: 88
+- [desc.] Frank Lloyd Wright presented Broadacre City in The Disappearing City in 1932. Taliesin student interns built a 12-by-12-foot model of a hypothetical four-square-mile community, financed by Edgar Kaufmann and first displayed on 15 April 1935 at Rockefeller Center in New York.
+- [f.f. expl.] A decentralised community that Wright kept refining in books and articles until his death in 1959. The page does not say why it was never built.
+- [Efecto en el presente — documented] The model is now at the Museum of Modern Art. The page describes Broadacre City as the 'apotheosis' of suburbia and says edge cities are an unplanned, incomplete version of it; Jane Jacobs's The Death and Life of Great American Cities (1961) criticised this kind of planning.
+- Fuente del efecto: Wikipedia, "Broadacre City". https://en.wikipedia.org/wiki/Broadacre_City
+- Fuente: Wikipedia, "Broadacre City". https://en.wikipedia.org/wiki/Broadacre_City
+- Nota: Efecto presente verificado en Wikipedia. La ficha no da la fecha del ingreso del modelo al MoMA ni el motivo de que no se construyera.
+
+## vstg-0030 — The Congress Hall, Nuremberg
+
+- Código visible: vstg.1935.a
+- Concepción: 1935 · Cierre: n/d · Distancia a 2020: 85
+- [desc.] The foundation stone of the Kongresshalle at the Nazi Party rally grounds was laid in 1935. The Nuremberg architects Ludwig and Franz Ruff designed it to provide 50,000 seats.
+- [f.f. expl.] A congress hall for Nazi party rallies that 'remained unfinished and without a roof'.
+- [Efecto en el presente — documented] The Documentation Center of the Nazi Party Rally Grounds has occupied the northern wing since 2001, and the Nuremberg Symphony Orchestra is based in the southern building, the Serenadenhof. In 2019 an 85 million euro plan to conserve the Zeppelinfeld stadium was announced, with completion targeted for 2025.
+- Fuente del efecto: Wikipedia, "Nazi party rally grounds". https://en.wikipedia.org/wiki/Nazi_party_rally_grounds
+- Fuente: Wikipedia, "Nazi party rally grounds". https://en.wikipedia.org/wiki/Nazi_party_rally_grounds
+- Nota: Efecto presente verificado en Wikipedia. La ficha no da el año en que se detuvo la obra.
+
+## vstg-0032 — Prora, the Strength Through Joy resort
+
+- Código visible: vstg.1936.a
+- Concepción: 1936 · Cierre: 1939 · Distancia a 2020: 84
+- [desc.] Construction of the Prora resort on Rügen began in 1936 under the Strength Through Joy programme; it was designed by Clemens Klotz to house 20,000 holidaymakers and stopped in 1939 with the war.
+- [f.f. expl.] A seaside resort that Hitler wanted to be 'the most mighty and large one to ever have existed'. It was never completed and never used as a holiday resort.
+- [Efecto en el presente — documented] The Documentation Centre Prora opened in 2000, and in 2011 a 402-bed youth hostel opened, the largest in Germany. From 2013 units were sold as summer homes, and in 2016 the first new apartments opened in Block 1 and the Prora Solitaire hotel opened in Block 2.
+- Fuente del efecto: Wikipedia, "Prora". https://en.wikipedia.org/wiki/Prora
+- Fuente: Wikipedia, "Prora". https://en.wikipedia.org/wiki/Prora
+- Nota: Efecto presente verificado en Wikipedia. La ficha no describe el estado de Prora en 2020; su última actualización detallada es de 2017.
+
+## vstg-0033 — Lower Manhattan Expressway
+
+- Código visible: vstg.1941.a
+- Concepción: 1941 · Cierre: 1969 · Distancia a 2020: 79
+- [desc.] Robert Moses first conceived the expressway in 1941 and submitted the plans in November 1959. The 1960 plan would have evicted about 2,000 families in 416 buildings and displaced 804 businesses.
+- [f.f. expl.] An expressway across lower Manhattan carrying I-78. Jane Jacobs led the opposition; in July 1969 Mayor Lindsay dropped the plans, calling it 'dead for all time', and the Board of Estimate removed it from city maps in August 1969.
+- [Efecto en el presente — documented] A 156-foot section under Chrystie Street was built, completed by January 1964, and never used because the expressway was cancelled. The Holland Tunnel remains I-78's only section in New York.
+- Fuente del efecto: Wikipedia, "Lower Manhattan Expressway". https://en.wikipedia.org/wiki/Lower_Manhattan_Expressway
+- Fuente: Wikipedia, "Lower Manhattan Expressway". https://en.wikipedia.org/wiki/Lower_Manhattan_Expressway
+- Nota: Efecto presente verificado en Wikipedia. La ficha no dice que SoHo o Chinatown se hayan conservado por esto.
+
+## vstg-0034 — The Illinois, Frank Lloyd Wright's mile-high tower
+
+- Código visible: vstg.1957.a
+- Concepción: 1957 · Cierre: n/d · Distancia a 2020: 63
+- [desc.] Frank Lloyd Wright described The Illinois in his 1957 book A Testament: originally 528 stories, later revised to 365, with 18,460,000 square feet of gross area and parking for 15,000 cars and 100 helicopters.
+- [f.f. expl.] A mile-high skyscraper. The page gives no definitive reason it was not built, and notes engineering concerns about wind sway and evacuation by 76 elevators.
+- [Efecto en el presente — attributed] The page says Adrian Smith's Burj Khalifa and Jeddah Tower are said to have been inspired by The Illinois, and records Witold Rybczynski's 2010 Slate article on the Burj Khalifa and Wright's influence. A song titled The Illinois was released by Fang Island in 2010.
+- Fuente del efecto: Wikipedia, "The Illinois" (citing Witold Rybczynski, Slate, 2010). https://en.wikipedia.org/wiki/The_Illinois
+- Fuente: Wikipedia, "The Illinois". https://en.wikipedia.org/wiki/The_Illinois
+- Nota: Efecto presente verificado en Wikipedia. La ficha fecha el diseño en 1957, no en 1956.
+
+## vstg-0036 — A Plan for Tokyo, 1960
+
+- Código visible: vstg.1960.a
+- Concepción: 1960 · Cierre: n/d · Distancia a 2020: 60
+- [desc.] Kenzo Tange's 'A Plan for Tokyo, 1960' was presented at the World Design Congress in Tokyo. It proposed a megastructure spanning Tokyo Bay, about 18 km from downtown Tokyo to Chiba in its first stage, with three levels of traffic carrying up to 2.5 million people along a linear civic axis.
+- [f.f. expl.] A city that would grow along a linear axis over the bay. The page says it 'was never implemented'; Peter Smithson denied its feasibility, and Christopher Alexander (1965) called it a 'beautiful' tree city.
+- [Efecto en el presente — documented] The page says the plan introduced ideas into urban-planning discourse and initiated a 'megastructure movement'. It informed Tange's later work, including the Yamanashi Press and Broadcasting Centre and the Skopje plan, and the Metabolist modular vision influenced Archigram.
+- Fuente del efecto: Wikipedia, "Kenzo Tange". https://en.wikipedia.org/wiki/Kenzo_Tange
+- Fuente: Wikipedia, "Kenzo Tange". https://en.wikipedia.org/wiki/Kenzo_Tange
+- Nota: Efecto presente verificado en Wikipedia. La ficha no menciona exposiciones del plan.
+
+## vstg-0037 — Fun Palace, Cedric Price
+
+- Código visible: vstg.1961.a
+- Concepción: 1961 · Cierre: n/d · Distancia a 2020: 59
+- [desc.] Cedric Price conceived the Fun Palace in 1961 in East London, developing it with the theatre director Joan Littlewood and the cybernetician Gordon Pask.
+- [f.f. expl.] A flexible, changing space for leisure and learning. The page says it was 'never built'.
+- [Efecto en el presente — documented] Its flexible space influenced Richard Rogers and Renzo Piano, whose Centre Georges Pompidou in Paris extended many of Price's ideas. Price used some of them on a smaller scale at the Inter-Action Centre in Kentish Town, London (1971), and the Canadian Centre for Architecture holds his archive.
+- Fuente del efecto: Wikipedia, "Cedric Price". https://en.wikipedia.org/wiki/Cedric_Price
+- Fuente: Wikipedia, "Cedric Price". https://en.wikipedia.org/wiki/Cedric_Price
+- Nota: Efecto presente verificado en Wikipedia. La ficha no da el año de abandono ni menciona la campaña Fun Palaces.

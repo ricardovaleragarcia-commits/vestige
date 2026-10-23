@@ -170,7 +170,7 @@
   {
     "code": "vstg-0048",
     "year": 1961,
-    "suffix": "a",
+    "suffix": "b",
     "name": "Aircraft Nuclear Propulsion, 1946–1961",
     "image": "/vestigios/vstg-0048.png",
     "description": "The US programme to build a nuclear-powered bomber that could stay airborne for weeks. Engines were tested on the ground; the programme was cancelled in 1961.",
@@ -194,7 +194,7 @@
   {
     "code": "vstg-0049",
     "year": 1961,
-    "suffix": "b",
+    "suffix": "c",
     "name": "B-70 Valkyrie, 1961",
     "image": "/vestigios/vstg-0049.png",
     "description": "North American's XB-70 Valkyrie, a Mach 3 bomber. Two prototypes were built; the bomber programme was cancelled in 1961, before any production aircraft existed.",
@@ -290,7 +290,7 @@
   {
     "code": "vstg-0053",
     "year": 1963,
-    "suffix": "a",
+    "suffix": "",
     "name": "Project Orion, 1958–1965",
     "image": "/vestigios/vstg-0053.png",
     "description": "Study drawings and test models of a spacecraft driven by small nuclear explosions, developed at General Atomics between 1958 and 1965.",
@@ -889,17 +889,27 @@
   },
   {
     "code": "vstg-0078",
-    "year": null,
-    "suffix": "",
-    "name": "Pendiente",
+    "year": 1942,
+    "suffix": "a",
+    "name": "Hughes H-4 Hercules, the Spruce Goose",
     "image": "/vestigios/vstg-0078.png",
-    "description": "",
-    "failedFuture": "",
-    "source": "",
-    "link": "",
+    "description": "The development contract for the H-4 Hercules, designed by Howard Hughes after a concept by Henry J. Kaiser, was issued in 1942. It was built mostly of birch using the Duramold plywood-and-resin process.",
+    "failedFuture": "A flying boat meant to carry cargo and troops across the Atlantic, not finished before the Second World War ended. On 2 November 1947 it flew about a mile, roughly 70 feet above the water, for 26 seconds, and never flew again.",
+    "source": "Wikipedia, \"Hughes H-4 Hercules\".",
+    "link": "https://en.wikipedia.org/wiki/Hughes_H-4_Hercules",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Pendiente de investigar. Debe cumplir la regla: hecho verificado, efecto presente con fuente o comentario atribuido.",
-    "level": "pending"
+    "status": "Efecto presente verificado en Wikipedia. Efecto modesto. La ficha no menciona la película de 2004 ni la fecha del museo de Evergreen.",
+    "level": "documented",
+    "conceptionYear": 1942,
+    "closureYear": 1947,
+    "presentEffect": {
+      "text": "The Aero Club of Southern California acquired it in 1980 and displayed it in Long Beach; it arrived at the museum in McMinnville, Oregon, on 27 February 1993, where it is kept. It was relisted on the National Register of Historic Places in 2024.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Hughes H-4 Hercules\".",
+      "link": "https://en.wikipedia.org/wiki/Hughes_H-4_Hercules"
+    },
+    "anchorYear": 2020,
+    "distance": 78
   },
   {
     "code": "vstg-0079",

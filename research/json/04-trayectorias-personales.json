@@ -434,7 +434,7 @@
   {
     "code": "vstg-0134",
     "year": 1903,
-    "suffix": "a",
+    "suffix": "",
     "name": "Samuel Langley, Aerodrome, 1903",
     "image": "/vestigios/vstg-0134.png",
     "description": "The Aerodrome, a piloted flying machine built by Samuel Pierpont Langley with a War Department grant of $50,000. It failed on take-off on 7 October and 8 December 1903, and Langley gave up the project.",
@@ -482,7 +482,7 @@
   {
     "code": "vstg-0136",
     "year": 1945,
-    "suffix": "",
+    "suffix": "a",
     "name": "Anne Frank, 1942-1945",
     "image": "/vestigios/vstg-0136.png",
     "description": "Anne Frank's diary, written between 1942 and 1944 while her family hid in an annex in Amsterdam; her father Otto published it in 1947.",
@@ -650,7 +650,7 @@
   {
     "code": "vstg-0143",
     "year": 1924,
-    "suffix": "",
+    "suffix": "a",
     "name": "Kafka's unpublished manuscripts, 1924",
     "image": "/vestigios/vstg-0143.png",
     "description": "In his will, Franz Kafka asked Max Brod to destroy all his unpublished manuscripts. Brod refused, and published The Trial in 1925, The Castle in 1926 and Amerika in 1927.",
@@ -722,7 +722,7 @@
   {
     "code": "vstg-0146",
     "year": 1936,
-    "suffix": "",
+    "suffix": "b",
     "name": "Federico García Lorca, killed 1936",
     "image": "/vestigios/vstg-0146.png",
     "description": "Federico García Lorca was arrested in Granada on 16 August 1936 and is believed to have been murdered on 18 or 19 August. He had toured Spain from 1931 with the theatre company La Barraca.",
@@ -745,17 +745,27 @@
   },
   {
     "code": "vstg-0147",
-    "year": null,
-    "suffix": "",
-    "name": "Pendiente",
+    "year": 1945,
+    "suffix": "b",
+    "name": "Raoul Wallenberg, 1944–1945",
     "image": "/vestigios/vstg-0147.png",
-    "description": "",
-    "failedFuture": "",
-    "source": "",
-    "link": "",
+    "description": "Raoul Wallenberg arrived in Budapest on 9 July 1944 as Sweden's envoy and issued protective passports until December. Soviet agents detained him on 17 January 1945 on suspicion of espionage, and he disappeared.",
+    "failedFuture": "A diplomat's mission to protect Budapest's Jews, cut short by his arrest. On 6 February 1957 the Soviet government released a document dated 17 July 1947 reporting his death in prison.",
+    "source": "Wikipedia, \"Raoul Wallenberg\".",
+    "link": "https://en.wikipedia.org/wiki/Raoul_Wallenberg",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Pendiente de investigar. Debe cumplir la regla: hecho verificado, efecto presente con fuente o comentario atribuido.",
-    "level": "pending"
+    "status": "Efecto presente verificado en Wikipedia. Concepción = año de la detención. La ficha no menciona un 'Día de Raoul Wallenberg'; el dictamen de 2016 es de la Agencia Tributaria sueca, no de un tribunal.",
+    "level": "documented",
+    "conceptionYear": 1945,
+    "closureYear": 1945,
+    "presentEffect": {
+      "text": "Yad Vashem named him one of the Righteous Among the Nations in 1963. In 1981 Reagan signed Tom Lantos's bill making him an honorary US citizen, and he received a Congressional Gold Medal in 2012. In 2016 the Swedish Tax Agency declared him dead in absentia, with a pro forma date of death of 31 July 1952.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Raoul Wallenberg\".",
+      "link": "https://en.wikipedia.org/wiki/Raoul_Wallenberg"
+    },
+    "anchorYear": 2020,
+    "distance": 75
   },
   {
     "code": "vstg-0148",
@@ -808,7 +818,7 @@
   {
     "code": "vstg-0150",
     "year": 1942,
-    "suffix": "",
+    "suffix": "b",
     "name": "Robert Musil, The Man Without Qualities, 1921–1942",
     "image": "/vestigios/vstg-0150.png",
     "description": "Robert Musil began The Man Without Qualities in 1921. Volumes were published in 1930 and 1933; Musil died in 1942 with the novel unfinished. His widow published the literary remains in 1943.",
@@ -904,7 +914,7 @@
   {
     "code": "vstg-0154",
     "year": 1961,
-    "suffix": "d",
+    "suffix": "e",
     "name": "Patrice Lumumba, prime minister, 1960–1961",
     "image": "/vestigios/vstg-0154.png",
     "description": "Patrice Lumumba, prime minister of the Congo from 24 June 1960, was killed on 17 January 1961 in Katanga, after the secessionist authorities of Moïse Tshombe captured him.",
