@@ -31,6 +31,18 @@ export type Piece = {
   source: string;
   link: string;
   image: string | null;
+  conceptionYear: number | null; // year the future was imagined or planned
+  closureYear: number | null; // year it was dropped or failed
+  anchorYear: number | null; // point of relation, 2020
+  distance: number | null; // anchorYear minus conceptionYear
+  presentEffect: PresentEffect | null; // how that future still shapes the present
+};
+
+export type PresentEffect = {
+  text: string;
+  kind: "documented" | "attributed" | "interpretation";
+  source: string;
+  link: string;
 };
 
 const PALETTE = [0xb8a99a, 0x8f9a92, 0xd9cfc1, 0x6f7b80, 0xc7b8a6, 0x9aa3a9, 0x4f4a45, 0xe2dccf];
@@ -146,6 +158,11 @@ type Content = {
   source: string;
   link: string;
   image: string | null;
+  conceptionYear: number | null;
+  closureYear: number | null;
+  anchorYear: number | null;
+  distance: number | null;
+  presentEffect: PresentEffect | null;
 };
 
 let CONTENT: Content[] = [];
@@ -194,6 +211,11 @@ export function piecesForBlock(cx: number, cy: number): Piece[] {
       source: content.source,
       link: content.link,
       image: content.image,
+      conceptionYear: content.conceptionYear,
+      closureYear: content.closureYear,
+      anchorYear: content.anchorYear,
+      distance: content.distance,
+      presentEffect: content.presentEffect,
     };
   });
 }
@@ -221,6 +243,11 @@ export function initArchive(seed: number) {
     source: v.source,
     link: v.link,
     image: v.image,
+    conceptionYear: v.conceptionYear ?? null,
+    closureYear: v.closureYear ?? null,
+    anchorYear: v.anchorYear ?? null,
+    distance: v.distance ?? null,
+    presentEffect: v.presentEffect ?? null,
   }));
   CONTENT = shuffle(entries, rng(seed ^ 0x1234abcd));
 }

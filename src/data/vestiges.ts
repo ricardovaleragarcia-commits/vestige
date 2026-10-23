@@ -31,7 +31,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0001",
     "year": 1920,
-    "suffix": "",
+    "suffix": "a",
     "name": "Monument to the Third International, 1919–1920",
     "image": "/vestigios/vstg-0001.png",
     "description": "Model of a 400-metre double helix of iron and glass designed by Vladimir Tatlin in 1919–1920 as the headquarters of the Communist International in Petrograd. Only models were built.",
@@ -55,7 +55,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0002",
     "year": 1925,
-    "suffix": "",
+    "suffix": "a",
     "name": "Plan Voisin de Paris, 1925",
     "image": "/vestigios/vstg-0002.png",
     "description": "Le Corbusier's 1925 proposal to replace part of central Paris, including the Marais, with glass towers set in parkland. Shown as a diorama at the Esprit Nouveau pavilion.",
@@ -79,7 +79,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0003",
     "year": 1931,
-    "suffix": "",
+    "suffix": "a",
     "name": "Palace of the Soviets, Moscow, 1931",
     "image": "/vestigios/vstg-0003.png",
     "description": "Plans for the Palace of the Soviets, a congress hall and administrative centre planned on the site of the Cathedral of Christ the Saviour, near the Kremlin.",
@@ -103,7 +103,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0004",
     "year": 1958,
-    "suffix": "",
+    "suffix": "a",
     "name": "Plan for Greater Baghdad, 1957–1958",
     "image": "/vestigios/vstg-0004.png",
     "description": "Drawings of Frank Lloyd Wright's Plan for Greater Baghdad: a cultural centre, opera house and university planned for an island in the Tigris.",
@@ -151,7 +151,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0006",
     "year": 1909,
-    "suffix": "",
+    "suffix": "a",
     "name": "Plan of Chicago, 1909",
     "image": "/vestigios/vstg-0006.png",
     "description": "Daniel Burnham and Edward H. Bennett published the Plan of Chicago in 1909.",
@@ -223,7 +223,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0009",
     "year": 1914,
-    "suffix": "",
+    "suffix": "a",
     "name": "Città Nuova",
     "image": "/vestigios/vstg-0009.png",
     "description": "Antonio Sant'Elia's drawings for the Città Nuova, a futurist city of towers, elevated roads and multi-level stations, shown in 1914 in Milan.",
@@ -271,7 +271,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0011",
     "year": 1948,
-    "suffix": "",
+    "suffix": "a",
     "name": "Southwest Expressway, Boston",
     "image": "/vestigios/vstg-0011.png",
     "description": "The Southwest Expressway was planned from 1948, in William F. Callahan's Master Highway Plan for Metropolitan Boston, to bring an eight-lane highway into the city along the former railroad right-of-way through Roslindale, Forest Hills and Jamaica Plain.",
@@ -295,7 +295,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0012",
     "year": 1951,
-    "suffix": "",
+    "suffix": "a",
     "name": "Pruitt–Igoe, St. Louis",
     "image": "/vestigios/vstg-0012.png",
     "description": "The Pruitt–Igoe public housing complex in St. Louis was built between 1951 and 1955. The first tenants moved into Pruitt in November 1954 and into Igoe in July 1955.",
@@ -319,7 +319,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0013",
     "year": 1966,
-    "suffix": "",
+    "suffix": "a",
     "name": "EPCOT, Walt Disney's city of tomorrow",
     "image": "/vestigios/vstg-0013.png",
     "description": "Walt Disney's film for the Experimental Prototype Community of Tomorrow was shot on 27 October 1966, two months before his death. It imagined a city of about 20,000 citizens, most of them living in high-density apartments.",
@@ -343,7 +343,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0014",
     "year": 1922,
-    "suffix": "",
+    "suffix": "a",
     "name": "Eliel Saarinen's Tribune Tower entry, 1922",
     "image": "/vestigios/vstg-0014.png",
     "description": "Eliel Saarinen's entry to the 1922 Chicago Tribune Tower competition placed second. The competition received more than 260 entries, and the neo-Gothic design of John Mead Howells and Raymond Hood won.",
@@ -463,7 +463,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0019",
     "year": 1970,
-    "suffix": "",
+    "suffix": "a",
     "name": "Arcosanti, 1970",
     "image": "/vestigios/vstg-0019.png",
     "description": "Paolo Soleri began building Arcosanti in 1970. The goal was for it to house 5,000 people.",
@@ -487,7 +487,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0020",
     "year": 1973,
-    "suffix": "",
+    "suffix": "a",
     "name": "Futuro house",
     "image": "/vestigios/vstg-0020.png",
     "description": "Fewer than 100 Futuro houses were made; a 2015 estimate counted around 60 survivors.",
@@ -511,7 +511,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0021",
     "year": 1930,
-    "suffix": "",
+    "suffix": "a",
     "name": "Ville Radieuse",
     "image": "/vestigios/vstg-0021.png",
     "description": "Le Corbusier's Radiant City, a 1930 plan for a city of towers in parkland, with housing blocks on pilotis, offices and elevated highways.",
@@ -583,7 +583,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0024",
     "year": 1943,
-    "suffix": "",
+    "suffix": "a",
     "name": "Germania",
     "image": "/vestigios/vstg-0024.png",
     "description": "Albert Speer's plan for Germania, the planned capital of a Nazi empire: an east–west axis, a Great Hall about 200 metres high, and a triumphal arch of almost 100 metres. Demolition began in 1938.",
@@ -683,7 +683,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0029",
     "year": 1959,
-    "suffix": "",
+    "suffix": "a",
     "name": "New Babylon",
     "image": "/vestigios/vstg-0029.png",
     "description": "Constant Nieuwenhuys's New Babylon, 1959–1974: a utopian city of linked sectors raised above ground, where residents, 'homo ludens', move between games and leisure without work.",
@@ -721,7 +721,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0031",
     "year": 2006,
-    "suffix": "",
+    "suffix": "a",
     "name": "Masdar City, 2006",
     "image": "/vestigios/vstg-0031.png",
     "description": "Masdar City, announced in 2006 in Abu Dhabi as a state-funded project with a reported budget of $22 billion. Its first six buildings were completed and occupied in October 2010.",
@@ -787,7 +787,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0035",
     "year": 1964,
-    "suffix": "",
+    "suffix": "a",
     "name": "Aircraft Carrier City in Landscape",
     "image": "/vestigios/vstg-0035.png",
     "description": "Hans Hollein's Aircraft Carrier City in Landscape (1964): a city shaped like a carrier, laid flat over a landscape, shown in drawings and photomontages.",
@@ -881,7 +881,7 @@ export const VESTIGES: Vestige[] = [
   },
   {
     "code": "vstg-0040",
-    "year": 1995,
+    "year": null,
     "suffix": "",
     "name": "Cardiff Bay Opera House",
     "image": "/vestigios/vstg-0040.png",
@@ -920,7 +920,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0042",
     "year": 1943,
-    "suffix": "",
+    "suffix": "b",
     "name": "Project Habbakuk, 1942–1943",
     "image": "/vestigios/vstg-0042.png",
     "description": "A British plan, promoted by Geoffrey Pyke, for an enormous aircraft carrier built from Pykrete, a mix of ice and wood pulp. A 60-foot scale model was tested; the project was abandoned in 1943.",
@@ -934,7 +934,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0043",
     "year": 1944,
-    "suffix": "",
+    "suffix": "a",
     "name": "Silbervogel, 1944",
     "image": "/vestigios/vstg-0043.png",
     "description": "Eugen Sänger's design for a boost-glide spaceplane, the Silbervogel, meant to bomb New York from orbit. Designed for the German Reich; never flown.",
@@ -948,7 +948,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0044",
     "year": 1952,
-    "suffix": "",
+    "suffix": "a",
     "name": "Von Braun's Mars Project, 1952",
     "image": "/vestigios/vstg-0044.png",
     "description": "Wernher von Braun's book The Mars Project, published in 1952 in Germany, describing a crewed expedition to Mars with ten spaceships and a fleet of rockets.",
@@ -962,7 +962,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0045",
     "year": 1958,
-    "suffix": "a",
+    "suffix": "b",
     "name": "Ford Nucleon, 1958",
     "image": "/vestigios/vstg-0045.png",
     "description": "A concept car from 1958 with a small nuclear reactor in the rear, shown by Ford as a vision of atomic transport. It was never produced.",
@@ -976,7 +976,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0046",
     "year": 1958,
-    "suffix": "b",
+    "suffix": "c",
     "name": "Project Sherwood, 1951–1958",
     "image": "/vestigios/vstg-0046.png",
     "description": "The United States' secret controlled-fusion programme, begun in 1951 and declassified in 1958. Its name came from a Sherwood Forest joke about the difficulty of the problem.",
@@ -990,7 +990,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0047",
     "year": 1958,
-    "suffix": "c",
+    "suffix": "d",
     "name": "Project Chariot, 1958–1962",
     "image": "/vestigios/vstg-0047.png",
     "description": "A proposed Atomic Energy Commission plan to excavate a harbour at Cape Thompson, Alaska, with a series of nuclear explosions. Cancelled in 1962 after protests from Iñupiat communities and scientists.",
@@ -1032,7 +1032,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0050",
     "year": 1962,
-    "suffix": "",
+    "suffix": "a",
     "name": "Sea Dragon, 1962",
     "image": "/vestigios/vstg-0050.png",
     "description": "A design by Robert Truax for a super-heavy rocket to be built and launched from a sea platform. It was never built.",
@@ -1088,7 +1088,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0054",
     "year": 1964,
-    "suffix": "",
+    "suffix": "b",
     "name": "Project Pluto, 1957–1964",
     "image": "/vestigios/vstg-0054.png",
     "description": "A Los Alamos programme to build a nuclear ramjet cruise missile able to fly low and at supersonic speed for hours. Cancelled in 1964.",
@@ -1102,7 +1102,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0055",
     "year": 1966,
-    "suffix": "a",
+    "suffix": "b",
     "name": "Project Mohole, 1957–1966",
     "image": "/vestigios/vstg-0055.png",
     "description": "A US project to drill through the Earth's crust beneath the ocean floor to reach the mantle, to read the planet's interior. Cancelled in 1966.",
@@ -1116,7 +1116,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0056",
     "year": 1966,
-    "suffix": "b",
+    "suffix": "c",
     "name": "Project Iceworm, 1959–1966",
     "image": "/vestigios/vstg-0056.png",
     "description": "A secret US Army plan to hide up to 600 nuclear missiles in tunnels beneath the Greenland ice sheet, under cover of the Camp Century base. Cancelled in 1966.",
@@ -1130,7 +1130,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0057",
     "year": 1969,
-    "suffix": "",
+    "suffix": "d",
     "name": "UR-700, 1960s",
     "image": "/vestigios/vstg-0057.png",
     "description": "Vladimir Chelomei's Universal Rocket, a Soviet super-heavy design competing with the N1 to carry crews to the Moon and Mars. Never flew.",
@@ -1144,7 +1144,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0058",
     "year": 1970,
-    "suffix": "",
+    "suffix": "b",
     "name": "Apollo 18, 19 and 20, cancelled",
     "image": "/vestigios/vstg-0058.png",
     "description": "Flight plans, landing-site studies and unfinished hardware of the lunar missions that followed Apollo 17, cancelled in 1970.",
@@ -1172,7 +1172,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0060",
     "year": 1973,
-    "suffix": "a",
+    "suffix": "b",
     "name": "NERVA and Project Rover, 1959–1973",
     "image": "/vestigios/vstg-0060.png",
     "description": "The US nuclear rocket programme, Project Rover and its engine NERVA. Engines were ground-tested; the programme was cancelled in 1972 and ended in 1973.",
@@ -1186,7 +1186,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0061",
     "year": 1973,
-    "suffix": "b",
+    "suffix": "c",
     "name": "Skylab B, 1973",
     "image": "/vestigios/vstg-0061.png",
     "description": "The backup space station built in case the first Skylab failed. It was never launched.",
@@ -1228,7 +1228,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0064",
     "year": 1975,
-    "suffix": "",
+    "suffix": "a",
     "name": "Project Plowshare, 1957–1975",
     "image": "/vestigios/vstg-0064.png",
     "description": "The Atomic Energy Commission's programme to find peaceful uses for nuclear explosions: harbours, canals, gas stimulation and mining. Ended in 1975.",
@@ -1298,7 +1298,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0069",
     "year": 1983,
-    "suffix": "",
+    "suffix": "a",
     "name": "Strategic Defense Initiative, 1983",
     "image": "/vestigios/vstg-0069.png",
     "description": "The US plan proposed in 1983 for a shield of lasers and interceptors in space to make nuclear missiles obsolete. It was reduced in the 1990s and no system was deployed.",
@@ -1326,7 +1326,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0071",
     "year": 1990,
-    "suffix": "",
+    "suffix": "a",
     "name": "Project Babylon, 1988–1990",
     "image": "/vestigios/vstg-0071.png",
     "description": "An Iraqi project to build a very long-range gun, designed by Gerald Bull. Bull was murdered in 1990 and the project was stopped.",
@@ -1396,7 +1396,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0076",
     "year": 2001,
-    "suffix": "",
+    "suffix": "a",
     "name": "X-33 and VentureStar, 1996–2001",
     "image": "/vestigios/vstg-0076.png",
     "description": "NASA and Lockheed Martin's X-33, a suborbital prototype for VentureStar, a reusable single-stage-to-orbit spaceplane. Cancelled in early 2001 after a composite fuel tank failed in 1999.",
@@ -1410,7 +1410,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0077",
     "year": 2003,
-    "suffix": "",
+    "suffix": "c",
     "name": "Total Information Awareness, 2002–2003",
     "image": "/vestigios/vstg-0077.png",
     "description": "A US Defense Advanced Research Projects Agency programme to pool data from many sources into one searchable system. Congress defunded it in 2003.",
@@ -1424,7 +1424,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0078",
     "year": 2005,
-    "suffix": "",
+    "suffix": "a",
     "name": "Project Prometheus, 2003–2005",
     "image": "/vestigios/vstg-0078.png",
     "description": "NASA's nuclear-electric spacecraft programme, begun in 2003 to explore the outer solar system. It was ended in 2005.",
@@ -1466,7 +1466,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0081",
     "year": 1920,
-    "suffix": "",
+    "suffix": "b",
     "name": "Treaty of Sèvres, 1920",
     "image": "/vestigios/vstg-0081.png",
     "description": "The peace treaty signed on 10 August 1920 between the Allies and the Ottoman government. It partitioned most of the empire, set up an independent Armenia and a referendum for Kurdistan, and gave Smyrna to Greek administration.",
@@ -1480,7 +1480,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0082",
     "year": 1940,
-    "suffix": "",
+    "suffix": "a",
     "name": "Anglo-French Union, 1940",
     "image": "/vestigios/vstg-0082.png",
     "description": "The British offer of 16 June 1940 to France to merge the two countries into one \"indissoluble\" union, with a joint war cabinet, joint organs for defence, foreign and economic policy, and reciprocal citizenship.",
@@ -1522,7 +1522,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0085",
     "year": 1948,
-    "suffix": "",
+    "suffix": "b",
     "name": "Havana Charter and the International Trade Organization",
     "image": "/vestigios/vstg-0085.png",
     "description": "The charter signed in Havana on 24 March 1948 to create the International Trade Organization, with rules on trade and on anti-competitive practices. The US government stopped seeking Senate approval in 1950.",
@@ -1536,7 +1536,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0086",
     "year": 1952,
-    "suffix": "a",
+    "suffix": "b",
     "name": "European Defence Community, 1952–1954",
     "image": "/vestigios/vstg-0086.png",
     "description": "The treaty signed on 27 May 1952 to create a single European army, under a common budget, within NATO. The French National Assembly ended its ratification in August 1954.",
@@ -1550,7 +1550,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0087",
     "year": 1952,
-    "suffix": "b",
+    "suffix": "c",
     "name": "Stalin Note, 1952",
     "image": "/vestigios/vstg-0087.png",
     "description": "The Soviet note of 10 March 1952 proposing a reunified, neutral Germany under a peace treaty, with the withdrawal of occupation forces within a year. The Western powers answered on 25 March 1952 by asking for free elections first.",
@@ -1578,7 +1578,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0089",
     "year": 1957,
-    "suffix": "",
+    "suffix": "a",
     "name": "Rapacki Plan, 1957–1958",
     "image": "/vestigios/vstg-0089.png",
     "description": "The Polish proposal presented on 2 October 1957 to the UN General Assembly for a nuclear-free zone covering Poland, Czechoslovakia and both German states. NATO rejected it in December 1957.",
@@ -1592,7 +1592,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0090",
     "year": 1959,
-    "suffix": "",
+    "suffix": "b",
     "name": "Mali Federation, 1959–1960",
     "image": "/vestigios/vstg-0090.png",
     "description": "A federation of French Sudan and Senegal, founded on 4 April 1959 within the French Community. Senegal left on 20 August 1960 and the federation dissolved after about four months.",
@@ -1606,7 +1606,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0091",
     "year": 1961,
-    "suffix": "",
+    "suffix": "c",
     "name": "United Arab Republic, 1958–1961",
     "image": "/vestigios/vstg-0091.png",
     "description": "The union of Egypt and Syria, established on 1 February 1958. Syria left after a military coup on 28 September 1961; Egypt kept the name until 1971.",
@@ -1620,7 +1620,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0092",
     "year": 1962,
-    "suffix": "",
+    "suffix": "b",
     "name": "West Indies Federation, 1958–1962",
     "image": "/vestigios/vstg-0092.png",
     "description": "A federation of ten Caribbean territories, established in 1958, which collapsed in January 1962 after a 1961 referendum in Jamaica voted to leave.",
@@ -1634,7 +1634,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0093",
     "year": 1963,
-    "suffix": "",
+    "suffix": "d",
     "name": "Federation of Rhodesia and Nyasaland, 1953–1963",
     "image": "/vestigios/vstg-0093.png",
     "description": "A federation of Southern Rhodesia, Northern Rhodesia and Nyasaland, formed on 1 August 1953 under British rule and dissolved on 31 December 1963.",
@@ -1648,7 +1648,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0094",
     "year": 1974,
-    "suffix": "a",
+    "suffix": "c",
     "name": "Sunningdale Agreement, 1973–1974",
     "image": "/vestigios/vstg-0094.png",
     "description": "The December 1973 agreement at Sunningdale Park that created a power-sharing executive for Northern Ireland with a cross-border council. The Ulster Workers' Council strike of May 1974 brought the executive down on 28 May.",
@@ -1662,7 +1662,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0095",
     "year": 1974,
-    "suffix": "b",
+    "suffix": "d",
     "name": "New International Economic Order, 1974",
     "image": "/vestigios/vstg-0095.png",
     "description": "The UN General Assembly declaration of 1 May 1974 calling for a New International Economic Order: fair prices for raw materials, technology transfer and sovereignty over natural resources for developing countries.",
@@ -1704,7 +1704,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0098",
     "year": 1990,
-    "suffix": "",
+    "suffix": "b",
     "name": "Meech Lake Accord, 1987–1990",
     "image": "/vestigios/vstg-0098.png",
     "description": "A package of constitutional amendments agreed by Canada's first ministers at Meech Lake in 1987, recognising Quebec as a distinct society. Manitoba and Newfoundland did not ratify it before the June 1990 deadline.",
@@ -1732,7 +1732,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0100",
     "year": 1992,
-    "suffix": "a",
+    "suffix": "c",
     "name": "Charlottetown Accord, 1992",
     "image": "/vestigios/vstg-0100.png",
     "description": "A second package of constitutional reforms agreed in August 1992, covering Senate reform, Indigenous self-government and Quebec's distinct status. It was defeated in a national referendum on 26 October 1992.",
@@ -1746,7 +1746,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0101",
     "year": 1992,
-    "suffix": "b",
+    "suffix": "d",
     "name": "Bicesse Accords, Angola, 1991–1992",
     "image": "/vestigios/vstg-0101.png",
     "description": "The peace agreement signed in Lisbon on 31 May 1991 between the MPLA and UNITA, with UN-monitored elections in 1992. UNITA rejected the election results and renewed the war.",
@@ -1760,7 +1760,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0102",
     "year": 1993,
-    "suffix": "a",
+    "suffix": "c",
     "name": "Vance–Owen Peace Plan, Bosnia, 1993",
     "image": "/vestigios/vstg-0102.png",
     "description": "The 1993 plan by UN mediators Cyrus Vance and David Owen to divide Bosnia and Herzegovina into ten semi-autonomous provinces. The Bosnian Serb assembly rejected it, and a referendum followed.",
@@ -1774,7 +1774,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0103",
     "year": 1993,
-    "suffix": "b",
+    "suffix": "d",
     "name": "Arusha Accords, Rwanda, 1993",
     "image": "/vestigios/vstg-0103.png",
     "description": "The peace agreement signed in Arusha, Tanzania, on 4 August 1993 between the Rwandan government and the Rwandan Patriotic Front. It set up a transitional government and a merged army, with a UN force to supervise it.",
@@ -1802,7 +1802,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0105",
     "year": 1998,
-    "suffix": "",
+    "suffix": "a",
     "name": "Lusaka Protocol, Angola, 1994–1998",
     "image": "/vestigios/vstg-0105.png",
     "description": "The protocol signed in Lusaka on 20 November 1994, providing for demobilisation, UN observers and power-sharing between the government and UNITA. Fighting resumed by 1998, and the protocol collapsed.",
@@ -1816,7 +1816,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0106",
     "year": 1999,
-    "suffix": "",
+    "suffix": "a",
     "name": "Rambouillet Agreement, 1999",
     "image": "/vestigios/vstg-0106.png",
     "description": "The February–March 1999 conference on Kosovo, which proposed substantial autonomy for Kosovo and a NATO-led force of 30,000. The Albanian delegation signed; Yugoslavia refused, and NATO bombing began on 24 March 1999.",
@@ -1844,7 +1844,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0108",
     "year": 2001,
-    "suffix": "",
+    "suffix": "b",
     "name": "Kyoto Protocol, 1997–2001",
     "image": "/vestigios/vstg-0108.png",
     "description": "The 1997 protocol that set binding emission targets for developed countries. The United States signed it in 1998 but never submitted it to the Senate, and President Bush opposed it in March 2001. It entered into force in 2005.",
@@ -1872,7 +1872,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0110",
     "year": 2005,
-    "suffix": "a",
+    "suffix": "b",
     "name": "Free Trade Area of the Americas, 1994–2005",
     "image": "/vestigios/vstg-0110.png",
     "description": "The proposed trade agreement among 34 countries of the Americas, launched in Miami in 1994 and due by 2005. Negotiations ended without agreement at the Mar del Plata summit in November 2005.",
@@ -1886,7 +1886,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0111",
     "year": 2005,
-    "suffix": "b",
+    "suffix": "c",
     "name": "Treaty establishing a Constitution for Europe, 2004–2005",
     "image": "/vestigios/vstg-0111.png",
     "description": "The constitutional treaty of the European Union, signed in Rome on 29 October 2004. It was rejected in referendums in France (29 May 2005) and the Netherlands (1 June 2005).",
@@ -1900,7 +1900,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0112",
     "year": 2006,
-    "suffix": "",
+    "suffix": "b",
     "name": "Doha Development Round, 2001–2006",
     "image": "/vestigios/vstg-0112.png",
     "description": "The World Trade Organization round launched in Doha in November 2001 to reduce trade barriers, especially on agriculture. It was suspended at the end of July 2006.",
@@ -2208,7 +2208,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0134",
     "year": 1903,
-    "suffix": "",
+    "suffix": "a",
     "name": "Samuel Langley, Aerodrome, 1903",
     "image": "/vestigios/vstg-0134.png",
     "description": "The Aerodrome, a piloted flying machine built by Samuel Pierpont Langley with a War Department grant of $50,000. It failed on take-off on 7 October and 8 December 1903, and Langley gave up the project.",
@@ -2306,7 +2306,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0141",
     "year": 1917,
-    "suffix": "",
+    "suffix": "a",
     "name": "Wardenclyffe Tower, 1901–1917",
     "image": "/vestigios/vstg-0141.png",
     "description": "Nikola Tesla's Wardenclyffe Tower on Long Island, built in 1901–1902 as a wireless transmitter. J. P. Morgan withdrew the funding; the tower was dynamited in July 1917.",
@@ -2320,7 +2320,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0142",
     "year": 1922,
-    "suffix": "",
+    "suffix": "b",
     "name": "Lewis Fry Richardson, Weather Prediction by Numerical Process, 1922",
     "image": "/vestigios/vstg-0142.png",
     "description": "Lewis Fry Richardson computed a numerical weather forecast by hand while serving as an ambulance driver in France, and published the method in Weather Prediction by Numerical Process in 1922. The forecast was grossly in error.",
@@ -2348,7 +2348,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0144",
     "year": 1925,
-    "suffix": "",
+    "suffix": "b",
     "name": "Walter Benjamin, habilitation, 1925",
     "image": "/vestigios/vstg-0144.png",
     "description": "Walter Benjamin submitted his habilitation thesis, The Origin of German Tragic Drama, to the University of Frankfurt in 1925. The faculty found it impenetrable and urged him to withdraw it, and he did.",
@@ -2362,7 +2362,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0145",
     "year": 1930,
-    "suffix": "",
+    "suffix": "b",
     "name": "Alfred Wegener, continental drift, 1912–1930",
     "image": "/vestigios/vstg-0145.png",
     "description": "Alfred Wegener proposed continental drift in 1912. Most geologists rejected it, mainly because no mechanism was known. He died in Greenland in November 1930, aged 50, during his last expedition.",
@@ -2404,7 +2404,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0148",
     "year": 1938,
-    "suffix": "",
+    "suffix": "a",
     "name": "Ettore Majorana, disappearance, 1938",
     "image": "/vestigios/vstg-0148.png",
     "description": "The Italian physicist Ettore Majorana disappeared on 25 March 1938, after buying a ticket from Palermo to Naples. He was never seen again; his fate is unknown.",
@@ -2418,7 +2418,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0149",
     "year": 1940,
-    "suffix": "",
+    "suffix": "b",
     "name": "Mikhail Bulgakov, The Master and Margarita, 1928–1940",
     "image": "/vestigios/vstg-0149.png",
     "description": "Mikhail Bulgakov wrote The Master and Margarita from 1928 and died in 1940, before it was published. A censored version appeared in the magazine Moskva in 1966–1967, and the complete text in 1973.",
@@ -2446,7 +2446,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0151",
     "year": 1943,
-    "suffix": "",
+    "suffix": "c",
     "name": "Nikolai Vavilov, died 1943",
     "image": "/vestigios/vstg-0151.png",
     "description": "Nikolai Vavilov, the Soviet geneticist and seed collector, was arrested in August 1940 and died in Saratov prison on 26 January 1943. He had opposed Trofim Lysenko's anti-Mendelian views.",
@@ -2460,7 +2460,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0152",
     "year": 1944,
-    "suffix": "",
+    "suffix": "b",
     "name": "Nobel Prize, 1944, and Lise Meitner",
     "image": "/vestigios/vstg-0152.png",
     "description": "Otto Hahn received the 1944 Nobel Prize in Chemistry for the discovery of nuclear fission. His colleague Lise Meitner, who had supplied the physical explanation with Otto Frisch, did not share it.",
@@ -2474,7 +2474,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0153",
     "year": 1958,
-    "suffix": "",
+    "suffix": "e",
     "name": "Rosalind Franklin, Photograph 51, 1952",
     "image": "/vestigios/vstg-0153.png",
     "description": "Photograph 51, an X-ray diffraction image of DNA taken in 1952 by Raymond Gosling, a student of Rosalind Franklin. Franklin died of cancer in 1958; the 1962 Nobel Prize went to Crick, Watson and Wilkins.",
@@ -2488,7 +2488,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0154",
     "year": 1961,
-    "suffix": "",
+    "suffix": "d",
     "name": "Patrice Lumumba, prime minister, 1960–1961",
     "image": "/vestigios/vstg-0154.png",
     "description": "Patrice Lumumba, prime minister of the Congo from 24 June 1960, was killed on 17 January 1961 in Katanga, after the secessionist authorities of Moïse Tshombe captured him.",
@@ -2544,7 +2544,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0158",
     "year": 1903,
-    "suffix": "",
+    "suffix": "b",
     "name": "Latino sine flexione, Peano's simplified Latin",
     "image": "/vestigios/vstg-0158.png",
     "description": "Giuseppe Peano published De Latino sine flexione in 1903, a simplified form of Latin that keeps its vocabulary. At the 1907 Paris delegation Peano declared for it, but he could not take part in the final vote.",
@@ -2586,7 +2586,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0161",
     "year": 1909,
-    "suffix": "",
+    "suffix": "b",
     "name": "The Futurist Manifesto",
     "image": "/vestigios/vstg-0161.png",
     "description": "Filippo Tommaso Marinetti published the Manifesto of Futurism on 5 February 1909 in La gazzetta dell'Emilia. Le Figaro reprinted it on 20 February 1909.",
@@ -2600,7 +2600,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0162",
     "year": 1917,
-    "suffix": "",
+    "suffix": "b",
     "name": "Proletkult, the proletarian culture organisation",
     "image": "/vestigios/vstg-0162.png",
     "description": "Proletkult was founded in October 1917; its first conference met in Petrograd from 16 to 19 October. In 1920 Lenin pushed through a decision to absorb it into the People's Commissariat of Education (Narkompros), with a Central Committee decree published on 1 December 1920.",
@@ -2628,7 +2628,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0164",
     "year": 1920,
-    "suffix": "",
+    "suffix": "c",
     "name": "The League of Nations",
     "image": "/vestigios/vstg-0164.png",
     "description": "The League of Nations' Covenant took effect with the Treaty of Versailles on 10 January 1920, and the Council first met on 16 January 1920.",
@@ -2642,7 +2642,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0165",
     "year": 1922,
-    "suffix": "",
+    "suffix": "c",
     "name": "Occidental, later Interlingue",
     "image": "/vestigios/vstg-0165.png",
     "description": "Edgar de Wahl announced Occidental in 1922 with the first issue of Cosmoglotta in Tallinn. It was renamed Interlingue in 1949, to show neutrality towards the Soviet Union and to prepare for closer ties with Interlingua.",
@@ -2670,7 +2670,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0167",
     "year": 1928,
-    "suffix": "",
+    "suffix": "c",
     "name": "Novial, Jespersen's language",
     "image": "/vestigios/vstg-0167.png",
     "description": "Danish linguist Otto Jespersen introduced Novial in 1928. The language was updated in the 1930 dictionary Novial Lexike, and further modifications were proposed in the 1930s.",
@@ -2684,7 +2684,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0168",
     "year": 1929,
-    "suffix": "",
+    "suffix": "a",
     "name": "Uzbek in the Latin alphabet, 1929–1940",
     "image": "/vestigios/vstg-0168.png",
     "description": "Uzbek was switched to the Latin alphabet in 1929. In 1940 it was switched to Cyrillic under Stalin. In 1992 the Latin alphabet was officially reintroduced.",
@@ -2698,7 +2698,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0169",
     "year": 1930,
-    "suffix": "",
+    "suffix": "c",
     "name": "Basic English, Ogden's 850 words",
     "image": "/vestigios/vstg-0169.png",
     "description": "C. K. Ogden presented Basic English in his 1930 book Basic English: A General Introduction with Rules and Grammar. The core vocabulary is 850 words.",
@@ -2712,7 +2712,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0170",
     "year": 1931,
-    "suffix": "",
+    "suffix": "b",
     "name": "Latinxua Sin Wenz, the Latin script for Chinese",
     "image": "/vestigios/vstg-0170.png",
     "description": "Latinxua Sin Wenz, a Latin-based script for Chinese, was established in 1931 through the work of Soviet sinologists and Moscow-based Chinese scholars, including Qu Qiubai. A prototype had been devised in 1929.",
@@ -2726,7 +2726,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0171",
     "year": 1935,
-    "suffix": "",
+    "suffix": "a",
     "name": "The Sun Language Theory",
     "image": "/vestigios/vstg-0171.png",
     "description": "Turkish linguists of the Turkish Language Society developed the Sun Language Theory over about ten months in late 1935 and early 1936, presenting it at the Third Turkish Language Congress. It claims all languages descend from a proto-Turkic primal language.",
@@ -2740,7 +2740,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0172",
     "year": 1938,
-    "suffix": "",
+    "suffix": "b",
     "name": "The Hall of Records at Mount Rushmore",
     "image": "/vestigios/vstg-0172.png",
     "description": "Excavation for a Hall of Records behind the Mount Rushmore monument began in July 1938. The chamber was to hold records of American history and aspirations, including the Declaration of Independence and the Constitution, and busts of more than twenty prominent Americans.",
@@ -2782,7 +2782,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0175",
     "year": 1946,
-    "suffix": "",
+    "suffix": "c",
     "name": "Mongolian script replaced by Cyrillic",
     "image": "/vestigios/vstg-0175.png",
     "description": "The traditional Mongolian script was the most widespread until the introduction of Cyrillic in 1946. From 1941 onwards the traditional script became known as the 'Old Script', in contrast to the Cyrillic 'New Script'.",
@@ -2810,7 +2810,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0177",
     "year": 1951,
-    "suffix": "",
+    "suffix": "b",
     "name": "Interlingua, the Gode language",
     "image": "/vestigios/vstg-0177.png",
     "description": "The International Auxiliary Language Association (IALA) presented Interlingua in 1951, with the finalised grammar and the Interlingua–English Dictionary. Alexander Gode led the final development phase.",
@@ -2838,7 +2838,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0179",
     "year": 1998,
-    "suffix": "",
+    "suffix": "b",
     "name": "Lingua Franca Nova, presented online",
     "image": "/vestigios/vstg-0179.png",
     "description": "C. George Boeree of Shippensburg University began designing Lingua Franca Nova in 1965 and first presented it on the internet in 1998. Users further developed it; Boeree died on 5 January 2021.",
@@ -2936,7 +2936,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0186",
     "year": 1914,
-    "suffix": "",
+    "suffix": "b",
     "name": "Natural ice, from Tudor to the refrigerator",
     "image": "/vestigios/vstg-0186.png",
     "description": "Frederic Tudor began shipping natural ice in 1806, when he sent it to Martinique. The natural ice trade peaked at the end of the nineteenth century.",
@@ -2950,7 +2950,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0187",
     "year": 1929,
-    "suffix": "",
+    "suffix": "b",
     "name": "The telegram at its peak",
     "image": "/vestigios/vstg-0187.png",
     "description": "Telegrams peaked in the late nineteenth and early twentieth centuries. An estimated 200 million were sent in 1929.",
@@ -2964,7 +2964,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0188",
     "year": 1935,
-    "suffix": "",
+    "suffix": "b",
     "name": "Organ grinder and the barrel organ",
     "image": "/vestigios/vstg-0188.png",
     "description": "Organ grinders with barrel organs were common street performers in Europe and New York in the nineteenth century. By 1880 nearly one in twenty Italian men in certain areas were organ grinders.",
@@ -2992,7 +2992,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0190",
     "year": 1957,
-    "suffix": "",
+    "suffix": "b",
     "name": "Lamplighter and the gas street lamp",
     "image": "/vestigios/vstg-0190.png",
     "description": "Lamplighters lit and extinguished the gas street lamps of cities. Gas lighting took over from candles and oil lamps after Frederick Albert Winsor's 1807 exhibition. Baltimore removed nearly all of its gas streetlights in 1957.",
@@ -3020,7 +3020,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0192",
     "year": 1975,
-    "suffix": "",
+    "suffix": "b",
     "name": "The home milk round",
     "image": "/vestigios/vstg-0192.png",
     "description": "Home milk delivery was common from the late nineteenth century through the twentieth century. In Britain milkmen were delivering milk in bottles by 1880.",
@@ -3034,7 +3034,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0193",
     "year": 1983,
-    "suffix": "",
+    "suffix": "b",
     "name": "The penny arcade and the video boom",
     "image": "/vestigios/vstg-0193.png",
     "description": "The term 'penny arcade' came into use around 1905–1910. The video arcade boom of the early 1980s more than doubled North American video arcades between 1980 and 1982, to about 13,000.",
@@ -3062,7 +3062,7 @@ export const VESTIGES: Vestige[] = [
   {
     "code": "vstg-0195",
     "year": 1999,
-    "suffix": "",
+    "suffix": "b",
     "name": "Morse code in maritime distress",
     "image": "/vestigios/vstg-0195.png",
     "description": "Morse code was the international standard for maritime distress until 1999. The French Navy stopped using it on 31 January 1997.",

@@ -445,7 +445,25 @@ export default function Collection({
           <p className="detail__text">{focused.description}</p>
           <p className="detail__label">[f.f. expl.]</p>
           <p className="detail__text">{focused.failedFuture}</p>
+          {focused.presentEffect && (
+            <>
+              <p className="detail__label">
+                [residual contemporary times — {focused.presentEffect.kind}]
+              </p>
+              <p className="detail__text">{focused.presentEffect.text}</p>
+            </>
+          )}
+          {focused.conceptionYear != null && (
+            <p className="detail__label">
+              [concebido {focused.conceptionYear}
+              {focused.closureYear != null ? ` · cierre ${focused.closureYear}` : ""}
+              {focused.distance != null ? ` · ${focused.distance} años hasta ${focused.anchorYear}` : ""}]
+            </p>
+          )}
           <p className="detail__source">{focused.source}</p>
+          {focused.presentEffect?.source && (
+            <p className="detail__source">{focused.presentEffect.source}</p>
+          )}
         </aside>
       )}
     </>
