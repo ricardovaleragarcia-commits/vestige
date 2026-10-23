@@ -166,10 +166,10 @@ export default function Manifesto({ onClose }: { onClose: () => void }) {
           </button>
           {legalOpen && (
             <p className="manifesto-legal__text">
-              VSTG is a non-profit project. Every image is sought from public-domain or freely licensed sources, and the
-              author and licence of each one are recorded on its entry. If an image is not free to use, or you are its
-              author or rights holder, please get in touch and it will be credited or removed promptly. Send your
-              inquiry to{" "}
+              VSTG is a non-profit, academic project. Images are sought first from public-domain or freely licensed
+              sources, and the author and licence of each one are recorded on its entry. A few may still be protected,
+              and are shown here only for study. If you are the author or rights holder of an image, or it is not free
+              to use, please get in touch and it will be credited or removed promptly. Send your inquiry to{" "}
               <a href="mailto:ricardo.valera.garcia@gmail.com">ricardo.valera.garcia@gmail.com</a>.
             </p>
           )}
