@@ -81,7 +81,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0048 — Aircraft Nuclear Propulsion, 1946–1961
 
-- Código visible: vstg.1961.a
+- Código visible: vstg.1961.b
 - Concepción: 1946 · Cierre: 1961 · Distancia a 2020: 74
 - [desc.] The US programme to build a nuclear-powered bomber that could stay airborne for weeks. Engines were tested on the ground; the programme was cancelled in 1961.
 - [f.f. expl.] A bomber powered by a nuclear reactor. Kennedy cancelled the programme on 26 March 1961 after about $1 billion, citing cost and the lack of a flight-worthy reactor.
@@ -92,7 +92,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0049 — B-70 Valkyrie, 1961
 
-- Código visible: vstg.1961.b
+- Código visible: vstg.1961.c
 - Concepción: 1955 · Cierre: 1961 · Distancia a 2020: 65
 - [desc.] North American's XB-70 Valkyrie, a Mach 3 bomber. Two prototypes were built; the bomber programme was cancelled in 1961, before any production aircraft existed.
 - [f.f. expl.] A bomber with the payload and range of the B-52 and Mach 3 speed. Kennedy cancelled it on 28 March 1961 as 'unnecessary and economically unjustifiable' after about $800 million; two XB-70A research aircraft were completed.
@@ -136,7 +136,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0053 — Project Orion, 1958–1965
 
-- Código visible: vstg.1963.a
+- Código visible: vstg.1963
 - Concepción: 1958 · Cierre: 1965 · Distancia a 2020: 62
 - [desc.] Study drawings and test models of a spacecraft driven by small nuclear explosions, developed at General Atomics between 1958 and 1965.
 - [f.f. expl.] A ship pushed across the solar system by a series of nuclear explosions behind it; a 1959 NASA profile imagined a 125-day Mars round trip with eight astronauts. The Partial Test Ban Treaty of 1963 prohibited nuclear explosions in the atmosphere and in space and cut political support.

@@ -81,7 +81,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0188 — Organ grinder and the barrel organ
 
-- Código visible: vstg.1935.b
+- Código visible: vstg.1935.c
 - Concepción: 1935 · Cierre: 1935 · Distancia a 2020: 85
 - [desc.] Organ grinders with barrel organs were common street performers in Europe and New York in the nineteenth century. By 1880 nearly one in twenty Italian men in certain areas were organ grinders.
 - [f.f. expl.] Organ grinders largely disappeared from European streets in the late nineteenth and early twentieth centuries. In New York, Mayor Fiorello La Guardia banned them from the streets in 1935, citing traffic, begging and organised crime's role in renting out the machines.
@@ -92,7 +92,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0189 — Hansom cab, from patent to last licence
 
-- Código visible: vstg.1947
+- Código visible: vstg.1947.b
 - Concepción: 1834 · Cierre: 1947 · Distancia a 2020: 186
 - [desc.] Joseph Hansom patented the hansom cab in 1834. It became the most common vehicle for hire in the nineteenth century and was exported to Europe, other British colonies and the United States.
 - [f.f. expl.] Horse-drawn cabs were superseded by motor vehicles. Petrol-powered taximeter cars were introduced in 1908, and by the early 1920s horse-drawn cabs had largely been superseded. The last licence for a horse-drawn cab in London was relinquished in 1947.
@@ -103,7 +103,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0190 — Lamplighter and the gas street lamp
 
-- Código visible: vstg.1957
+- Código visible: vstg.1957.b
 - Concepción: 1807 · Cierre: 1957 · Distancia a 2020: 213
 - [desc.] Lamplighters lit and extinguished the gas street lamps of cities. Gas lighting took over from candles and oil lamps after Frederick Albert Winsor's 1807 exhibition. Baltimore removed nearly all of its gas streetlights in 1957.
 - [f.f. expl.] The trade ended as gas gave way to electric light and automatic systems reduced the need for lamplighters. Baltimore removed nearly all of its gas streetlights in 1957.
@@ -169,7 +169,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0196 — Knocker-up, the human alarm clock
 
-- Código visible: vstg.None
+- Código visible: vstg.NA
 - Concepción: n/d · Cierre: n/d · Distancia a 2020: n/d
 - [desc.] Knocker-uppers were paid to wake sleeping workers so they could reach work on time. They tapped on windows with a baton or a long, light stick, often bamboo. The role began during the Industrial Revolution in Britain, the Netherlands and Ireland.
 - [f.f. expl.] The job had more or less died out by the 1940s and 1950s, but it persisted in some parts of industrial England until the early 1970s.
@@ -180,7 +180,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0197 — Town crier and the public notice
 
-- Código visible: vstg.None
+- Código visible: vstg.NA
 - Concepción: n/d · Cierre: n/d · Distancia a 2020: n/d
 - [desc.] Town criers announced public notices in medieval England and into the nineteenth century. A bellman's notice was recorded in Chester in 1845. Before widespread literacy, criers were the means of communication for the people of the town.
 - [f.f. expl.] When the need for criers disappeared, the role became folklore. English councils revived the post from the mid-1990s.
@@ -191,7 +191,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0198 — Night soil and the gong farmers
 
-- Código visible: vstg.None
+- Código visible: vstg.NA
 - Concepción: n/d · Cierre: n/d · Distancia a 2020: n/d
 - [desc.] Night soil collectors removed excreta from privies and cesspits. In Tudor England they were called 'gong farmers'; later they were called 'night soil men' or 'nightmen'. Rapid urbanisation in the nineteenth century led to outhouse-based collection systems such as the Rochdale system.
 - [f.f. expl.] Sewerage replaced the system. The article says most inner-city areas in Australia were connected to the sewer in the early 1900s, and night soil fertiliser use fell sharply after the Second World War.
@@ -202,7 +202,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0199 — The blacksmith and the automobile
 
-- Código visible: vstg.None
+- Código visible: vstg.NA
 - Concepción: n/d · Cierre: n/d · Distancia a 2020: n/d
 - [desc.] Blacksmiths forged wrought iron and steel into tools, farm implements and utensils. As demand for their products fell, many earned money shoeing horses; by the 1960s most working blacksmiths in the United States were doing farrier work.
 - [f.f. expl.] The number of blacksmiths kept decreasing with the arrival of automobiles, and many former blacksmiths became some of the first car mechanics. The low point for blacksmithing in the United States was reached in the 1960s.
@@ -213,7 +213,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0200 — The dance hall
 
-- Código visible: vstg.None
+- Código visible: vstg.NA
 - Concepción: n/d · Cierre: n/d · Distancia a 2020: n/d
 - [desc.] The American dance hall rose in popularity from the 1900s into the 1920s, with live big band, swing and jazz. The Savoy in Harlem, from the early 1930s, is one example.
 - [f.f. expl.] The article places the end of the dance hall's dominance in the early 1960s, when it was superseded as the forerunner of the discothèque or nightclub.

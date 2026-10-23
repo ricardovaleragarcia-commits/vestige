@@ -81,7 +81,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0088 — European Political Community, 1952–1954
 
-- Código visible: vstg.1954
+- Código visible: vstg.1954.a
 - Concepción: 1952 · Cierre: 1954 · Distancia a 2020: 68
 - [desc.] The political community proposed in 1952 to bring the European Coal and Steel Community and the European Defence Community under one bicameral parliament and a supranational executive. It was abandoned in 1954, after the French National Assembly stalled the EDC.
 - [f.f. expl.] A federal Europe that would have had a parliament before it had a constitution. It failed together with the defence treaty it was meant to crown.
@@ -114,7 +114,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0091 — United Arab Republic, 1958–1961
 
-- Código visible: vstg.1961.c
+- Código visible: vstg.1961.d
 - Concepción: 1958 · Cierre: 1961 · Distancia a 2020: 62
 - [desc.] The union of Egypt and Syria, established on 1 February 1958. Syria left after a military coup on 28 September 1961; Egypt kept the name until 1971.
 - [f.f. expl.] A single Arab state from the Nile to the Euphrates, which lasted three years. Pan-Arab unity remained a political idea after it, with no new state formed.

@@ -169,7 +169,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0171 — The Sun Language Theory
 
-- Código visible: vstg.1935.a
+- Código visible: vstg.1935.b
 - Concepción: 1935 · Cierre: 1938 · Distancia a 2020: 85
 - [desc.] Turkish linguists of the Turkish Language Society developed the Sun Language Theory over about ten months in late 1935 and early 1936, presenting it at the Third Turkish Language Congress. It claims all languages descend from a proto-Turkic primal language.
 - [f.f. expl.] A state-backed theory that Turkish was the source of all languages. It lost its prominent role shortly after Atatürk's death in November 1938, and it was not mentioned at the 1942 Turkish Language Congress.
@@ -202,7 +202,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0174 — The Fraktur decree of 3 January 1941
 
-- Código visible: vstg.1941
+- Código visible: vstg.1941.b
 - Concepción: 1941 · Cierre: 1945 · Distancia a 2020: 79
 - [desc.] On 3 January 1941 Martin Bormann's 'normal type decree' declared Fraktur, the blackletter script, banned from further use; the decree called it Judenlettern, 'Jewish letters'.
 - [f.f. expl.] The Nazi regime ended the controversy over scripts by switching to international scripts such as Antiqua. Historian Albert Kapr speculated that Fraktur was seen as hindering communication in occupied territories.
@@ -246,7 +246,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0178 — Lincos, a language for cosmic intercourse
 
-- Código visible: vstg.1960
+- Código visible: vstg.1960.b
 - Concepción: 1960 · Cierre: n/d · Distancia a 2020: 60
 - [desc.] Hans Freudenthal described Lincos in 1960 in Lincos: Design of a Language for Cosmic Intercourse, Part 1. It was designed to be understandable by any intelligent extraterrestrial life form, for interstellar radio transmissions.
 - [f.f. expl.] For decades no transmission was made in Lincos; it remained a theoretical exercise. In 1999 Yvan Dutil and Stéphane Dumas beamed a Lincos message from the Yevpatoria RT-70 radio telescope toward nearby stars, known as Cosmic Call; it was repeated in 2003.

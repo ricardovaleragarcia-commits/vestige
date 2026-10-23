@@ -202,7 +202,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0134 — Samuel Langley, Aerodrome, 1903
 
-- Código visible: vstg.1903.a
+- Código visible: vstg.1903
 - Concepción: 1903 · Cierre: 1903 · Distancia a 2020: 117
 - [desc.] The Aerodrome, a piloted flying machine built by Samuel Pierpont Langley with a War Department grant of $50,000. It failed on take-off on 7 October and 8 December 1903, and Langley gave up the project.
 - [f.f. expl.] A powered flying machine that broke up as it left the catapult. The next powered flight in the history of the field belonged to other people.
@@ -224,7 +224,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0136 — Anne Frank, 1942-1945
 
-- Código visible: vstg.1945
+- Código visible: vstg.1945.a
 - Concepción: 1942 · Cierre: 1945 · Distancia a 2020: 78
 - [desc.] Anne Frank's diary, written between 1942 and 1944 while her family hid in an annex in Amsterdam; her father Otto published it in 1947.
 - [f.f. expl.] A life after hiding. The Gestapo arrested the family in August 1944, and Anne and her sister Margot likely died of typhus at Bergen-Belsen in early 1945.
@@ -301,7 +301,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0143 — Kafka's unpublished manuscripts, 1924
 
-- Código visible: vstg.1924
+- Código visible: vstg.1924.a
 - Concepción: 1924 · Cierre: n/d · Distancia a 2020: 96
 - [desc.] In his will, Franz Kafka asked Max Brod to destroy all his unpublished manuscripts. Brod refused, and published The Trial in 1925, The Castle in 1926 and Amerika in 1927.
 - [f.f. expl.] A body of work that exists because its executor refused the author's instruction. Kafka died in 1924; the novels were published the following years.
@@ -334,7 +334,7 @@ Año ancla: 2020. Distancia = 2020 − año de concepción. Residual Contemporar
 
 ## vstg-0146 — Federico García Lorca, killed 1936
 
-- Código visible: vstg.1936
+- Código visible: vstg.1936.b
 - Concepción: 1936 · Cierre: 1936 · Distancia a 2020: 84
 - [desc.] Federico García Lorca was arrested in Granada on 16 August 1936 and is believed to have been murdered on 18 or 19 August. He had toured Spain from 1931 with the theatre company La Barraca.
 - [f.f. expl.] A poet who had carried theatre across Spain, killed in August 1936.
@@ -371,7 +371,7 @@ Posición libre. Espera un vestigio que cumpla la regla.
 
 ## vstg-0150 — Robert Musil, The Man Without Qualities, 1921–1942
 
-- Código visible: vstg.1942
+- Código visible: vstg.1942.b
 - Concepción: 1921 · Cierre: 1942 · Distancia a 2020: 99
 - [desc.] Robert Musil began The Man Without Qualities in 1921. Volumes were published in 1930 and 1933; Musil died in 1942 with the novel unfinished. His widow published the literary remains in 1943.
 - [f.f. expl.] A novel that its author worked on for the rest of his life and never finished. The posthumous material was assembled by his widow.
@@ -415,7 +415,7 @@ Posición libre. Espera un vestigio que cumpla la regla.
 
 ## vstg-0154 — Patrice Lumumba, prime minister, 1960–1961
 
-- Código visible: vstg.1961.d
+- Código visible: vstg.1961.e
 - Concepción: 1960 · Cierre: 1961 · Distancia a 2020: 60
 - [desc.] Patrice Lumumba, prime minister of the Congo from 24 June 1960, was killed on 17 January 1961 in Katanga, after the secessionist authorities of Moïse Tshombe captured him.
 - [f.f. expl.] A government of a new state that lasted months. Its first prime minister was killed in the year of independence.
