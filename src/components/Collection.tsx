@@ -12,24 +12,28 @@ import {
 } from "@/lib/demo-collection";
 
 const BLUR = 14;
-const GRAIN = 0.55; // strength of the film grain over photographs, 0 to 1
+const GRAIN = 0.07; // strength of the film grain over photographs: opacity of the darkest and lightest specks
 
-// One small noise tile, shared by every photograph.
+// One small noise tile, shared by every photograph. Half of the specks are black and half white
+// (each with a random opacity), so the grain adds texture without darkening or lightening the picture.
+// One texel is one device pixel, which keeps the grain as fine as the screen allows.
 let grainCache: Texture | null = null;
 function grainTexture(): Texture {
   if (grainCache) return grainCache;
-  const size = 192;
+  const size = 256;
   const canvas = document.createElement("canvas");
   canvas.width = canvas.height = size;
   const ctx = canvas.getContext("2d")!;
   const data = ctx.createImageData(size, size);
   for (let i = 0; i < data.data.length; i += 4) {
-    const v = 190 + Math.random() * 65; // light grey noise
+    const light = Math.random() < 0.5;
+    const v = light ? 255 : 0;
     data.data[i] = data.data[i + 1] = data.data[i + 2] = v;
-    data.data[i + 3] = 255;
+    data.data[i + 3] = Math.round(Math.random() * 255);
   }
   ctx.putImageData(data, 0, 0);
   grainCache = Texture.from(canvas);
+  grainCache.source.resolution = window.devicePixelRatio || 1;
   return grainCache;
 }
 const DRAG_TOLERANCE = 6; // pixels moved before a press counts as dragging, not clicking
@@ -268,6 +272,8 @@ export default function Collection({
         zoomAt(factor, instance.screen.width / 2, instance.screen.height / 2);
       };
 
+      const grainOf = new Map<string, TilingSprite>();
+
       function createNode(piece: Piece): PieceNode {
         const root = new Container();
         root.pivot.set(piece.w / 2, piece.h / 2);
@@ -314,11 +320,11 @@ export default function Collection({
               sprite.scale.set(k);
               sprite.position.set((piece.w - texture.width * k) / 2, (piece.h - texture.height * k) / 2);
               inner.addChildAt(sprite, 1);
-              // A light film grain over the photograph (multiplied, so it only darkens a little).
+              // A fine, neutral film grain over the photograph.
               const grain = new TilingSprite({ texture: grainTexture(), width: piece.w, height: piece.h });
-              grain.blendMode = "multiply";
               grain.alpha = GRAIN;
               inner.addChildAt(grain, 2);
+              grainOf.set(piece.id, grain);
             })
             .catch(() => {});
         }
@@ -365,6 +371,7 @@ export default function Collection({
         const block = blocks.get(key);
         if (!block) return;
         for (const id of block.ids) {
+          grainOf.delete(id);
           nodes.get(id)?.label.remove();
           nodes.delete(id);
         }
@@ -474,6 +481,8 @@ export default function Collection({
 
           const targetNodeScale = isFocus ? focusScale(entry.piece.h) : 1;
           entry.node.scale.set(entry.node.scale.x + (targetNodeScale - entry.node.scale.x) * k);
+          // Keep the grain one device pixel fine whatever the zoom.
+          grainOf.get(id)?.tileScale.set(1 / (entry.node.scale.x * world.scale.x));
 
           // The code follows the piece and stays just below its visible edge.
           const s = entry.node.scale.x;
