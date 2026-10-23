@@ -2,7 +2,7 @@
   {
     "code": "vstg-0081",
     "year": 1920,
-    "suffix": "",
+    "suffix": "b",
     "name": "Treaty of Sèvres, 1920",
     "image": "/vestigios/vstg-0081.png",
     "description": "The peace treaty signed on 10 August 1920 between the Allies and the Ottoman government. It partitioned most of the empire, set up an independent Armenia and a referendum for Kurdistan, and gave Smyrna to Greek administration.",
@@ -10,13 +10,23 @@
     "source": "Wikipedia, \"Treaty of Sèvres\".",
     "link": "https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 10 de agosto de 1920 en Sèvres; sustituido por el Tratado de Lausana (1923); nunca ratificado.",
-    "level": "documented"
+    "status": "Efecto presente atribuido vía Wikipedia (Bahçeli 2015, Erdoğan 2019, Le Monde 2020); los originales no se han consultado.",
+    "level": "documented",
+    "conceptionYear": 1920,
+    "closureYear": 1923,
+    "presentEffect": {
+      "text": "The 'Sèvres syndrome', the popular belief in Turkey that internal and external enemies conspire to carve up the republic, takes its name from the treaty. Devlet Bahçeli invoked it in 2015, Erdoğan said in 2019 'we overturned the Treaty of Sèvres', and Le Monde (31 July 2020) linked the opening of Hagia Sophia for worship to a 'new Treaty of Sèvres', which İbrahim Karagül answered in Yeni Şafak.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Sèvres syndrome\" (citing Le Monde, 31 July 2020).",
+      "link": "https://en.wikipedia.org/wiki/S%C3%A8vres_syndrome"
+    },
+    "anchorYear": 2020,
+    "distance": 100
   },
   {
     "code": "vstg-0082",
     "year": 1940,
-    "suffix": "",
+    "suffix": "a",
     "name": "Anglo-French Union, 1940",
     "image": "/vestigios/vstg-0082.png",
     "description": "The British offer of 16 June 1940 to France to merge the two countries into one \"indissoluble\" union, with a joint war cabinet, joint organs for defence, foreign and economic policy, and reciprocal citizenship.",
@@ -24,27 +34,47 @@
     "source": "Anglo-French Declaration, 16 June 1940. Text at ibiblio.org (Policy Archive).",
     "link": "https://www.ibiblio.org/pha/policy/1940/400616a.html",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con el texto de la declaración (ibiblio): 16 de junio de 1940; unión «indissoluble»; gabinete de guerra único; ciudadanía recíproca.",
-    "level": "documented"
+    "status": "Efecto presente débil: el eco más reciente es de 2007. Verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1940,
+    "closureYear": 1940,
+    "presentEffect": {
+      "text": "The idea resurfaced in 1956, when Guy Mollet proposed a union with Elizabeth II as head of state and Anthony Eden rejected it. It became public through a BBC article by Mike Thomson on 15 January 2007, which coined the name 'Frangleterre'; on 16 January 2007 Charles Pasqua said on French television that a formal request would have led to Mollet being tried for high treason.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Franco-British Union\" (citing BBC, 15 January 2007).",
+      "link": "https://en.wikipedia.org/wiki/Franco-British_Union"
+    },
+    "anchorYear": 2020,
+    "distance": 80
   },
   {
     "code": "vstg-0083",
-    "year": 1946,
-    "suffix": "a",
-    "name": "Acheson–Lilienthal Report, 1946",
+    "year": 1831,
+    "suffix": "",
+    "name": "Gran Colombia, 1819-1831",
     "image": "/vestigios/vstg-0083.png",
-    "description": "A 1946 report on the international control of atomic energy, drafted largely by J. Robert Oppenheimer for a committee led by Dean Acheson and David Lilienthal. It proposed that all fissile material be owned by an international authority.",
-    "failedFuture": "A world in which no nation could build the bomb, because the uranium itself belonged to everyone. Presented to the UN in a weakened version, it was rejected in 1946, and the nuclear race began.",
-    "source": "Acheson, D. and Lilienthal, D. (1946). A Report on the International Control of Atomic Energy. Wikipedia, \"Acheson–Lilienthal Report\".",
-    "link": "https://en.wikipedia.org/wiki/Acheson%E2%80%93Lilienthal_Report",
+    "description": "The republic proclaimed in 1819 at the Congress of Angostura and shaped by the Constitution of Cúcuta (1821), covering present-day Colombia, mainland Ecuador, Panama and Venezuela.",
+    "failedFuture": "Bolívar's union of the northern South American republics under one state. It broke into Venezuela, Ecuador and New Granada in 1830-1831; the source calls it 'the failure of Bolívar's vision'.",
+    "source": "Wikipedia, \"Gran Colombia\".",
+    "link": "https://en.wikipedia.org/wiki/Gran_Colombia",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: informe fechado en marzo de 1946, propiedad internacional del material fisible.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia. La propuesta de Chávez está marcada como 'reportedly' en la fuente.",
+    "level": "documented",
+    "conceptionYear": 1819,
+    "closureYear": 1831,
+    "presentEffect": {
+      "text": "The flags of Colombia, Venezuela and Ecuador share the tricolour of Gran Colombia's flag, and the name Colombia comes from this era. 'Unionistas' advocate reunification, and in 2008 Hugo Chávez reportedly proposed a political restoration of Gran Colombia.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Gran Colombia\".",
+      "link": "https://en.wikipedia.org/wiki/Gran_Colombia"
+    },
+    "anchorYear": 2020,
+    "distance": 201
   },
   {
     "code": "vstg-0084",
     "year": 1946,
-    "suffix": "b",
+    "suffix": "a",
     "name": "Baruch Plan, 1946",
     "image": "/vestigios/vstg-0084.png",
     "description": "The US proposal, presented by Bernard Baruch to the UN Atomic Energy Commission on 14 June 1946, to place nuclear material under an international authority, with sanctions that the Security Council could not veto.",
@@ -52,13 +82,23 @@
     "source": "Baruch, B. (1946), UN Atomic Energy Commission. Wikipedia, \"Baruch Plan\".",
     "link": "https://en.wikipedia.org/wiki/Baruch_Plan",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentada el 14 de junio de 1946; la URSS la rechazó en diciembre de 1946.",
-    "level": "documented"
+    "status": "Efecto presente atribuido (Bostrom 2014) vía Wikipedia; la ficha no vincula el plan con el OIEA ni con el TNP.",
+    "level": "documented",
+    "conceptionYear": 1946,
+    "closureYear": 1947,
+    "presentEffect": {
+      "text": "Wikipedia says the plan is often cited in works promoting the internationalisation of nuclear power or revisiting arms control, and Nick Bostrom cited it in Superintelligence (2014) as an example of how a power with a decisive strategic advantage might establish a benign 'singleton'.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Baruch Plan\" (citing Bostrom, Superintelligence, 2014).",
+      "link": "https://en.wikipedia.org/wiki/Baruch_Plan"
+    },
+    "anchorYear": 2020,
+    "distance": 74
   },
   {
     "code": "vstg-0085",
     "year": 1948,
-    "suffix": "",
+    "suffix": "b",
     "name": "Havana Charter and the International Trade Organization",
     "image": "/vestigios/vstg-0085.png",
     "description": "The charter signed in Havana on 24 March 1948 to create the International Trade Organization, with rules on trade and on anti-competitive practices. The US government stopped seeking Senate approval in 1950.",
@@ -66,8 +106,18 @@
     "source": "Wikipedia, \"International Trade Organization\".",
     "link": "https://en.wikipedia.org/wiki/International_Trade_Organization",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmada el 24 de marzo de 1948; Estados Unidos dejó de buscar la ratificación en 1950 (Truman, 6 de diciembre de 1950).",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1946,
+    "closureYear": 1950,
+    "presentEffect": {
+      "text": "Elements of the Havana Charter became part of the GATT, which gradually became the main forum of trade cooperation. After the Uruguay Round of 1994 the World Trade Organization replaced the GATT in 1995 and adopted its principles and agreements.",
+      "kind": "documented",
+      "source": "Wikipedia, \"International Trade Organization\".",
+      "link": "https://en.wikipedia.org/wiki/International_Trade_Organization"
+    },
+    "anchorYear": 2020,
+    "distance": 74
   },
   {
     "code": "vstg-0086",
@@ -80,8 +130,18 @@
     "source": "Wikipedia, \"Treaty establishing the European Defence Community\".",
     "link": "https://en.wikipedia.org/wiki/Treaty_establishing_the_European_Defence_Community",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 27 de mayo de 1952; la Asamblea Nacional francesa votó el aplazamiento indefinido el 30 de agosto de 1954 (319 a favor, 264 en contra).",
-    "level": "documented"
+    "status": "Efecto presente atribuido vía Wikipedia; los hechos citados son posteriores a 2020. Año de concepción: 1950 (plan Pleven).",
+    "level": "documented",
+    "conceptionYear": 1950,
+    "closureYear": 1954,
+    "presentEffect": {
+      "text": "Wikipedia says the EU and NATO carry out some functions the EDC envisaged, though neither approaches its supranational military control. Federico Fabbrini (2024) and a 2025 study led by Sylvie Goulard argued that ratification remains legally feasible, and on 3 April 2025 Mauro Del Barba tabled a bill in the Italian Parliament to ratify the treaty.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Treaty establishing the European Defence Community\" (citing Fabbrini, 2024; Goulard et al., 2025).",
+      "link": "https://en.wikipedia.org/wiki/Treaty_establishing_the_European_Defence_Community"
+    },
+    "anchorYear": 2020,
+    "distance": 70
   },
   {
     "code": "vstg-0087",
@@ -94,8 +154,18 @@
     "source": "Wikipedia, \"Stalin Note\".",
     "link": "https://en.wikipedia.org/wiki/Stalin_Note",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: nota del 10 de marzo de 1952; respuesta occidental del 25 de marzo de 1952.",
-    "level": "documented"
+    "status": "Efecto presente atribuido (debate historiográfico) vía Wikipedia; la ficha dice que el debate no intervino en la reunificación de 1990.",
+    "level": "documented",
+    "conceptionYear": 1952,
+    "closureYear": 1952,
+    "presentEffect": {
+      "text": "Historians still dispute whether a chance for a neutral, reunified Germany was missed. Rolf Steininger argued in 1985 that Stalin's offer was serious and that Adenauer blocked its testing; Hermann Graml argued the note was an alibi for integrating East Germany into the Eastern bloc. The debate recurred when Western archives opened in the 1980s and Eastern ones in the 1990s, with Zarusky's 2002 volume and Ruggenthaler's 2011 review.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Stalin Note\" (citing Steininger, 1985; Graml; Zarusky, 2002; Ruggenthaler, 2011).",
+      "link": "https://en.wikipedia.org/wiki/Stalin_Note"
+    },
+    "anchorYear": 2020,
+    "distance": 68
   },
   {
     "code": "vstg-0088",
@@ -108,27 +178,47 @@
     "source": "Wikipedia, \"European Political Community (1952)\".",
     "link": "https://en.wikipedia.org/wiki/European_Political_Community_(1952)",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: propuesta en 1952; fracasada en 1954 junto con la CED; cámara directa y senado de los parlamentos nacionales.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1952,
+    "closureYear": 1954,
+    "presentEffect": {
+      "text": "The ECSC assembly that drafted the treaty is now the European Parliament, so Wikipedia traces the Parliament's origins to this 1952 draft. Its failure redirected integration toward economic cooperation: the Messina Conference of 1955 led to the European Economic Community.",
+      "kind": "documented",
+      "source": "Wikipedia, \"European Political Community (1952)\".",
+      "link": "https://en.wikipedia.org/wiki/European_Political_Community_(1952)"
+    },
+    "anchorYear": 2020,
+    "distance": 68
   },
   {
     "code": "vstg-0089",
-    "year": 1957,
+    "year": 1839,
     "suffix": "",
-    "name": "Rapacki Plan, 1957–1958",
+    "name": "Federal Republic of Central America, 1823-1839",
     "image": "/vestigios/vstg-0089.png",
-    "description": "The Polish proposal presented on 2 October 1957 to the UN General Assembly for a nuclear-free zone covering Poland, Czechoslovakia and both German states. NATO rejected it in December 1957.",
-    "failedFuture": "Central Europe without nuclear weapons, at a point where the continent was about to host them. NATO said no; the Berlin crisis of 1958–1959 ended whatever chance it had.",
-    "source": "Wikipedia, \"Rapacki Plan\".",
-    "link": "https://en.wikipedia.org/wiki/Rapacki_Plan",
+    "description": "The federation created in 1823 from Costa Rica, El Salvador, Guatemala, Honduras and Nicaragua, with a 1824 constitution drawing on the US federal model.",
+    "failedFuture": "A united Central America. Civil wars broke out in 1827-1829 and 1838-1840, and Guatemala's Rafael Carrera decreed its dissolution in April 1839.",
+    "source": "Wikipedia, \"Federal Republic of Central America\".",
+    "link": "https://en.wikipedia.org/wiki/Federal_Republic_of_Central_America",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: presentada el 2 de octubre de 1957; rechazada por la OTAN en diciembre de 1957; perdió fuerza en 1958–1959.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia; la ficha no describe las banderas ni el Parlamento Centroamericano.",
+    "level": "documented",
+    "conceptionYear": 1823,
+    "closureYear": 1839,
+    "presentEffect": {
+      "text": "All five former members belong to the Central American Integration System (SICA). Central American leaders have repeatedly called for reunification, but no attempt in the 19th or 20th centuries united all five states for more than a year.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Federal Republic of Central America\".",
+      "link": "https://en.wikipedia.org/wiki/Federal_Republic_of_Central_America"
+    },
+    "anchorYear": 2020,
+    "distance": 197
   },
   {
     "code": "vstg-0090",
     "year": 1959,
-    "suffix": "",
+    "suffix": "b",
     "name": "Mali Federation, 1959–1960",
     "image": "/vestigios/vstg-0090.png",
     "description": "A federation of French Sudan and Senegal, founded on 4 April 1959 within the French Community. Senegal left on 20 August 1960 and the federation dissolved after about four months.",
@@ -136,13 +226,23 @@
     "source": "Wikipedia, \"Mali Federation\".",
     "link": "https://en.wikipedia.org/wiki/Mali_Federation",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: fundada el 4 de abril de 1959; Senegal se separó el 20 de agosto de 1960.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la ficha no recoge hechos posteriores a 1963.",
+    "level": "documented",
+    "conceptionYear": 1959,
+    "closureYear": 1960,
+    "presentEffect": {
+      "text": "The break-up left two states: the Sudanese Republic adopted the name Mali ('Le Mali Continue') and Senegal became independent. Keïta refused diplomatic relations with Senegal for years and Senghor became wary of unification projects; the Dakar–Niger railway reopened on 22 June 1963, when the two leaders met at the border.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Mali Federation\".",
+      "link": "https://en.wikipedia.org/wiki/Mali_Federation"
+    },
+    "anchorYear": 2020,
+    "distance": 61
   },
   {
     "code": "vstg-0091",
     "year": 1961,
-    "suffix": "",
+    "suffix": "c",
     "name": "United Arab Republic, 1958–1961",
     "image": "/vestigios/vstg-0091.png",
     "description": "The union of Egypt and Syria, established on 1 February 1958. Syria left after a military coup on 28 September 1961; Egypt kept the name until 1971.",
@@ -150,13 +250,23 @@
     "source": "Wikipedia, \"United Arab Republic\".",
     "link": "https://en.wikipedia.org/wiki/United_Arab_Republic",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: establecida el 1 de febrero de 1958; Siria salió tras el golpe del 28 de septiembre de 1961; Egipto mantuvo el nombre hasta 1971.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1958,
+    "closureYear": 1961,
+    "presentEffect": {
+      "text": "Syria used the UAR's two-star flag from 1980 to 2024, and Iraq adopted a three-star flag in 1963 as a symbol of hoped-for unity. Egypt kept the name United Arab Republic until 1971, when it became the Arab Republic of Egypt.",
+      "kind": "documented",
+      "source": "Wikipedia, \"United Arab Republic\".",
+      "link": "https://en.wikipedia.org/wiki/United_Arab_Republic"
+    },
+    "anchorYear": 2020,
+    "distance": 62
   },
   {
     "code": "vstg-0092",
     "year": 1962,
-    "suffix": "",
+    "suffix": "b",
     "name": "West Indies Federation, 1958–1962",
     "image": "/vestigios/vstg-0092.png",
     "description": "A federation of ten Caribbean territories, established in 1958, which collapsed in January 1962 after a 1961 referendum in Jamaica voted to leave.",
@@ -164,27 +274,47 @@
     "source": "CARICOM, \"The West Indies Federation\". Wikipedia, \"West Indies Federation\".",
     "link": "https://caricom.org/?p=21798",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con CARICOM: 1958–1962; diez territorios; el referéndum de Jamaica de 1961 fue decisivo; Trinidad y Tobago salió poco después.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1958,
+    "closureYear": 1962,
+    "presentEffect": {
+      "text": "The University of the West Indies grew out of the Jamaica campus. Successor bodies include CARICOM, the East Caribbean dollar and the Eastern Caribbean Supreme Court (1981); the Caribbean Court of Justice is noted as a later body that could fulfil the role of the original federal court.",
+      "kind": "documented",
+      "source": "Wikipedia, \"West Indies Federation\".",
+      "link": "https://en.wikipedia.org/wiki/West_Indies_Federation"
+    },
+    "anchorYear": 2020,
+    "distance": 62
   },
   {
     "code": "vstg-0093",
-    "year": 1963,
-    "suffix": "",
-    "name": "Federation of Rhodesia and Nyasaland, 1953–1963",
+    "year": 1928,
+    "suffix": "c",
+    "name": "Kellogg-Briand Pact, 1928",
     "image": "/vestigios/vstg-0093.png",
-    "description": "A federation of Southern Rhodesia, Northern Rhodesia and Nyasaland, formed on 1 August 1953 under British rule and dissolved on 31 December 1963.",
-    "failedFuture": "A multiracial state planned to stand between South Africa and the independent colonies. The African majority opposed it; Nyasaland and Northern Rhodesia became Malawi and Zambia in 1964.",
-    "source": "Wikipedia, \"Federation of Rhodesia and Nyasaland\".",
-    "link": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+    "description": "Signed in Paris on 27 August 1928 and in effect from 24 July 1929, by which signatories renounced war as an instrument of national policy.",
+    "failedFuture": "A world in which war was outlawed by treaty. It had no enforcement mechanism; many historians consider it largely ineffective, and Eric Sevareid called it a 'worthless piece of paper'.",
+    "source": "Wikipedia, \"Kellogg-Briand Pact\".",
+    "link": "https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 1 de agosto de 1953 a 31 de diciembre de 1963; causas «purely political», según la fuente.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia. Año de concepción: 1927 (negociación Kellogg-Briand), no confirmado en la ficha.",
+    "level": "documented",
+    "conceptionYear": 1927,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The pact remains in effect: Barbados (1971), Fiji (1973) and successor states of Czechoslovakia and Yugoslavia in the 1990s joined later. The Nuremberg and Tokyo tribunals used it as the basis of 'crimes against peace', and its central provisions were incorporated into Article 2(4) of the UN Charter. Hathaway and Shapiro argue it inaugurated 'a new era of human history'.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Kellogg-Briand Pact\".",
+      "link": "https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact"
+    },
+    "anchorYear": 2020,
+    "distance": 93
   },
   {
     "code": "vstg-0094",
     "year": 1974,
-    "suffix": "a",
+    "suffix": "b",
     "name": "Sunningdale Agreement, 1973–1974",
     "image": "/vestigios/vstg-0094.png",
     "description": "The December 1973 agreement at Sunningdale Park that created a power-sharing executive for Northern Ireland with a cross-border council. The Ulster Workers' Council strike of May 1974 brought the executive down on 28 May.",
@@ -192,13 +322,23 @@
     "source": "Wikipedia, \"Sunningdale Agreement\".",
     "link": "https://en.wikipedia.org/wiki/Sunningdale_Agreement",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 9 de diciembre de 1973; ejecutivo desde el 1 de enero de 1974; huelga desde el 15 de mayo; caída el 28 de mayo de 1974.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la frase de Mallon está atribuida.",
+    "level": "documented",
+    "conceptionYear": 1973,
+    "closureYear": 1974,
+    "presentEffect": {
+      "text": "Seamus Mallon, an SDLP negotiator, called the 1998 Good Friday Agreement 'Sunningdale for slow learners'; the political scientist Richard Wilford argues there are significant differences. Wikipedia says the present system of Northern Irish devolution is based on that agreement, and that Articles 2 and 3 of the Irish constitution, whose removal unionists demanded in 1973, were not revised until it.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Sunningdale Agreement\".",
+      "link": "https://en.wikipedia.org/wiki/Sunningdale_Agreement"
+    },
+    "anchorYear": 2020,
+    "distance": 47
   },
   {
     "code": "vstg-0095",
     "year": 1974,
-    "suffix": "b",
+    "suffix": "c",
     "name": "New International Economic Order, 1974",
     "image": "/vestigios/vstg-0095.png",
     "description": "The UN General Assembly declaration of 1 May 1974 calling for a New International Economic Order: fair prices for raw materials, technology transfer and sovereignty over natural resources for developing countries.",
@@ -206,41 +346,71 @@
     "source": "UN General Assembly, Declaration on the Establishment of a New International Economic Order, A/RES/S-6/3201 (1974). Wikipedia, \"New International Economic Order\".",
     "link": "https://en.wikipedia.org/wiki/New_International_Economic_Order",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia y la resolución de la Asamblea General: 1 de mayo de 1974; demandas sobre precios de materias primas, transferencia de tecnología y soberanía sobre recursos.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1974,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Common Fund for Commodities came into force in 1989, one of the parts of the NIEO that were realised. A 2018 UN resolution, 'Towards a New International Economic Order', reaffirmed the need to keep working toward one, and Progressive International published updated proposals in September 2024.",
+      "kind": "documented",
+      "source": "Wikipedia, \"New International Economic Order\".",
+      "link": "https://en.wikipedia.org/wiki/New_International_Economic_Order"
+    },
+    "anchorYear": 2020,
+    "distance": 46
   },
   {
     "code": "vstg-0096",
-    "year": 1977,
-    "suffix": "",
-    "name": "Federation of Arab Republics, 1971–1977",
+    "year": 1944,
+    "suffix": "b",
+    "name": "Keynes's Bancor, 1940-1944",
     "image": "/vestigios/vstg-0096.png",
-    "description": "A federation of Egypt, Syria and Libya, approved by referendum on 1 September 1971 and in effect from 1 January 1972, dissolved on 19 November 1977.",
-    "failedFuture": "Three Arab states with a common army and a common constitution, which never got past the first dispute. Sadat's approach to Israel after 1973 broke the union.",
-    "source": "Wikipedia, \"Federation of Arab Republics\".",
-    "link": "https://en.wikipedia.org/wiki/Federation_of_Arab_Republics",
+    "description": "Keynes's proposed unit of account for an International Clearing Union, conceived between 1940 and 1942 and adopted as the UK's official proposal at the Bretton Woods Conference.",
+    "failedFuture": "A postwar monetary order in which surpluses and deficits both carried penalties, so that countries would be pushed toward balanced trade. It was not accepted at Bretton Woods.",
+    "source": "Wikipedia, \"Bancor\".",
+    "link": "https://en.wikipedia.org/wiki/Bancor",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: referendos del 1 de septiembre de 1971; vigencia desde el 1 de enero de 1972; disolución el 19 de noviembre de 1977.",
-    "level": "documented"
+    "status": "Sustituto: efecto atribuido (Zhou Xiaochuan 2009) vía Wikipedia; la ficha no menciona los DEG de 1969.",
+    "level": "documented",
+    "conceptionYear": 1940,
+    "closureYear": 1944,
+    "presentEffect": {
+      "text": "Zhou Xiaochuan, governor of the People's Bank of China, called Keynes's approach 'farsighted' in a 2009 speech and proposed IMF special drawing rights as a global reserve currency; US Treasury Secretary Timothy Geithner expressed interest, was heavily criticised, and the administration backtracked. A UN expert commission report (2009) and an IMF study (April 2010) made similar analyses.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"Bancor\" (citing Zhou Xiaochuan, 2009).",
+      "link": "https://en.wikipedia.org/wiki/Bancor"
+    },
+    "anchorYear": 2020,
+    "distance": 80
   },
   {
     "code": "vstg-0097",
-    "year": 1980,
-    "suffix": "",
-    "name": "SALT II, 1979",
+    "year": 1949,
+    "suffix": "a",
+    "name": "Scandinavian Defence Union, 1948-1949",
     "image": "/vestigios/vstg-0097.png",
-    "description": "The US–Soviet arms limitation treaty signed in Vienna on 18 June 1979, which limited strategic delivery vehicles. The US Senate never ratified it; Carter withdrew it from consideration in January 1980.",
-    "failedFuture": "A limit on the arsenals that was signed and never bound. Afghanistan ended the ratification, and the parties kept to its terms until 1986 without ever legalising them.",
-    "source": "Wikipedia, \"Strategic Arms Limitation Talks\".",
-    "link": "https://en.wikipedia.org/wiki/Strategic_Arms_Limitation_Talks",
+    "description": "The 1948-1949 proposal for a defence alliance of Denmark, Norway and Sweden.",
+    "failedFuture": "A neutral Nordic bloc with its own defence. Norway withdrew from the talks, Sweden saw few benefits and Finland could not join; the proposal collapsed.",
+    "source": "Wikipedia, \"Scandinavian Defence Union\".",
+    "link": "https://en.wikipedia.org/wiki/Scandinavian_Defence_Union",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 18 de junio de 1979 en Viena; Carter lo retiró en enero de 1980; las partes respetaron sus términos hasta 1986.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia; parte de los hechos son posteriores a 2020.",
+    "level": "documented",
+    "conceptionYear": 1948,
+    "closureYear": 1949,
+    "presentEffect": {
+      "text": "NORDEFCO, an ad hoc Nordic defence cooperation body, was set up in 2009; in 2021 Denmark, Norway and Sweden agreed closer military coordination. Finland joined NATO on 4 April 2023 and Sweden on 7 March 2024, making all Nordic countries NATO members.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Scandinavian Defence Union\".",
+      "link": "https://en.wikipedia.org/wiki/Scandinavian_Defence_Union"
+    },
+    "anchorYear": 2020,
+    "distance": 72
   },
   {
     "code": "vstg-0098",
     "year": 1990,
-    "suffix": "",
+    "suffix": "b",
     "name": "Meech Lake Accord, 1987–1990",
     "image": "/vestigios/vstg-0098.png",
     "description": "A package of constitutional amendments agreed by Canada's first ministers at Meech Lake in 1987, recognising Quebec as a distinct society. Manitoba and Newfoundland did not ratify it before the June 1990 deadline.",
@@ -248,8 +418,18 @@
     "source": "Wikipedia, \"Meech Lake Accord\".",
     "link": "https://en.wikipedia.org/wiki/Meech_Lake_Accord",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: acuerdo del 3 de junio de 1987; plazo el 22 de junio de 1990; Manitoba y Terranova no ratificaron; las enmiendas caducaron el 23 de junio de 1990.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la fecha de fundación del Bloc (1990 o 15 de junio de 1991) es contradictoria en la fuente.",
+    "level": "documented",
+    "conceptionYear": 1987,
+    "closureYear": 1990,
+    "presentEffect": {
+      "text": "After the collapse, Lucien Bouchard, who had left Mulroney's cabinet in May 1990, led Quebec MPs who left their parties in forming the Bloc Québécois. The Bloc won 32 seats in the 2019 federal election, up from 10 in 2015, regaining official party status as the third-largest party in the House of Commons.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Bloc Québécois\" and \"Meech Lake Accord\".",
+      "link": "https://en.wikipedia.org/wiki/Bloc_Qu%C3%A9b%C3%A9cois"
+    },
+    "anchorYear": 2020,
+    "distance": 33
   },
   {
     "code": "vstg-0099",
@@ -262,13 +442,23 @@
     "source": "Wikipedia, \"New Union Treaty\".",
     "link": "https://en.wikipedia.org/wiki/New_Union_Treaty",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firma prevista para el 20 de agosto de 1991; golpe de agosto; «ultimately not signed»; Acuerdos de Belovezha el 8 de diciembre de 1991.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la ficha no recoge la Unión Económica Euroasiática.",
+    "level": "documented",
+    "conceptionYear": 1991,
+    "closureYear": 1991,
+    "presentEffect": {
+      "text": "The Commonwealth of Independent States was set up to replace the USSR with 12 newly independent states. The Baltic states never joined, Georgia joined in 1993 and withdrew in 2008 after the Russo-Georgian War, and Ukraine stopped participating in its statutory bodies in 2018.",
+      "kind": "documented",
+      "source": "Wikipedia, \"New Union Treaty\".",
+      "link": "https://en.wikipedia.org/wiki/New_Union_Treaty"
+    },
+    "anchorYear": 2020,
+    "distance": 29
   },
   {
     "code": "vstg-0100",
     "year": 1992,
-    "suffix": "a",
+    "suffix": "d",
     "name": "Charlottetown Accord, 1992",
     "image": "/vestigios/vstg-0100.png",
     "description": "A second package of constitutional reforms agreed in August 1992, covering Senate reform, Indigenous self-government and Quebec's distinct status. It was defeated in a national referendum on 26 October 1992.",
@@ -276,27 +466,47 @@
     "source": "Wikipedia, \"Charlottetown Accord\".",
     "link": "https://en.wikipedia.org/wiki/Charlottetown_Accord",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: acuerdo del 28 de agosto de 1992; referéndum del 26 de octubre de 1992, derrotado con alrededor del 55 % de votos en contra.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1992,
+    "closureYear": 1992,
+    "presentEffect": {
+      "text": "Wikipedia says no further attempt to resolve Quebec's status through a formal constitutional process had been made as of 2025, and cites a Toronto Star headline describing the rejection as ending 'an era of constitutional reform'. The Québécois nation motion passed the House of Commons in 2006, the Clarity Act addressed Quebec's status through Parliament, and the Action démocratique du Québec was formed in 1994.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Charlottetown Accord\".",
+      "link": "https://en.wikipedia.org/wiki/Charlottetown_Accord"
+    },
+    "anchorYear": 2020,
+    "distance": 28
   },
   {
     "code": "vstg-0101",
-    "year": 1992,
-    "suffix": "b",
-    "name": "Bicesse Accords, Angola, 1991–1992",
+    "year": 1964,
+    "suffix": "c",
+    "name": "East African Federation, 1963-1964",
     "image": "/vestigios/vstg-0101.png",
-    "description": "The peace agreement signed in Lisbon on 31 May 1991 between the MPLA and UNITA, with UN-monitored elections in 1992. UNITA rejected the election results and renewed the war.",
-    "failedFuture": "An Angola that would have voted itself into peace. The ballot was declared generally free and fair, but the losing side refused the result and renewed the war.",
-    "source": "Wikipedia, \"Bicesse Accords\".",
-    "link": "https://en.wikipedia.org/wiki/Bicesse_Accords",
+    "description": "In June 1963 Kenyatta, Nyerere and Obote met in Nairobi and agreed to aim for an East African Federation, to include Zanzibar, by the end of that year.",
+    "failedFuture": "One East African state by the end of 1963. Uganda feared a subordinate role, Buganda wanted to keep its autonomy and the benefits were uneven; by late 1964 the plan had collapsed.",
+    "source": "Wikipedia, \"East African Federation\".",
+    "link": "https://en.wikipedia.org/wiki/East_African_Federation",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 31 de mayo de 1991 en Lisboa; elecciones de 1992 declaradas «free and fair»; UNITA rechazó los resultados y reanudó la guerra.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1963,
+    "closureYear": 1964,
+    "presentEffect": {
+      "text": "The East African Community was established on 7 July 2000 and its common market launched in 2010. In 2017 Heads of State adopted a political confederation as a transitional step toward a federation, and a constitutional drafting committee was formed in 2018-2023; monetary union has been pushed back to 2031. Tanganyika and Zanzibar did unite in April 1964 to form Tanzania.",
+      "kind": "documented",
+      "source": "Wikipedia, \"East African Federation\".",
+      "link": "https://en.wikipedia.org/wiki/East_African_Federation"
+    },
+    "anchorYear": 2020,
+    "distance": 57
   },
   {
     "code": "vstg-0102",
     "year": 1993,
-    "suffix": "a",
+    "suffix": "e",
     "name": "Vance–Owen Peace Plan, Bosnia, 1993",
     "image": "/vestigios/vstg-0102.png",
     "description": "The 1993 plan by UN mediators Cyrus Vance and David Owen to divide Bosnia and Herzegovina into ten semi-autonomous provinces. The Bosnian Serb assembly rejected it, and a referendum followed.",
@@ -304,22 +514,42 @@
     "source": "Wikipedia, \"Peace plans proposed before and during the Bosnian War\".",
     "link": "https://en.wikipedia.org/wiki/Peace_plans_proposed_before_and_during_the_Bosnian_War",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: propuesta en enero de 1993; la Asamblea de la República Srpska la rechazó el 6 de mayo de 1993 y el referéndum la rechazó con el 96 %; Owen la declaró «dead» el 18 de junio de 1993.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La ficha habla de 'cantones'; el plan tenía diez regiones sin delimitar.",
+    "level": "documented",
+    "conceptionYear": 1993,
+    "closureYear": 1993,
+    "presentEffect": {
+      "text": "The Federation of Bosnia and Herzegovina is divided into ten cantons, created by a law of 12 June 1996. Wikipedia says the cantons are the result of the Vance–Owen Peace Plan, which was applied only to part of the country; the plan had envisioned cantonisation of the whole.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Cantons of the Federation of Bosnia and Herzegovina\".",
+      "link": "https://en.wikipedia.org/wiki/Cantons_of_the_Federation_of_Bosnia_and_Herzegovina"
+    },
+    "anchorYear": 2020,
+    "distance": 27
   },
   {
     "code": "vstg-0103",
-    "year": 1993,
-    "suffix": "b",
-    "name": "Arusha Accords, Rwanda, 1993",
+    "year": 1999,
+    "suffix": "a",
+    "name": "Oslo Accords, 1993-1999",
     "image": "/vestigios/vstg-0103.png",
-    "description": "The peace agreement signed in Arusha, Tanzania, on 4 August 1993 between the Rwandan government and the Rwandan Patriotic Front. It set up a transitional government and a merged army, with a UN force to supervise it.",
-    "failedFuture": "A transition to power-sharing that never happened. The government stalled the agreement, and the plane crash of April 1994 set off the genocide that the accords had been meant to prevent.",
-    "source": "Wikipedia, \"Arusha Accords (Rwanda)\".",
-    "link": "https://en.wikipedia.org/wiki/Arusha_Accords_(Rwanda)",
+    "description": "The Oslo I Declaration of Principles (September 1993) and Oslo II (1995), which divided the West Bank into Areas A, B and C.",
+    "failedFuture": "A five-year interim period leading to a permanent peace by May 1999. It ended without a final agreement; settlement expansion continued and the Second Intifada followed.",
+    "source": "Wikipedia, \"Oslo Accords\".",
+    "link": "https://en.wikipedia.org/wiki/Oslo_Accords",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 4 de agosto de 1993; UNAMIR creada el 5 de octubre de 1993; genocidio desde abril de 1994.",
-    "level": "documented"
+    "status": "Sustituto verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1993,
+    "closureYear": 1999,
+    "presentEffect": {
+      "text": "The Palestinian Authority still exists. Area C covers about 60% of the West Bank and remains under Israeli control, with less than 1% of it designated for Palestinian use; Israel's Civil Administration and the Joint Water Committee still operate. In 2020 the PA suspended security coordination over planned annexations and restored it in November 2020.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Oslo Accords\".",
+      "link": "https://en.wikipedia.org/wiki/Oslo_Accords"
+    },
+    "anchorYear": 2020,
+    "distance": 27
   },
   {
     "code": "vstg-0104",
@@ -328,40 +558,50 @@
     "name": "Comprehensive Nuclear-Test-Ban Treaty, 1996",
     "image": "/vestigios/vstg-0104.png",
     "description": "The treaty signed on 24 September 1996 banning all nuclear explosions. It has not entered into force: nine further Annex 2 states must ratify it, including the United States, China and Russia.",
-    "failedFuture": "A world in which no nuclear explosion would be tested, verified by a global network. Signed by most states, it has never been in force, because the nuclear powers have kept their own ratifications out of reach.",
+    "failedFuture": "A world in which no nuclear explosion would be tested, verified by a global network. Opened for signature on 24 September 1996, it has not entered into force: nine listed states have still to ratify it.",
     "source": "Arms Control Association, \"Comprehensive Test-Ban Treaty (CTBT)\". Wikipedia, \"Comprehensive Nuclear-Test-Ban Treaty\".",
     "link": "https://www.armscontrol.org/treaties/comprehensive-test-ban-treaty",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con ACA y Wikipedia: firmado el 24 de septiembre de 1996; no ha entrado en vigor; Estados del anexo 2 sin ratificar incluyen a EE. UU., China y Rusia.",
-    "level": "documented"
+    "status": "Efecto presente verificado en la página de Arms Control Association (datos de 2024).",
+    "level": "documented",
+    "conceptionYear": 1996,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The treaty has still not entered into force: as of 2024, nine more states must ratify it (China, North Korea, Egypt, India, Iran, Israel, Pakistan, Russia and the United States, as the Arms Control Association lists them). The Preparatory Commission of the CTBTO and its International Monitoring System keep operating, and Article XIV conferences continue to meet.",
+      "kind": "documented",
+      "source": "Arms Control Association, \"The Comprehensive Test Ban Treaty at a Glance\".",
+      "link": "https://www.armscontrol.org/treaties/comprehensive-test-ban-treaty"
+    },
+    "anchorYear": 2020,
+    "distance": 24
   },
   {
     "code": "vstg-0105",
-    "year": 1998,
+    "year": null,
     "suffix": "",
-    "name": "Lusaka Protocol, Angola, 1994–1998",
+    "name": "Pendiente",
     "image": "/vestigios/vstg-0105.png",
-    "description": "The protocol signed in Lusaka on 20 November 1994, providing for demobilisation, UN observers and power-sharing between the government and UNITA. Fighting resumed by 1998, and the protocol collapsed.",
-    "failedFuture": "A second chance for peace that failed in four years. Both sides distrusted each other, the arms kept coming, and the balance of power was more important to them than the peace.",
-    "source": "Wikipedia, \"Lusaka Protocol\".",
-    "link": "https://en.wikipedia.org/wiki/Lusaka_Protocol",
+    "description": "",
+    "failedFuture": "",
+    "source": "",
+    "link": "",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 20 de noviembre de 1994; reanudación de la guerra en 1998; diciembre de 1998 con guerra de nuevo.",
-    "level": "documented"
+    "status": "Pendiente de investigar. Debe cumplir la regla: hecho verificado, efecto presente con fuente o comentario atribuido.",
+    "level": "pending"
   },
   {
     "code": "vstg-0106",
-    "year": 1999,
+    "year": null,
     "suffix": "",
-    "name": "Rambouillet Agreement, 1999",
+    "name": "Pendiente",
     "image": "/vestigios/vstg-0106.png",
-    "description": "The February–March 1999 conference on Kosovo, which proposed substantial autonomy for Kosovo and a NATO-led force of 30,000. The Albanian delegation signed; Yugoslavia refused, and NATO bombing began on 24 March 1999.",
-    "failedFuture": "An autonomy that would have ended the war without bombs. Belgrade refused; the bombing began a week later, and the autonomy that would have been signed in Paris became a war in Serbia.",
-    "source": "Wikipedia, \"Rambouillet Agreement\".",
-    "link": "https://en.wikipedia.org/wiki/Rambouillet_Agreement",
+    "description": "",
+    "failedFuture": "",
+    "source": "",
+    "link": "",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: conferencia del 6 de febrero al 22 de marzo de 1999; delegación albanesa firmó el 18 de marzo; bombardeos desde el 24 de marzo de 1999.",
-    "level": "documented"
+    "status": "Pendiente de investigar. Debe cumplir la regla: hecho verificado, efecto presente con fuente o comentario atribuido.",
+    "level": "pending"
   },
   {
     "code": "vstg-0107",
@@ -374,13 +614,23 @@
     "source": "Wikipedia, \"2000 Camp David Summit\".",
     "link": "https://en.wikipedia.org/wiki/2000_Camp_David_Summit",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 11–25 de julio de 2000; sin acuerdo; temas abiertos: Jerusalén, refugiados, fronteras, seguridad.",
-    "level": "documented"
+    "status": "Efecto presente atribuido vía Wikipedia (Malley, Swisher, Finkelstein, Ben-Ami); los originales no se han consultado.",
+    "level": "documented",
+    "conceptionYear": 2000,
+    "closureYear": 2000,
+    "presentEffect": {
+      "text": "The 'generous offer' story, that Israel offered a state on about 91% of the West Bank and Gaza and Arafat refused, is still contested: Robert Malley, Clayton Swisher and Norman Finkelstein challenged it, and Shlomo Ben-Ami said in 2006 that Camp David was not the Palestinians' missed opportunity. Israeli analysts argue the narrative weakened the Israeli peace movement.",
+      "kind": "attributed",
+      "source": "Wikipedia, \"2000 Camp David Summit\".",
+      "link": "https://en.wikipedia.org/wiki/2000_Camp_David_Summit"
+    },
+    "anchorYear": 2020,
+    "distance": 20
   },
   {
     "code": "vstg-0108",
     "year": 2001,
-    "suffix": "",
+    "suffix": "b",
     "name": "Kyoto Protocol, 1997–2001",
     "image": "/vestigios/vstg-0108.png",
     "description": "The 1997 protocol that set binding emission targets for developed countries. The United States signed it in 1998 but never submitted it to the Senate, and President Bush opposed it in March 2001. It entered into force in 2005.",
@@ -388,8 +638,18 @@
     "source": "Wikipedia, \"Kyoto Protocol\".",
     "link": "https://en.wikipedia.org/wiki/Kyoto_Protocol",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: adoptado el 11 de diciembre de 1997; en vigor desde el 16 de febrero de 2005; EE. UU. nunca lo ratificó; carta de Bush de marzo de 2001.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1997,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "The Doha Amendment, extending the protocol to 2020, entered into force on 31 December 2020, the day the second period ended. The Clean Development Mechanism and the EU Emissions Trading System, which drove about 97% of international carbon market trade in 2010, descend from it. The US signed in 1998 and never ratified; the Paris Agreement of 2015 succeeded it after 2020 as a separate instrument.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Kyoto Protocol\".",
+      "link": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+    },
+    "anchorYear": 2020,
+    "distance": 23
   },
   {
     "code": "vstg-0109",
@@ -402,8 +662,18 @@
     "source": "Wikipedia, \"2004 Cypriot Annan Plan referendums\".",
     "link": "https://en.wikipedia.org/wiki/2004_Cypriot_Annan_Plan_referendums",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 24 de abril de 2004; sí griego 24,17 %, sí turco 64,91 %; Chipre entró en la UE el 1 de mayo de 2004.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia (fuente antigua, con referencias de 2014-2015). Año de concepción: 2004 (referendos); el plan se presentó antes (pendiente de confirmar).",
+    "level": "documented",
+    "conceptionYear": 2004,
+    "closureYear": 2004,
+    "presentEffect": {
+      "text": "Because the plan failed, EU law remains suspended in the areas outside government control under Protocol 10 of the 2003 Accession Treaty, while Turkish Cypriots keep EU citizenship as citizens of the Republic of Cyprus. The source describes the island as divided since 1974.",
+      "kind": "documented",
+      "source": "Wikipedia, \"2004 Cypriot Annan Plan referendums\".",
+      "link": "https://en.wikipedia.org/wiki/2004_Cypriot_Annan_Plan_referendums"
+    },
+    "anchorYear": 2020,
+    "distance": 16
   },
   {
     "code": "vstg-0110",
@@ -416,8 +686,18 @@
     "source": "Wikipedia, \"Free Trade Area of the Americas\". CRS, \"A Free Trade Area of the Americas\" (2005).",
     "link": "https://en.wikipedia.org/wiki/Free_Trade_Area_of_the_Americas",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: lanzada en 1994 en Miami, plazo 2005, sin acuerdo en Mar del Plata (noviembre de 2005).",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 1994,
+    "closureYear": 2005,
+    "presentEffect": {
+      "text": "The US built a patchwork instead: NAFTA was superseded by the USMCA in 2020, and DR-CAFTA (2008) and bilateral deals with Chile (2004), Peru (2007), Colombia (2011) and Panama (2011) followed, along with the Pacific Alliance (2012). Hugo Chávez promoted ALBA as a counterproposal, calling the FTAA an 'annexation plan'.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Free Trade Area of the Americas\".",
+      "link": "https://en.wikipedia.org/wiki/Free_Trade_Area_of_the_Americas"
+    },
+    "anchorYear": 2020,
+    "distance": 26
   },
   {
     "code": "vstg-0111",
@@ -430,13 +710,23 @@
     "source": "Wikipedia, \"Treaty establishing a Constitution for Europe\".",
     "link": "https://en.wikipedia.org/wiki/Treaty_establishing_a_Constitution_for_Europe",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: firmado el 29 de octubre de 2004 en Roma; rechazado en Francia (29 de mayo) y en Países Bajos (1 de junio de 2005).",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia.",
+    "level": "documented",
+    "conceptionYear": 2004,
+    "closureYear": 2005,
+    "presentEffect": {
+      "text": "The Treaty of Lisbon, in force since 1 December 2009, carried over many of its changes, adopted its amendment procedures and an identical exit clause, and 'abandoned the idea of a single codified constitution'.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Treaty establishing a Constitution for Europe\".",
+      "link": "https://en.wikipedia.org/wiki/Treaty_establishing_a_Constitution_for_Europe"
+    },
+    "anchorYear": 2020,
+    "distance": 16
   },
   {
     "code": "vstg-0112",
     "year": 2006,
-    "suffix": "",
+    "suffix": "b",
     "name": "Doha Development Round, 2001–2006",
     "image": "/vestigios/vstg-0112.png",
     "description": "The World Trade Organization round launched in Doha in November 2001 to reduce trade barriers, especially on agriculture. It was suspended at the end of July 2006.",
@@ -444,8 +734,18 @@
     "source": "Europeansources.info, \"The WTO Doha Development Round: Where next for world trade?\".",
     "link": "https://www.europeansources.info/record/the-wto-doha-development-round-where-next-for-world-trade/",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con fuente secundaria: lanzada en noviembre de 2001 en Doha; suspendida a finales de julio de 2006; desacuerdo principal sobre agricultura.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia. La fuente original de la ficha (2006) no cubre este efecto.",
+    "level": "documented",
+    "conceptionYear": 2001,
+    "closureYear": 2006,
+    "presentEffect": {
+      "text": "The Bali Package of December 2013, the first WTO agreement approved by all members, forms part of the Doha Round. Its Trade Facilitation Agreement entered into force on 22 February 2017, and the Peterson Institute estimated it could generate US$1 trillion in economic activity.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Bali Package\".",
+      "link": "https://en.wikipedia.org/wiki/Bali_Package"
+    },
+    "anchorYear": 2020,
+    "distance": 19
   },
   {
     "code": "vstg-0113",
@@ -458,8 +758,18 @@
     "source": "Wikipedia, \"Ahtisaari Plan\".",
     "link": "https://en.wikipedia.org/wiki/Ahtisaari_Plan",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: enviado al secretario general el 15 de marzo de 2007; Serbia lo rechazó («illegitimate and unacceptable»); sin resolución formal del Consejo de Seguridad.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la ficha acaba en 2012.",
+    "level": "documented",
+    "conceptionYear": 2007,
+    "closureYear": null,
+    "presentEffect": {
+      "text": "On 10 September 2012 the International Steering Group ended its supervision, and Kosovo's constitution became the sole basis of its legal framework, no longer subordinate to the Comprehensive Status Proposal. In 2012 Serbia's president Tadić proposed a Five-Point Plan, described as a reworking of the Ahtisaari Plan.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Ahtisaari Plan\".",
+      "link": "https://en.wikipedia.org/wiki/Ahtisaari_Plan"
+    },
+    "anchorYear": 2020,
+    "distance": 13
   },
   {
     "code": "vstg-0114",
@@ -468,12 +778,22 @@
     "name": "Copenhagen Accord, 2009",
     "image": "/vestigios/vstg-0114.png",
     "description": "The climate accord of 18 December 2009 at the COP15 in Copenhagen, which recognised the goal of limiting warming to 2 °C. It was not legally binding; delegates only took note of it.",
-    "failedFuture": "A climate treaty that everyone agreed to in principle and no one had to keep. The accord set no binding targets, and the successor treaty it pointed to was not agreed in Copenhagen.",
+    "failedFuture": "A climate treaty that would have set the world on a path below 2 °C. Delegates at COP 15 only 'took note of' a non-binding accord drafted by the United States and the BASIC countries, and no decision was made on a legally binding successor to Kyoto.",
     "source": "Wikipedia, \"Copenhagen Accord\".",
     "link": "https://en.wikipedia.org/wiki/Copenhagen_Accord",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: 18 de diciembre de 2009; no vinculante; los delegados solo «tomaron nota» del acuerdo; objetivo de 2 °C.",
-    "level": "documented"
+    "status": "Efecto presente verificado en Wikipedia; la ficha no vincula el acuerdo con Cancún ni París.",
+    "level": "documented",
+    "conceptionYear": 2009,
+    "closureYear": 2009,
+    "presentEffect": {
+      "text": "The accord recognised that warming should stay below 2 °C and set a goal of raising $100 billion per year by 2020. National pledges targeted 2020, among them the EU at 20–30% below 1990 levels, the US at 17% below 2005 and China at 40–45% lower carbon intensity than 2005; a UNEP assessment of November 2010 identified an 'emissions gap'.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Copenhagen Accord\".",
+      "link": "https://en.wikipedia.org/wiki/Copenhagen_Accord"
+    },
+    "anchorYear": 2020,
+    "distance": 11
   },
   {
     "code": "vstg-0115",
@@ -486,7 +806,17 @@
     "source": "Wikipedia, \"Chequers plan\".",
     "link": "https://en.wikipedia.org/wiki/Chequers_plan",
     "license": "Pendiente: verificar licencia de la imagen",
-    "status": "Verificada con Wikipedia: acordado el 6 de julio de 2018; Davis dimitió el 8 de julio y Johnson el 9 de julio; la UE lo rechazó en septiembre de 2018.",
-    "level": "documented"
+    "status": "Efecto presente débil pero verificado en Wikipedia; la ficha no cubre el Acuerdo de Comercio y Cooperación de 2020.",
+    "level": "documented",
+    "conceptionYear": 2018,
+    "closureYear": 2018,
+    "presentEffect": {
+      "text": "Its common-rulebook idea carried into the Political Declaration of 25 November 2018, which Wikipedia calls 'the centrepiece of the Chequers plan'. The facilitated customs arrangement aimed to avoid a hard border on the island of Ireland, and the resignations of David Davis and Boris Johnson in July 2018 marked a major government crisis.",
+      "kind": "documented",
+      "source": "Wikipedia, \"Chequers plan\".",
+      "link": "https://en.wikipedia.org/wiki/Chequers_plan"
+    },
+    "anchorYear": 2020,
+    "distance": 2
   }
 ]
