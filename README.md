@@ -15,10 +15,10 @@ Each piece has:
 - STIX Two Text (type)
 - GitHub Pages (static hosting)
 
-No database and no accounts. All content lives in `src/data/vstg.ts` and `public/vestigios/`.
+No database and no accounts. All content lives in `src/data/vstg.ts` and `public/vstg/`.
 
 ## Adding a piece
-1. Download the image with a licence that allows reuse, and save it in `public/vestigios/`.
+1. Download the image with a licence that allows reuse, and save it in `public/vstg/`.
 2. Add an entry to `src/data/vstg.ts`, with its source and licence.
 3. Commit and push. Vercel publishes the change.
 

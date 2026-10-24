@@ -12,7 +12,7 @@ export type Level = "documented" | "hypothesis" | "pending";
 export type Entry = {
   code: string;
   year: number | null;
-  suffix?: string; // letter when two vestiges share a year: vstg.1922a
+  suffix?: string; // letter when two VSTGs share a year: vstg.1922a
   name: string;
   image: string;
   description: string;
@@ -100,7 +100,7 @@ export async function saveEntry(token: string, updated: Entry, imageBase64: stri
   const next = parseEntries(text).map((e) => (e.code === updated.code ? updated : e));
 
   if (imageBase64) {
-    const path = `public/vestigios/${updated.code}.jpg`;
+    const path = `public/vstg/${updated.code}.jpg`;
     const existing = await getFile(token, path);
     await putFile(token, path, imageBase64, `Image for ${updated.code}`, existing?.sha);
   }

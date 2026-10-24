@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "VSTG",
-  description: "Digital archive of vestiges from failed futures",
+  description: "Digital archive of VSTGs from failed futures",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

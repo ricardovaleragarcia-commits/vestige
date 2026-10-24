@@ -68,7 +68,7 @@ export default function AdminPage() {
     setBusy(true);
     try {
       setImageBase64(await fileToJpegBase64(file));
-      setDraft({ ...draft, image: `/vestigios/${draft.code}.jpg` });
+      setDraft({ ...draft, image: `/vstg/${draft.code}.jpg` });
       setStatus({ ok: true, text: "Image ready. Save to publish it." });
     } catch {
       setStatus({ ok: false, text: "That image could not be read." });
