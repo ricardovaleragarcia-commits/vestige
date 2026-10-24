@@ -429,10 +429,10 @@ export default function Collection({
       };
       const onCloseRequest = () => setFocus(null);
       window.addEventListener("keydown", onKey);
-      window.addEventListener("vestige:close", onCloseRequest);
+      window.addEventListener("vstg:close", onCloseRequest);
       removeListeners = () => {
         window.removeEventListener("keydown", onKey);
-        window.removeEventListener("vestige:close", onCloseRequest);
+        window.removeEventListener("vstg:close", onCloseRequest);
         host.removeEventListener("wheel", onWheel);
       };
 

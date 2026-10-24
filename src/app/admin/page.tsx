@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { fileToJpegBase64, importEntries, loadEntries, saveEntry, type Entry } from "@/lib/github";
 
-const TOKEN_KEY = "vestige-admin-token";
+const TOKEN_KEY = "vstg-admin-token";
 
 // Admin for the archive. Only works with a GitHub token that can write to this repository.
 export default function AdminPage() {

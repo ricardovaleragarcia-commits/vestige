@@ -1,10 +1,10 @@
-import { VESTIGES } from "@/data/vestiges";
+import { VSTG } from "@/data/vstg";
 
 // The plane is a tile of pieces, packed once with no holes. The tile repeats in every direction.
 // Each repetition rotates its columns and shifts which archive entry sits where.
 export const COLUMN_WIDTH = 420;
 export const COLUMN_STEP = 480; // distance between column starts (60 px clear beside a 420 px column)
-export const TILE_COUNT = VESTIGES.length;
+export const TILE_COUNT = VSTG.length;
 export const COLUMNS_PER_TILE = Math.max(4, Math.round(Math.sqrt(TILE_COUNT)));
 export const BLOCK_WIDTH = COLUMNS_PER_TILE * COLUMN_STEP;
 export const LONGEST_SIDES = [260, 320, 380, 420];
@@ -234,7 +234,7 @@ export function initArchive(seed: number) {
   SEED = seed;
   TILE = buildTile(seed);
   BLOCK_HEIGHT = TILE.height;
-  const entries: Content[] = VESTIGES.map((v, k) => ({
+  const entries: Content[] = VSTG.map((v, k) => ({
     code: displayCode(v),
     color: PALETTE[k % PALETTE.length],
     name: v.name,

@@ -12,7 +12,7 @@ Cada ficha separa tres cosas, para que nunca se confunda un hecho con una lectur
 
 1. **Hechos.** Lo que las fuentes consultadas afirman. Cada hecho clave debe contrastarse con la fuente indicada en *Para verificar*.
 2. **Hilo interpretativo.** La conexión que construye el archivo: qué futuro se cerró y cómo definió un presente. Es una lectura, no un hecho. Va marcada como tal y no debe presentarse como causa única.
-3. **Texto para el sitio (EN).** `[desc.]` y `[f.f. expl.]`, listos para pegar en `src/data/vestiges.ts` cuando se aprueben.
+3. **Texto para el sitio (EN).** `[desc.]` y `[f.f. expl.]`, listos para pegar en `src/data/vstg.ts` cuando se aprueben.
 
 Cada ficha lleva además **una fuente principal** (un enlace), una **sugerencia de imagen** y un **nivel de confianza**.
 

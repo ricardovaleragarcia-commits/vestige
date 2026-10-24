@@ -1,4 +1,4 @@
-# Vestige
+# VSTG
 
 Digital archive of traces from failed futures: historical objects, plans and projects that never happened and still remain.
 
@@ -15,11 +15,11 @@ Each piece has:
 - STIX Two Text (type)
 - GitHub Pages (static hosting)
 
-No database and no accounts. All content lives in `src/data/vestiges.ts` and `public/vestigios/`.
+No database and no accounts. All content lives in `src/data/vstg.ts` and `public/vestigios/`.
 
 ## Adding a piece
 1. Download the image with a licence that allows reuse, and save it in `public/vestigios/`.
-2. Add an entry to `src/data/vestiges.ts`, with its source and licence.
+2. Add an entry to `src/data/vstg.ts`, with its source and licence.
 3. Commit and push. Vercel publishes the change.
 
 ## Publishing

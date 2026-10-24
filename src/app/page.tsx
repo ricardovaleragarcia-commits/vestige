@@ -13,7 +13,7 @@ export default function HomePage() {
 
   const reveal = useCallback(() => setRevealed(true), []);
   const closeFocus = useCallback(() => {
-    window.dispatchEvent(new Event("vestige:close"));
+    window.dispatchEvent(new Event("vstg:close"));
   }, []);
 
   const overlayOpen = focused !== null || showManifesto;

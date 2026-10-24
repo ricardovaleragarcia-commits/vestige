@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const PARAGRAPHS = [
-  "Vestige is a digital archive of the traces left by futures that never happened. It is built on a simple proposition: the paths a society did not take are as much a part of its history as the ones it did, and they remain present in ways that are often overlooked.",
+  "VSTG is a digital archive of the traces left by futures that never happened. It is built on a simple proposition: the paths a society did not take are as much a part of its history as the ones it did, and they remain present in ways that are often overlooked.",
 
   "The idea of the failed future is older than any archive. Every period has imagined possibilities it did not realise: plans that were drawn and never built, projects abandoned on the way to completion, promises that expired without being kept, lives that were expected and then closed off. Historians study these as counterfactual histories. Architects and engineers record them as unrealised work. Ordinary people carry them as the life they might have had. What they share is that the future was real enough to be planned, and that its failure is itself a historical fact.",
 

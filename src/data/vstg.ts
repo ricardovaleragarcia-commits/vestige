@@ -2,7 +2,7 @@
 // Positions vstg-0001 to vstg-0200. Pending entries are placeholders until they are researched.
 // Each image is /public/vestigios/<code>.webp (.png while it is a placeholder). Replace the file with the same name to update it.
 
-export type Vestige = {
+export type Vstg = {
   code: string; // internal position, used for file names: vstg-0001
   suffix?: string; // letter when two vestiges share a year: vstg.1922a, vstg.1922b
   year: number | null; // year the future failed. Shown as [VSTG.YYYY], or [VSTG.NA] when not confirmed
@@ -27,7 +27,7 @@ export type Vestige = {
   } | null;
 };
 
-export const VESTIGES: Vestige[] = [
+export const VSTG: Vstg[] = [
   {
     "code": "vstg-0001",
     "year": 1920,

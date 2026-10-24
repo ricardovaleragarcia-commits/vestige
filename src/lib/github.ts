@@ -4,7 +4,7 @@
 export const OWNER = "ricardovaleragarcia-commits";
 export const REPO = "vstg";
 const BRANCH = "main";
-const DATA_PATH = "src/data/vestiges.ts";
+const DATA_PATH = "src/data/vstg.ts";
 const API = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
 
 export type Level = "documented" | "hypothesis" | "pending";
@@ -70,10 +70,10 @@ async function putFile(token: string, path: string, base64: string, message: str
   if (!res.ok) throw new Error(await describe(res));
 }
 
-// The entries live in src/data/vestiges.ts as an array literal. Everything before the array
+// The entries live in src/data/vstg.ts as an array literal. Everything before the array
 // (the type definitions and comments) is kept as it is.
 export function parseEntries(text: string): Entry[] {
-  const start = text.indexOf("export const VESTIGES");
+  const start = text.indexOf("export const VSTG");
   const open = text.indexOf("= [", start) + 2;
   const close = text.lastIndexOf("];");
   const body = text.slice(open, close + 1).replace(/,(\s*)\]$/, "$1]");
@@ -81,20 +81,20 @@ export function parseEntries(text: string): Entry[] {
 }
 
 export function serializeEntries(text: string, entries: Entry[]): string {
-  const start = text.indexOf("export const VESTIGES");
-  return `${text.slice(0, start)}export const VESTIGES: Vestige[] = ${JSON.stringify(entries, null, 2)};\n`;
+  const start = text.indexOf("export const VSTG");
+  return `${text.slice(0, start)}export const VSTG: Vstg[] = ${JSON.stringify(entries, null, 2)};\n`;
 }
 
 export async function loadEntries(token: string): Promise<Entry[]> {
   const file = await getFile(token, DATA_PATH);
-  if (!file) throw new Error("Could not find src/data/vestiges.ts in the repository.");
+  if (!file) throw new Error("Could not find src/data/vstg.ts in the repository.");
   return parseEntries(base64ToUtf8(file.content));
 }
 
 // Saves one entry. If an image is included, it is committed first, then the data file.
 export async function saveEntry(token: string, updated: Entry, imageBase64: string | null) {
   const current = await getFile(token, DATA_PATH);
-  if (!current) throw new Error("Could not find src/data/vestiges.ts in the repository.");
+  if (!current) throw new Error("Could not find src/data/vstg.ts in the repository.");
 
   const text = base64ToUtf8(current.content);
   const next = parseEntries(text).map((e) => (e.code === updated.code ? updated : e));
@@ -114,7 +114,7 @@ export async function importEntries(
   updates: (Partial<Entry> & { code: string })[]
 ): Promise<number> {
   const current = await getFile(token, DATA_PATH);
-  if (!current) throw new Error("Could not find src/data/vestiges.ts in the repository.");
+  if (!current) throw new Error("Could not find src/data/vstg.ts in the repository.");
 
   const text = base64ToUtf8(current.content);
   const list = parseEntries(text);

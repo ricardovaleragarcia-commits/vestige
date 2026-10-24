@@ -27,7 +27,7 @@ export default function Intro({ onReveal, hidden }: IntroProps) {
   return (
     <header className={mastheadClass}>
       <h1 className="masthead__title">
-        <img className="masthead__logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.svg`} alt="Vestige" />
+        <img className="masthead__logo" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.svg`} alt="VSTG" />
       </h1>
       <p className="masthead__status">In development</p>
       <p className="masthead__tagline">Digital Archive of Traces from Failed Futures</p>
