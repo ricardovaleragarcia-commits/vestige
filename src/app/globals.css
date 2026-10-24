@@ -99,6 +99,33 @@ button:disabled {
   }
 }
 
+/* Under the logo while it waits in the middle; it fades out as the masthead rises. */
+.masthead__status {
+  position: absolute;
+  top: calc(100% + 0.9rem);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 0.65rem;
+  white-space: nowrap;
+  opacity: 0;
+  animation: status-in 1.2s var(--ease-out) 1.2s forwards;
+}
+
+.masthead.is-top .masthead__status {
+  animation: status-out 0.6s ease forwards;
+}
+
+@keyframes status-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes status-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .masthead__tagline {
   position: absolute;
   bottom: 100%;
